@@ -61,8 +61,7 @@ export const Faq = () => {
             <Flex direction={'column'} css={{ gap: '$3' }}>
               <Text h4>Bagaimana cara memulai konsultasi?</Text>
               <Text span css={{ color: '$accents8' }}>
-                Hubungi kami melalui email <b>support@mutuciptautama.id</b> atau WhatsApp
-                <b> 081387230801</b>. Kami menyediakan <b>konsultasi awal gratis</b> untuk memahami
+                Hubungi kami melalui email <b>support@mutuciptautama.id</b>. Kami menyediakan <b>konsultasi awal gratis</b> untuk memahami
                 kebutuhan Anda sebelum menyusun rencana kerja.
               </Text>
             </Flex>

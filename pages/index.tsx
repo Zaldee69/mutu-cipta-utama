@@ -19,7 +19,7 @@ const HomePage: NextPage = () => {
     <>
       <SEO 
         title="PT Mutu Cipta Utama - Konsultan Profesional Jakarta"
-        description="Layanan konsultasi manajemen, teknologi informasi, pengembangan e-commerce, dan jasa keinsinyuran. NIB: 1003250034417. Hubungi 081387230801."
+        description="Layanan konsultasi manajemen, teknologi informasi, pengembangan e-commerce, dan jasa keinsinyuran. NIB: 1003250034417."
         keywords="konsultan manajemen jakarta, teknologi informasi, e-commerce development, jasa keinsinyuran, arsitektur, konsultasi transportasi, PT Mutu Cipta Utama"
       />
       <Layout>
