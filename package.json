@@ -1,0 +1,52 @@
+{
+  "name": "nextui-landing-template",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Modern React landing page template built with NextUI and Next.js",
+  "keywords": ["nextjs", "react", "nextui", "landing-page", "template", "typescript", "tailwind"],
+  "author": {
+    "name": "NextUI Team",
+    "url": "https://nextui.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nextui-org/landing-template"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "type-check": "tsc --noEmit",
+    "build:analyze": "ANALYZE=true next build",
+    "export": "next export",
+    "clean": "rm -rf .next out",
+    "prepare": "husky install || true"
+  },
+  "dependencies": {
+    "@internationalized/date": "^3.9.0",
+    "@nextui-org/react": "1.0.0-beta.10",
+    "@react-aria/i18n": "^3.12.12",
+    "@react-stately/collections": "^3.12.6",
+    "@react-stately/menu": "^3.9.6",
+    "@swc/helpers": "^0.5.17",
+    "next": "15.5.0",
+    "next-themes": "^0.2.1",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
+    "web-vitals": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "@types/react": "19.1.11",
+    "@types/react-dom": "19.1.8",
+    "eslint": "9.34.0",
+    "eslint-config-next": "15.5.0",
+    "typescript": "5.9.2"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  }
+}
