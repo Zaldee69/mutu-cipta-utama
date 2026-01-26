@@ -590,13 +590,13 @@ export const services: Service[] = [
         ]
     },
     {
-        slug: "sewa-drone-analisis-tapak",
-        title: "Sewa Drone untuk Analisis Tapak & Inspeksi",
+        slug: "layanan-drone-pemetaan-dokumentasi",
+        title: "Layanan Drone untuk Pemetaan & Dokumentasi Udara",
         group: "Engineering & Survey",
         category: "amdal",
-        shortDescription: "Layanan penyewaan drone untuk pemetaan, inspeksi, dan monitoring operasional dengan data resolusi tinggi.",
+        shortDescription: "Layanan drone profesional untuk pemetaan, inspeksi, monitoring, dan dokumentasi udara dengan data resolusi tinggi.",
         heroImage: "https://images.unsplash.com/photo-1473968512647-3e447244af8f?q=80&w=2070&auto=format&fit=crop",
-        description: "Layanan penyewaan drone untuk keperluan pemetaan tapak proyek, inspeksi sarana dan prasarana pertambangan/perkebunan/industri, kegiatan survei berkala, monitoring operasional usaha, hingga kebutuhan pribadi seperti pariwisata, olahraga, dan event lainnya. Teknologi drone memungkinkan akuisisi data spasial resolusi tinggi yang efisien dan cepat dibanding metode tradisional, serta dapat diintegrasikan dengan GIS untuk analisis lanjutan.",
+        description: "Layanan drone profesional untuk berbagai kebutuhan pemetaan, inspeksi infrastruktur, monitoring operasional, dokumentasi proyek, hingga keperluan komersial seperti event, pariwisata, dan promosi. Teknologi drone memungkinkan akuisisi data spasial resolusi tinggi yang efisien dan cepat dibanding metode tradisional, serta dapat diintegrasikan dengan GIS untuk analisis lanjutan.",
         manfaat: [
             "Efisiensi Waktu & Biaya: Lebih cepat dibanding survey manual dengan biaya kompetitif.",
             "Data Akurat: Resolusi tinggi untuk analisis detail dan pemetaan presisi.",
@@ -609,11 +609,12 @@ export const services: Service[] = [
             "Pengolahan & analisis data untuk laporan/visualisasi"
         ],
         ruangLingkup: [
-            "Pemetaan area proyek dan tanah",
-            "Inspeksi fasilitas & infrastruktur",
-            "Monitoring berkala pertambangan/perkebunan/industri",
-            "Survei foto udara untuk event atau pariwisata",
-            "Integrasi data ke GIS/analitik lanjutan"
+            "Pemetaan area proyek, lahan, dan topografi",
+            "Inspeksi infrastruktur (jalan, jembatan, gedung, tower)",
+            "Monitoring pertambangan, perkebunan, dan industri",
+            "Dokumentasi progress konstruksi",
+            "Foto & video udara untuk event, pariwisata, dan promosi",
+            "Survey dan analisis GIS lanjutan"
         ],
         syaratKetentuan: [
             "Izin lokasi dan ketinggian terbang sesuai aturan drone di Indonesia",

@@ -7,6 +7,7 @@ import {
 } from "@/components/ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
 import Image from "next/image";
+import { Building2 } from "lucide-react";
 
 // Client logos from public folder
 const clients = [
@@ -21,10 +22,17 @@ export function Clients() {
     return (
         <section className="py-20 bg-white">
             <div className="container">
-                <div className="flex flex-col items-center text-center gap-4 mb-12">
-                    <h2 className="text-3xl font-bold tracking-tight text-primary sm:text-4xl">
+                <div className="flex flex-col items-center text-center gap-4 mb-12 max-w-3xl mx-auto">
+                    <div className="inline-flex items-center rounded-full border border-primary/20 bg-primary/5 px-4 py-1.5 text-sm font-medium text-primary backdrop-blur-sm">
+                        <Building2 className="w-4 h-4 mr-2" />
                         Klien Kami
+                    </div>
+                    <h2 className="text-3xl font-bold tracking-tight text-zinc-900 md:text-4xl lg:text-5xl leading-tight">
+                        Dipercaya oleh <span className="text-primary">Perusahaan Terkemuka</span> di Indonesia
                     </h2>
+                    <p className="text-lg text-zinc-600 leading-relaxed">
+                        Berbagai perusahaan dari berbagai sektor industri telah mempercayakan kebutuhan konsultasi lingkungan mereka kepada PT Mutu Cipta Utama.
+                    </p>
                 </div>
 
                 <Carousel

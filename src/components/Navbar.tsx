@@ -33,7 +33,7 @@ import { services, serviceGroups, getServicesByGroup } from "@/lib/services-data
 
 const navLinks = [
     { name: "Beranda", href: "/" },
-    { name: "Tentang Kami", href: "/#about" },
+    { name: "Tentang Kami", href: "/tentang-kami" },
     { name: "Portofolio", href: "/portofolio" },
     { name: "Blog", href: "/blog" },
 ];
@@ -176,9 +176,11 @@ export function Navbar() {
 
                             <div className="mt-6 pt-6 border-t">
                                 <SheetClose asChild>
-                                    <Button size="lg" className="w-full text-base">
-                                        Kontak Kami
-                                    </Button>
+                                    <a href="https://wa.link/l6mph1" target="_blank" rel="noopener noreferrer" className="block">
+                                        <Button size="lg" className="w-full text-base">
+                                            Kontak Kami
+                                        </Button>
+                                    </a>
                                 </SheetClose>
                             </div>
                         </div>

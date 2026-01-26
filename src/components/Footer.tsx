@@ -5,9 +5,9 @@ import { services } from "@/lib/services-data";
 
 const footerLinks = {
     company: [
-        { name: "Tentang Kami", href: "/#about" },
-        { name: "Visi & Misi", href: "#vision" },
-        { name: "Tim Ahli", href: "#team" },
+        { name: "Tentang Kami", href: "/tentang-kami" },
+        { name: "Visi & Misi", href: "/tentang-kami#vision" },
+        { name: "Tim Ahli", href: "/tentang-kami#team" },
         { name: "Blog", href: "/blog" },
         { name: "Karir", href: "#career" },
     ],
@@ -47,9 +47,9 @@ export function Footer() {
 
                         {/* Contact Info */}
                         <address className="flex flex-col gap-3 not-italic">
-                            <a href="tel:+62123456789" className="flex items-center gap-3 text-sm text-zinc-400 hover:text-primary transition-colors">
+                            <a href="tel:+6287860602997" className="flex items-center gap-3 text-sm text-zinc-400 hover:text-primary transition-colors">
                                 <Phone className="w-4 h-4" />
-                                <span className="hover:text-primary transition-colors">+62 123 456 789</span>
+                                <span className="hover:text-primary transition-colors">+62 878‑6060‑2997</span>
                             </a>
                             <a href="mailto:info@mutuciptautama.id" className="flex items-center gap-3 text-sm text-zinc-400 hover:text-primary transition-colors">
                                 <Mail className="w-4 h-4" />
