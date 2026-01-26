@@ -38,7 +38,7 @@ export default function StructuredData() {
             "Environmental Engineering"
         ],
         "slogan": "Mitra Strategis Bisnis Berkelanjutan",
-        "foundingDate": "2010",
+        "foundingDate": "2025",
         "numberOfEmployees": {
             "@type": "QuantitativeValue",
             "value": "50"

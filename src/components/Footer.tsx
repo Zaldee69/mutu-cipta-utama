@@ -42,7 +42,7 @@ export function Footer() {
                             />
                         </Link>
                         <p className="text-sm text-zinc-400 leading-relaxed">
-                            PT Mutu Cipta Utama adalah konsultan lingkungan terpercaya yang berpengalaman dalam memberikan solusi perizinan, audit, dan pengelolaan lingkungan untuk berbagai industri di Indonesia.
+                            PT Mutu Cipta Utama adalah konsultan lingkungan modern yang menyediakan solusi perizinan, audit, dan pengelolaan lingkungan untuk berbagai industri di Indonesia.
                         </p>
 
                         {/* Contact Info */}

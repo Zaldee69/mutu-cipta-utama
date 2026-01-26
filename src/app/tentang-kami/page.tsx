@@ -139,7 +139,7 @@ export default function TentangKamiPage() {
             </section>
 
             {/* Vision & Mission */}
-            <section className="py-20 bg-white">
+            <section id="vision" className="py-20 bg-white scroll-mt-20">
                 <div className="container">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
                         <div className="p-8 rounded-2xl bg-gradient-to-br from-primary/5 to-primary/10 border border-primary/10">
@@ -197,7 +197,7 @@ export default function TentangKamiPage() {
             </section>
 
             {/* Team */}
-            <section className="py-20 bg-white">
+            <section id="team" className="py-20 bg-white scroll-mt-20">
                 <div className="container">
                     <div className="text-center mb-12">
                         <h2 className="text-3xl md:text-4xl font-bold text-zinc-900 mb-4">
