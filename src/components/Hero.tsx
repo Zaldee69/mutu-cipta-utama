@@ -61,7 +61,7 @@ export function Hero() {
                         </aside>
                     </header>
 
-                    <figure className="flex justify-center md:justify-end">
+                    <figure className="flex justify-center md:justify-end hidden md:block">
                         <div className="relative aspect-square w-full max-w-[450px] overflow-hidden rounded-full border-4 border-white shadow-2xl">
                             <Image
                                 src="/hero.jpeg"
