@@ -46,7 +46,7 @@ export function Advantages() {
                         Mitra Terpercaya untuk <span className="text-primary">Solusi Lingkungan</span> yang Berkelanjutan
                     </h2>
                     <p className="text-lg text-zinc-600 leading-relaxed">
-                        Kami menggabungkan keahlian teknis, pemahaman regulasi mendalam, dan integritas untuk memberikan layanan konsultasi lingkungan terbaik bagi bisnis Anda.
+                        PT Mutu Cipta Utama menggabungkan keahlian teknis, pemahaman regulasi mendalam, dan integritas untuk memberikan layanan konsultasi lingkungan terbaik bagi bisnis Anda.
                     </p>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

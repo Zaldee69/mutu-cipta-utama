@@ -41,9 +41,8 @@ export function Footer() {
                                 height={100}
                             />
                         </Link>
-                        <p className="text-zinc-400 text-sm leading-relaxed mb-6">
-                            Konsultan lingkungan terpercaya yang menyediakan solusi komprehensif untuk perizinan,
-                            audit, pengelolaan limbah, dan keberlanjutan bisnis sesuai regulasi.
+                        <p className="text-sm text-zinc-400 leading-relaxed">
+                            PT Mutu Cipta Utama adalah konsultan lingkungan terpercaya yang berpengalaman dalam memberikan solusi perizinan, audit, dan pengelolaan lingkungan untuk berbagai industri di Indonesia.
                         </p>
 
                         {/* Contact Info */}

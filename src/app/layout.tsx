@@ -29,10 +29,10 @@ const dmSans = DM_Sans({
 
 export const metadata: Metadata = {
   title: {
-    default: "PT Mutu Cipta Utama - Konsultan Lingkungan Terpercaya",
+    default: "Konsultan Lingkungan Terpercaya #1 | PT Mutu Cipta Utama",
     template: "%s | PT Mutu Cipta Utama"
   },
-  description: "Jasa konsultan lingkungan profesional untuk AMDAL, UKL-UPL, PERTEK, pengelolaan limbah B3, audit lingkungan, dan CSR. Solusi terpadu untuk kepatuhan lingkungan bisnis Anda.",
+  description: "PT Mutu Cipta Utama - Konsultan lingkungan hidup terpercaya. Layanan AMDAL, UKL-UPL, pengelolaan limbah B3 & audit.",
   keywords: ["konsultan lingkungan", "AMDAL", "UKL-UPL", "PERTEK", "limbah B3", "audit lingkungan", "CSR", "konsultan lingkungan Indonesia", "jasa AMDAL", "perizinan lingkungan"],
   authors: [{ name: "PT Mutu Cipta Utama" }],
   creator: "PT Mutu Cipta Utama",
@@ -55,8 +55,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "PT Mutu Cipta Utama - Konsultan Lingkungan Terpercaya",
-    description: "Jasa konsultan lingkungan profesional untuk AMDAL, UKL-UPL, PERTEK, pengelolaan limbah B3, audit lingkungan, dan CSR.",
+    title: "Konsultan Lingkungan Terpercaya #1 | PT Mutu Cipta Utama",
+    description: "PT Mutu Cipta Utama - Konsultan lingkungan hidup terpercaya. Layanan AMDAL, UKL-UPL, pengelolaan limbah B3 & audit.",
     images: ["/mutu-cipta-utama-logo.png"]
   },
   robots: {

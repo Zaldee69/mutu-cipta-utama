@@ -74,10 +74,10 @@ export function Services() {
                         Layanan Kami
                     </div>
                     <h2 className="text-3xl font-bold tracking-tight text-zinc-900 md:text-4xl lg:text-5xl leading-tight">
-                        Solusi Lingkungan <span className="text-primary">Terintegrasi</span> untuk Bisnis Berkelanjutan
+                        Layanan <span className="text-primary">Terintegrasi</span> untuk Bisnis Berkelanjutan
                     </h2>
                     <p className="text-lg text-zinc-600 leading-relaxed">
-                        Kami menyediakan layanan komprehensif mulai dari perizinan, teknis, hingga konsultasi strategis untuk memastikan kepatuhan dan keberlanjutan operasional perusahaan Anda.
+                        Kami menyediakan layanan komprehensif mulai dari perizinan lingkungan hidup, pengelolaan limbah B3, hingga konsultasi strategis untuk memastikan kepatuhan dan keberlanjutan operasional perusahaan Anda.
                     </p>
                 </div>
 

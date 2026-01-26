@@ -32,8 +32,8 @@ export function Hero() {
                             </span>
                         </h1>
 
-                        <p className="text-lg md:text-xl text-zinc-600 max-w-2xl leading-relaxed">
-                            Layanan satu atap untuk perizinan lingkungan (AMDAL/UKL-UPL), Persetujuan Teknis (PERTEK), pengelolaan limbah B3, hingga konsultasi CSR dan engineering.
+                        <p className="text-lg md:text-xl text-zinc-600 leading-relaxed max-w-2xl">
+                            PT Mutu Cipta Utama adalah konsultan lingkungan terpercaya. Kami menyediakan solusi komprehensif untuk AMDAL, UKL-UPL, pengelolaan limbah B3, dan audit lingkungan yang sesuai regulasi terkini.
                         </p>
 
                         <nav className="flex flex-col sm:flex-row gap-4 mt-2" aria-label="Primary actions">
