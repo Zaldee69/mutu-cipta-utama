@@ -37,10 +37,17 @@ export function Advantages() {
     return (
         <section id="about" className="py-16 bg-gradient-to-b from-white via-zinc-50/30 to-white">
             <div className="container">
-                <div className="flex flex-col items-center text-center gap-4 mb-16">
-                    <h2 className="text-3xl font-bold tracking-tight text-primary md:text-4xl lg:text-5xl">
-                        Keunggulan Kami
+                <div className="flex flex-col items-center text-center gap-4 mb-16 max-w-3xl mx-auto">
+                    <div className="inline-flex items-center rounded-full border border-primary/20 bg-primary/5 px-4 py-1.5 text-sm font-medium text-primary backdrop-blur-sm">
+                        <ShieldCheck className="w-4 h-4 mr-2" />
+                        Kenapa Memilih Kami
+                    </div>
+                    <h2 className="text-3xl font-bold tracking-tight text-zinc-900 md:text-4xl lg:text-5xl leading-tight">
+                        Mitra Terpercaya untuk <span className="text-primary">Solusi Lingkungan</span> yang Berkelanjutan
                     </h2>
+                    <p className="text-lg text-zinc-600 leading-relaxed">
+                        Kami menggabungkan keahlian teknis, pemahaman regulasi mendalam, dan integritas untuk memberikan layanan konsultasi lingkungan terbaik bagi bisnis Anda.
+                    </p>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {advantages.map((advantage) => (

@@ -3,7 +3,7 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { FileCheck2, ShieldCheck, Users, Ruler, ArrowRight, Check } from "lucide-react";
+import { FileCheck2, ShieldCheck, Users, Ruler, ArrowRight, Check, Layers } from "lucide-react";
 import Link from "next/link";
 import { getServicesByGroup, serviceGroups, type Service } from "@/lib/services-data";
 
@@ -68,21 +68,22 @@ export function Services() {
     return (
         <section id="services" className="py-24 bg-zinc-50/50">
             <div className="container">
-                <header className="flex flex-col items-center text-center gap-4 mb-16">
-                    <Badge variant="outline" className="px-4 py-1 border-primary/20 text-primary bg-primary/5 uppercase tracking-wider font-semibold text-xs">
+                <div className="flex flex-col items-center text-center gap-4 mb-16 max-w-3xl mx-auto">
+                    <div className="inline-flex items-center rounded-full border border-primary/20 bg-primary/5 px-4 py-1.5 text-sm font-medium text-primary backdrop-blur-sm">
+                        <Layers className="w-4 h-4 mr-2" />
                         Layanan Kami
-                    </Badge>
-                    <h2 className="text-3xl font-bold tracking-tight text-zinc-900 md:text-4xl lg:text-5xl">
-                        Solusi Lingkungan Terintegrasi
+                    </div>
+                    <h2 className="text-3xl font-bold tracking-tight text-zinc-900 md:text-4xl lg:text-5xl leading-tight">
+                        Solusi Lingkungan <span className="text-primary">Terintegrasi</span> untuk Bisnis Berkelanjutan
                     </h2>
-                    <p className="text-lg md:text-xl text-zinc-500 max-w-2xl leading-relaxed">
-                        Kami menyediakan layanan komprehensif mulai dari perizinan, teknis, hingga konsultasi strategis untuk keberlanjutan bisnis Anda.
+                    <p className="text-lg text-zinc-600 leading-relaxed">
+                        Kami menyediakan layanan komprehensif mulai dari perizinan, teknis, hingga konsultasi strategis untuk memastikan kepatuhan dan keberlanjutan operasional perusahaan Anda.
                     </p>
-                </header>
+                </div>
 
                 <Tabs defaultValue={serviceGroups[0]} className="w-full">
-                    <div className="flex justify-center mb-12">
-                        <TabsList className="inline-flex h-auto p-1 bg-zinc-100 rounded-lg">
+                    <div className="flex justify-start md:justify-center mb-12 overflow-x-auto pb-4 -mx-4 px-4 md:mx-0 md:px-0 md:pb-0 scrollbar-hide">
+                        <TabsList className="inline-flex h-auto p-1 bg-zinc-100 rounded-lg whitespace-nowrap">
                             {serviceGroups.map((group) => {
                                 const Icon = groupIcons[group] || FileCheck2;
                                 return (
@@ -92,7 +93,7 @@ export function Services() {
                                         className="flex items-center gap-2 px-4 py-2.5 text-sm font-medium data-[state=active]:bg-white data-[state=active]:text-primary data-[state=active]:shadow-sm rounded-md transition-all"
                                     >
                                         <Icon className="w-4 h-4 hidden sm:block" />
-                                        <span className="truncate">{group}</span>
+                                        <span>{group}</span>
                                     </TabsTrigger>
                                 );
                             })}

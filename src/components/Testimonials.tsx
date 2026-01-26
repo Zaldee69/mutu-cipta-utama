@@ -1,4 +1,4 @@
-import { Star } from "lucide-react";
+import { Star, MessageSquareQuote } from "lucide-react";
 import Image from "next/image";
 
 const testimonials = [
@@ -32,10 +32,17 @@ export function Testimonials() {
     return (
         <section className="py-24 bg-zinc-50">
             <div className="container">
-                <div className="flex flex-col items-center text-center gap-4 mb-16">
-                    <h2 className="text-3xl font-bold tracking-tight text-primary md:text-4xl lg:text-5xl">
-                        Testimoni Klien
+                <div className="flex flex-col items-center text-center gap-4 mb-16 max-w-3xl mx-auto">
+                    <div className="inline-flex items-center rounded-full border border-primary/20 bg-primary/5 px-4 py-1.5 text-sm font-medium text-primary backdrop-blur-sm">
+                        <MessageSquareQuote className="w-4 h-4 mr-2" />
+                        Apa Kata Mereka
+                    </div>
+                    <h2 className="text-3xl font-bold tracking-tight text-zinc-900 md:text-4xl lg:text-5xl leading-tight">
+                        Kepercayaan Klien adalah <span className="text-primary">Prioritas Utama</span> Kami
                     </h2>
+                    <p className="text-lg text-zinc-600 leading-relaxed">
+                        Pengalaman terbaik dari berbagai perusahaan yang telah mempercayakan kebutuhan konsultasi lingkungan mereka kepada PT Mutu Cipta Utama.
+                    </p>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
