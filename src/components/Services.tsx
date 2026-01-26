@@ -17,29 +17,37 @@ const groupIcons: Record<string, React.ElementType> = {
 
 function ServiceCard({ service }: { service: Service }) {
     return (
-        <div className="group flex flex-col gap-6 p-8 rounded-2xl bg-white border border-zinc-100 shadow-sm hover:shadow-xl hover:border-primary/20 transition-all duration-300 relative overflow-hidden">
-            {/* Hover Decoration */}
-            <div className="absolute top-0 right-0 w-32 h-32 bg-primary/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 group-hover:bg-primary/10 transition-colors" />
-
-            <div className="relative z-10 flex flex-col h-full">
-                {/* Header */}
-                <div className="mb-4">
-                    <h3 className="text-lg md:text-xl font-bold text-zinc-900 group-hover:text-primary transition-colors mb-3 line-clamp-2">
-                        {service.title}
-                    </h3>
-                    <p className="text-sm text-zinc-500 leading-relaxed line-clamp-3">
-                        {service.shortDescription}
-                    </p>
+        <div className="group flex flex-col rounded-xl bg-white border border-zinc-100 shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden">
+            {/* Card Header with Gradient - Similar to Portfolio */}
+            <div className="h-32 bg-gradient-to-br from-primary/10 via-primary/5 to-transparent relative overflow-hidden">
+                <div className="absolute inset-0 bg-gradient-to-t from-white/80 to-transparent" />
+                <div className="absolute top-4 right-4">
+                    <Badge className="bg-white/90 text-primary border-primary/20 backdrop-blur-sm">
+                        {service.group}
+                    </Badge>
                 </div>
+            </div>
 
-                {/* Key Benefits Preview */}
-                <div className="space-y-3 mb-8 flex-grow">
+            {/* Card Content */}
+            <div className="p-6 flex flex-col flex-grow">
+                {/* Title */}
+                <h3 className="text-xl font-bold text-zinc-900 group-hover:text-primary transition-colors mb-3 line-clamp-2">
+                    {service.title}
+                </h3>
+
+                {/* Description */}
+                <p className="text-sm text-zinc-600 leading-relaxed line-clamp-3 mb-4">
+                    {service.shortDescription}
+                </p>
+
+                {/* Key Benefits */}
+                <div className="space-y-2 mb-6 flex-grow">
                     {service.manfaat && service.manfaat.slice(0, 3).map((benefit, i) => (
                         <div key={i} className="flex items-start gap-2 text-xs text-zinc-600">
                             <div className="w-4 h-4 rounded-full bg-primary/10 flex items-center justify-center text-primary flex-shrink-0 mt-0.5">
                                 <Check className="w-2.5 h-2.5" />
                             </div>
-                            <span className="line-clamp-2">{benefit.split(":")[0]}</span>
+                            <span className="line-clamp-1">{benefit.split(":")[0]}</span>
                         </div>
                     ))}
                 </div>
@@ -74,14 +82,14 @@ export function Services() {
 
                 <Tabs defaultValue={serviceGroups[0]} className="w-full">
                     <div className="flex justify-center mb-12">
-                        <TabsList className="inline-flex h-auto w-full max-w-4xl justify-start md:justify-center rounded-2xl bg-white p-2 gap-2 shadow-sm border border-zinc-200 overflow-x-auto scrollbar-hide">
+                        <TabsList className="inline-flex h-auto p-1 bg-zinc-100 rounded-lg">
                             {serviceGroups.map((group) => {
                                 const Icon = groupIcons[group] || FileCheck2;
                                 return (
                                     <TabsTrigger
                                         key={group}
                                         value={group}
-                                        className="inline-flex items-center justify-center gap-2 rounded-xl px-3 py-2.5 md:px-4 md:py-3 text-xs md:text-sm font-medium transition-all data-[state=active]:bg-primary data-[state=active]:text-white data-[state=active]:shadow-md text-zinc-600 hover:bg-zinc-50 whitespace-nowrap"
+                                        className="flex items-center gap-2 px-4 py-2.5 text-sm font-medium data-[state=active]:bg-white data-[state=active]:text-primary data-[state=active]:shadow-sm rounded-md transition-all"
                                     >
                                         <Icon className="w-4 h-4 hidden sm:block" />
                                         <span className="truncate">{group}</span>
