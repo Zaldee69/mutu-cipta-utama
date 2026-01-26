@@ -8,6 +8,7 @@ const footerLinks = {
         { name: "Tentang Kami", href: "/#about" },
         { name: "Visi & Misi", href: "#vision" },
         { name: "Tim Ahli", href: "#team" },
+        { name: "Blog", href: "/blog" },
         { name: "Karir", href: "#career" },
     ],
     support: [

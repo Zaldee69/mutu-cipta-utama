@@ -35,6 +35,7 @@ const navLinks = [
     { name: "Beranda", href: "/" },
     { name: "Tentang Kami", href: "/#about" },
     { name: "Portofolio", href: "/portofolio" },
+    { name: "Blog", href: "/blog" },
 ];
 
 export function Navbar() {

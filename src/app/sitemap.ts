@@ -1,7 +1,9 @@
 import { MetadataRoute } from 'next'
 import { services } from '@/lib/services-data'
+import { client } from '@/sanity/lib/client'
+import { postsQuery } from '@/sanity/lib/queries'
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     const baseUrl = 'https://www.mutuciptautama.id'
 
     // Static pages
@@ -28,5 +30,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
         priority: 0.7,
     }))
 
-    return [...staticPages, ...servicePages]
+    // Fetch blog posts from Sanity
+    const posts = await client.fetch(postsQuery);
+
+    // Dynamic blog posts
+    const blogEntries = posts.map((post: any) => ({
+        url: `${baseUrl}/blog/${post.slug.current}`,
+        lastModified: new Date(post.publishedAt),
+        changeFrequency: 'weekly' as const,
+        priority: 0.6,
+    }))
+
+    return [...staticPages, ...servicePages, ...blogEntries]
 }

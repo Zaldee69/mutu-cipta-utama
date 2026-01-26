@@ -5,6 +5,7 @@ import { Services } from "@/components/Services";
 import { Testimonials } from "@/components/Testimonials";
 import { FinalCTA } from "@/components/FinalCTA";
 import { Clients } from "@/components/Clients";
+import RecentBlogs from "@/components/RecentBlogs";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <CallToAction />
       <Services />
       <FinalCTA />
+      <RecentBlogs />
       <Testimonials />
       <Clients />
     </main>
