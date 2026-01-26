@@ -15,13 +15,15 @@ export function FinalCTA() {
                         </p>
                     </div>
                     <div className="flex-shrink-0">
-                        <Button
-                            size="lg"
-                            variant="secondary"
-                            className="bg-white text-primary hover:bg-white/90 text-base px-8 h-12 font-semibold"
-                        >
-                            Konsultasi Sekarang
-                        </Button>
+                        <a href="https://wa.link/l6mph1" target="_blank" rel="noopener noreferrer">
+                            <Button
+                                size="lg"
+                                variant="secondary"
+                                className="bg-white text-primary hover:bg-white/90 text-base px-8 h-12 font-semibold"
+                            >
+                                Konsultasi Sekarang
+                            </Button>
+                        </a>
                     </div>
                 </div>
             </div>

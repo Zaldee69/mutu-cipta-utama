@@ -5,7 +5,7 @@ import { services } from "@/lib/services-data";
 
 const footerLinks = {
     company: [
-        { name: "Tentang Kami", href: "#about" },
+        { name: "Tentang Kami", href: "/#about" },
         { name: "Visi & Misi", href: "#vision" },
         { name: "Tim Ahli", href: "#team" },
         { name: "Karir", href: "#career" },

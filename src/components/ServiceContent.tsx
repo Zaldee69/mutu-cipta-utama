@@ -23,11 +23,11 @@ export function ServiceContent({ service }: ServiceContentProps) {
                 </div>
 
                 <div className="flex flex-wrap gap-4">
-                    <Link href="#contact-form">
+                    <a href="https://wa.link/l6mph1" target="_blank" rel="noopener noreferrer">
                         <Button size="lg" className="rounded-md px-8 h-12 text-base font-medium shadow-sm hover:translate-y-0 hover:shadow-md transition-all">
                             Mulai Konsultasi
                         </Button>
-                    </Link>
+                    </a>
                 </div>
             </div>
 
@@ -148,16 +148,16 @@ export function ServiceContent({ service }: ServiceContentProps) {
                         </p>
                     </div>
                     <div className="flex flex-col sm:flex-row gap-4 flex-shrink-0 w-full md:w-auto">
-                        <Link href="#contact-form" className="w-full md:w-auto">
+                        <a href="https://wa.link/l6mph1" target="_blank" rel="noopener noreferrer" className="w-full md:w-auto">
                             <Button size="lg" className="w-full bg-white text-zinc-900 hover:bg-zinc-100 font-medium px-8 h-12">
                                 Dapatkan Penawaran
                             </Button>
-                        </Link>
-                        <Link href="/#contact" className="w-full md:w-auto">
+                        </a>
+                        <a href="https://wa.link/l6mph1" target="_blank" rel="noopener noreferrer" className="w-full md:w-auto">
                             <Button variant="outline" size="lg" className="w-full border-zinc-700 text-zinc-300 hover:bg-zinc-800 hover:text-white bg-transparent px-8 h-12">
                                 Hubungi Kami
                             </Button>
-                        </Link>
+                        </a>
                     </div>
                 </div>
             </section>

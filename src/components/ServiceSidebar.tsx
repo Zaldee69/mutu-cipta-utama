@@ -121,12 +121,14 @@ export function ServiceSidebar({ currentSlug }: ServiceSidebarProps) {
                         <p className="text-sm text-zinc-400 mb-6 leading-relaxed">
                             Tim ahli kami siap membantu kebutuhan perizinan Anda.
                         </p>
-                        <Link
-                            href="#contact"
+                        <a
+                            href="https://wa.link/l6mph1"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="block w-full text-center bg-white text-zinc-900 py-2.5 rounded-md text-sm font-medium hover:bg-zinc-100 transition-colors"
                         >
                             Hubungi Kami
-                        </Link>
+                        </a>
                     </div>
                 </div>
             </div>

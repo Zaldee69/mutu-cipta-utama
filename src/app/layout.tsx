@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     description: "Jasa konsultan lingkungan profesional untuk AMDAL, UKL-UPL, PERTEK, pengelolaan limbah B3, audit lingkungan, dan CSR.",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "/mutu-cipta-utama-logo.png",
         width: 1200,
         height: 630,
         alt: "PT Mutu Cipta Utama - Konsultan Lingkungan"
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "PT Mutu Cipta Utama - Konsultan Lingkungan Terpercaya",
     description: "Jasa konsultan lingkungan profesional untuk AMDAL, UKL-UPL, PERTEK, pengelolaan limbah B3, audit lingkungan, dan CSR.",
-    images: ["/og-image.jpg"]
+    images: ["/mutu-cipta-utama-logo.png"]
   },
   robots: {
     index: true,

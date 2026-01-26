@@ -35,7 +35,7 @@ const advantages = [
 
 export function Advantages() {
     return (
-        <section className="py-16 bg-gradient-to-b from-white via-zinc-50/30 to-white">
+        <section id="about" className="py-16 bg-gradient-to-b from-white via-zinc-50/30 to-white">
             <div className="container">
                 <div className="flex flex-col items-center text-center gap-4 mb-16">
                     <h2 className="text-3xl font-bold tracking-tight text-primary md:text-4xl lg:text-5xl">

@@ -37,9 +37,11 @@ export function CallToAction() {
                             sosialisasi lingkungan, dan solusi teknis berkelanjutan.
                         </p>
                         <div>
-                            <Button size="lg" className="text-base px-8 h-12">
-                                Konsultasi Sekarang
-                            </Button>
+                            <a href="https://wa.link/l6mph1" target="_blank" rel="noopener noreferrer">
+                                <Button size="lg" className="text-base px-8 h-12">
+                                    Konsultasi Sekarang
+                                </Button>
+                            </a>
                         </div>
                     </div>
                 </div>

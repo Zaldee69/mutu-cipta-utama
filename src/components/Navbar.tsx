@@ -33,7 +33,7 @@ import { services, serviceGroups, getServicesByGroup } from "@/lib/services-data
 
 const navLinks = [
     { name: "Beranda", href: "/" },
-    { name: "Tentang Kami", href: "#about" },
+    { name: "Tentang Kami", href: "/#about" },
     { name: "Portofolio", href: "/portofolio" },
 ];
 
@@ -59,8 +59,10 @@ export function Navbar() {
                         <NavigationMenuList>
                             {navLinks.map((link) => (
                                 <NavigationMenuItem key={link.name}>
-                                    <NavigationMenuLink href={link.href} className={navigationMenuTriggerStyle()}>
-                                        {link.name}
+                                    <NavigationMenuLink asChild>
+                                        <Link href={link.href} className={navigationMenuTriggerStyle()}>
+                                            {link.name}
+                                        </Link>
                                     </NavigationMenuLink>
                                 </NavigationMenuItem>
                             ))}
@@ -108,9 +110,11 @@ export function Navbar() {
                     <div className="h-8 w-px bg-zinc-200" />
 
                     {/* Contact Button */}
-                    <Button className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-md px-6">
-                        Kontak Kami
-                    </Button>
+                    <a href="https://wa.link/l6mph1" target="_blank" rel="noopener noreferrer">
+                        <Button className="bg-primary hover:bg-primary/90 text-primary-foreground rounded-md px-6 cursor-pointer">
+                            Kontak Kami
+                        </Button>
+                    </a>
                 </div>
 
                 {/* Mobile Navigation */}

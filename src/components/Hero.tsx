@@ -37,11 +37,11 @@ export function Hero() {
                         </p>
 
                         <nav className="flex flex-col sm:flex-row gap-4 mt-2" aria-label="Primary actions">
-                            <Link href="#contact-form">
+                            <a href="https://wa.link/l6mph1" target="_blank" rel="noopener noreferrer">
                                 <Button size="lg" className="w-full sm:w-auto font-semibold px-8 h-12 text-base">
                                     Konsultasi Gratis
                                 </Button>
-                            </Link>
+                            </a>
                             <Link href="#services">
                                 <Button size="lg" variant="outline" className="w-full sm:w-auto border-zinc-200 text-zinc-900 hover:bg-zinc-50 bg-white/50 backdrop-blur-sm px-8 h-12 text-base">
                                     Jelajahi Layanan <ArrowRight className="ml-2 w-4 h-4" />
