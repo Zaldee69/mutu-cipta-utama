@@ -28,6 +28,7 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.mutuciptautama.id'),
   title: {
     default: "Konsultan Lingkungan Terpercaya #1 | PT Mutu Cipta Utama",
     template: "%s | PT Mutu Cipta Utama"
@@ -88,7 +89,6 @@ export default function RootLayout({
       <head>
         <meta name="theme-color" content="#0066cc" />
         <link rel="manifest" href="/manifest.json" />
-        <link rel="canonical" href="https://www.mutuciptautama.id" />
       </head>
       <body
         className={`${dmSans.variable} ${dmSans.className} antialiased`}
