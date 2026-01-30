@@ -1,13 +1,34 @@
 import { notFound } from "next/navigation";
+import type { Metadata } from "next";
 import { getServiceBySlug, services } from "@/lib/services-data";
 import { ServiceHero } from "@/components/ServiceHero";
 import { ServiceSidebar } from "@/components/ServiceSidebar";
 import { ServiceContent } from "@/components/ServiceContent";
+import { RelatedServices } from "@/components/RelatedServices";
 
 export async function generateStaticParams() {
     return services.map((service) => ({
         slug: service.slug,
     }));
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+    const { slug } = await params;
+    const service = getServiceBySlug(slug);
+
+    if (!service) {
+        return {
+            title: "Layanan Tidak Ditemukan",
+        };
+    }
+
+    return {
+        title: service.title,
+        description: service.shortDescription,
+        alternates: {
+            canonical: `https://www.mutuciptautama.id/layanan/${slug}`,
+        },
+    };
 }
 
 export default async function ServicePage({ params }: { params: Promise<{ slug: string }> }) {
@@ -35,6 +56,9 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
                     </div>
                 </div>
             </div>
+
+            {/* Related Services for Internal Linking */}
+            <RelatedServices currentSlug={service.slug} currentGroup={service.group} />
         </main>
     );
 }

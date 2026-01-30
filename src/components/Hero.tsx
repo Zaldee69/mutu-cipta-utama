@@ -6,11 +6,10 @@ import { ArrowRight } from "lucide-react";
 export function Hero() {
     return (
         <section className="relative w-full overflow-hidden bg-white py-16 md:py-20 lg:py-24">
-            {/* Background Image */}
             <div className="absolute inset-0 z-0">
                 <Image
                     src="/hero-background.jpg"
-                    alt="Hero Background"
+                    alt="Tim konsultan lingkungan profesional PT Mutu Cipta Utama - Ahli AMDAL, UKL-UPL dan audit lingkungan"
                     fill
                     className="object-cover"
                     priority
@@ -65,7 +64,7 @@ export function Hero() {
                         <div className="relative aspect-square w-full overflow-hidden rounded-full border-4 border-white shadow-2xl">
                             <Image
                                 src="/hero.jpeg"
-                                alt="Engineers discussing project"
+                                alt="Konsultan lingkungan PT Mutu Cipta Utama berdiskusi tentang proyek AMDAL dan pengelolaan limbah B3"
                                 fill
                                 className="object-cover object-left-center"
                                 priority

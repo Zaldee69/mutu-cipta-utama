@@ -6,7 +6,10 @@ import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
     title: "Tentang Kami",
-    description: "PT Mutu Cipta Utama adalah konsultan lingkungan hidup modern yang didirikan tahun 2025, menyediakan solusi AMDAL, UKL-UPL, pengelolaan limbah B3, dan audit lingkungan dengan pendekatan inovatif untuk berbagai industri di Indonesia.",
+    description: "Konsultan lingkungan modern berdiri 2025. Tim ahli bersertifikat untuk AMDAL, UKL-UPL, limbah B3 & audit. Solusi inovatif untuk bisnis Anda.",
+    alternates: {
+        canonical: 'https://www.mutuciptautama.id/tentang-kami',
+    },
 };
 
 const stats = [

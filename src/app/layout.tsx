@@ -7,6 +7,7 @@ import { WhatsAppButton } from "@/components/WhatsAppButton";
 import StructuredData from "@/components/StructuredData";
 import FAQSchema from "@/components/FAQSchema";
 import { Analytics } from "@vercel/analytics/react";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 
 const dmSans = DM_Sans({
   subsets: ['latin'],
@@ -33,7 +34,7 @@ export const metadata: Metadata = {
     default: "Konsultan Lingkungan Terpercaya #1 | PT Mutu Cipta Utama",
     template: "%s | PT Mutu Cipta Utama"
   },
-  description: "PT Mutu Cipta Utama - Konsultan lingkungan hidup terpercaya. Layanan AMDAL, UKL-UPL, pengelolaan limbah B3 & audit.",
+  description: "Konsultan lingkungan bersertifikat untuk AMDAL, UKL-UPL, limbah B3 & audit. Proses cepat, hasil terpercaya. Konsultasi gratis!",
   keywords: ["konsultan lingkungan", "AMDAL", "UKL-UPL", "PERTEK", "limbah B3", "audit lingkungan", "CSR", "konsultan lingkungan Indonesia", "jasa AMDAL", "perizinan lingkungan"],
   authors: [{ name: "PT Mutu Cipta Utama" }],
   creator: "PT Mutu Cipta Utama",
@@ -94,6 +95,7 @@ export default function RootLayout({
       <head>
         <meta name="theme-color" content="#0066cc" />
         <link rel="manifest" href="/manifest.json" />
+        <GoogleAnalytics />
       </head>
       <body
         className={`${dmSans.variable} ${dmSans.className} antialiased`}

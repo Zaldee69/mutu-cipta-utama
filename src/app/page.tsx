@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { Hero } from "@/components/Hero";
 import { Advantages } from "@/components/Advantages";
 import { CallToAction } from "@/components/CallToAction";
@@ -6,6 +7,12 @@ import { Testimonials } from "@/components/Testimonials";
 import { FinalCTA } from "@/components/FinalCTA";
 import { Clients } from "@/components/Clients";
 import RecentBlogs from "@/components/RecentBlogs";
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: 'https://www.mutuciptautama.id',
+  },
+};
 
 export default function Home() {
   return (
