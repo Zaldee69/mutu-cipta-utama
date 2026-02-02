@@ -21,14 +21,20 @@ export function Breadcrumbs({ items }: BreadcrumbsProps) {
                 "@type": "ListItem",
                 "position": 1,
                 "name": "Beranda",
-                "item": "https://www.mutuciptautama.id"
+                "item": "https://www.mutuciptautama.id/"
             },
-            ...items.map((item, index) => ({
-                "@type": "ListItem",
-                "position": index + 2,
-                "name": item.label,
-                "item": `https://www.mutuciptautama.id${item.href}`
-            }))
+            ...items.map((item, index) => {
+                let itemHref = item.href;
+                if (!itemHref.endsWith('/')) {
+                    itemHref = `${itemHref}/`;
+                }
+                return {
+                    "@type": "ListItem",
+                    "position": index + 2,
+                    "name": item.label,
+                    "item": `https://www.mutuciptautama.id${itemHref}`
+                };
+            })
         ]
     };
 

@@ -5,16 +5,33 @@ export default function StructuredData() {
         "name": "PT Mutu Cipta Utama",
         "alternateName": "Mutu Cipta Utama",
         "description": "Konsultan lingkungan profesional yang menyediakan layanan AMDAL, UKL-UPL, PERTEK, pengelolaan limbah B3, audit lingkungan, dan CSR",
-        "url": "https://www.mutuciptautama.id",
-        "logo": "https://www.mutuciptautama.id/mutu-cipta-utama-logo.png",
-        "image": "https://www.mutuciptautama.id/og-image.jpg",
-        "telephone": "+62-xxx-xxxx-xxxx",
+        "url": "https://www.mutuciptautama.id/",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.mutuciptautama.id/mutu-cipta-utama-logo.png",
+            "width": 500,
+            "height": 500
+        },
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://www.mutuciptautama.id/hero-background.jpg",
+            "width": 1200,
+            "height": 630
+        },
         "email": "info@mutuciptautama.id",
         "priceRange": "$$",
         "address": {
             "@type": "PostalAddress",
-            "addressCountry": "ID",
-            "addressLocality": "Indonesia"
+            "streetAddress": "Jakarta",
+            "addressLocality": "Jakarta",
+            "addressRegion": "DKI Jakarta",
+            "postalCode": "12345",
+            "addressCountry": "ID"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": -6.2088,
+            "longitude": 106.8456
         },
         "areaServed": {
             "@type": "Country",
@@ -43,6 +60,7 @@ export default function StructuredData() {
             "@type": "QuantitativeValue",
             "value": "50"
         },
+        "openingHours": "Mo-Fr 08:00-17:00",
         "sameAs": [
             "https://www.facebook.com/mutuciptautama",
             "https://www.instagram.com/mutuciptautama",

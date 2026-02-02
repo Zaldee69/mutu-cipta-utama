@@ -37,7 +37,7 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
         description: post.excerpt,
         keywords: post.tags?.join(', '),
         alternates: {
-            canonical: `https://www.mutuciptautama.id/blog/${slug}`
+            canonical: `https://www.mutuciptautama.id/blog/${slug}/`
         },
         openGraph: {
             title: post.title,

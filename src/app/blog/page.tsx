@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "Blog | PT Mutu Cipta Utama",
     description: "Artikel, tips, dan update terbaru seputar regulasi lingkungan, studi kasus, dan panduan praktis dari para ahli konsultan lingkungan.",
     alternates: {
-        canonical: "https://www.mutuciptautama.id/blog"
+        canonical: "https://www.mutuciptautama.id/blog/"
     }
 };
 

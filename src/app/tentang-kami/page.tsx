@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "Tentang Kami",
     description: "Konsultan lingkungan modern berdiri 2025. Tim ahli bersertifikat untuk AMDAL, UKL-UPL, limbah B3 & audit. Solusi inovatif untuk bisnis Anda.",
     alternates: {
-        canonical: 'https://www.mutuciptautama.id/tentang-kami',
+        canonical: 'https://www.mutuciptautama.id/tentang-kami/',
     },
 };
 

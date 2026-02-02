@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
         title: service.title,
         description: service.shortDescription,
         alternates: {
-            canonical: `https://www.mutuciptautama.id/layanan/${slug}`,
+            canonical: `https://www.mutuciptautama.id/layanan/${slug}/`,
         },
     };
 }

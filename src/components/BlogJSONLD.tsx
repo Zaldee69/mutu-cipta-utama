@@ -43,7 +43,12 @@ export function BlogJSONLD({ post }: BlogJSONLDProps) {
         "@type": "BlogPosting",
         "headline": post.title,
         "description": post.excerpt,
-        "image": imageUrl,
+        "image": {
+            "@type": "ImageObject",
+            "url": imageUrl,
+            "width": 1200,
+            "height": 630
+        },
         "datePublished": post.publishedAt,
         "dateModified": post.publishedAt,
         "author": {
@@ -56,12 +61,14 @@ export function BlogJSONLD({ post }: BlogJSONLDProps) {
             "name": "PT Mutu Cipta Utama",
             "logo": {
                 "@type": "ImageObject",
-                "url": "https://www.mutuciptautama.id/mutu-cipta-utama-logo.png"
+                "url": "https://www.mutuciptautama.id/mutu-cipta-utama-logo.png",
+                "width": 500,
+                "height": 500
             }
         },
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": `https://www.mutuciptautama.id/blog/${slug}`
+            "@id": `https://www.mutuciptautama.id/blog/${slug}/`
         },
         "keywords": post.tags ? post.tags.join(", ") : "",
         "articleSection": category

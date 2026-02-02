@@ -9,25 +9,25 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     // Static pages
     const staticPages = [
         {
-            url: baseUrl,
+            url: `${baseUrl}/`,
             lastModified: new Date('2025-01-15'), // Website launch date
             changeFrequency: 'weekly' as const,
             priority: 1,
         },
         {
-            url: `${baseUrl}/tentang-kami`,
+            url: `${baseUrl}/tentang-kami/`,
             lastModified: new Date('2025-01-15'),
             changeFrequency: 'monthly' as const,
             priority: 0.8,
         },
         {
-            url: `${baseUrl}/blog`,
+            url: `${baseUrl}/blog/`,
             lastModified: new Date(),
             changeFrequency: 'daily' as const,
             priority: 0.9,
         },
         {
-            url: `${baseUrl}/portofolio`,
+            url: `${baseUrl}/portofolio/`,
             lastModified: new Date('2025-01-15'),
             changeFrequency: 'weekly' as const,
             priority: 0.8,
@@ -36,7 +36,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
     // Dynamic service pages
     const servicePages = services.map((service) => ({
-        url: `${baseUrl}/layanan/${service.slug}`,
+        url: `${baseUrl}/layanan/${service.slug}/`,
         lastModified: new Date(),
         changeFrequency: 'monthly' as const,
         priority: 0.7,
@@ -47,7 +47,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
     // Dynamic blog posts
     const blogEntries = posts.map((post: any) => ({
-        url: `${baseUrl}/blog/${post.slug.current}`,
+        url: `${baseUrl}/blog/${post.slug.current}/`,
         lastModified: new Date(post._updatedAt || post.publishedAt),
         changeFrequency: 'monthly' as const,
         priority: 0.7,

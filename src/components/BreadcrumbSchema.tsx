@@ -8,12 +8,18 @@ export function BreadcrumbSchema({ breadcrumb }: StructuredDataProps) {
     const schema = {
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
-        "itemListElement": breadcrumb.items.map((item, index) => ({
-            "@type": "ListItem",
-            "position": index + 1,
-            "name": item.title,
-            "item": item.url ? `https://www.mutuciptautama.id${item.url}` : undefined
-        }))
+        "itemListElement": breadcrumb.items.map((item, index) => {
+            let itemUrl = item.url;
+            if (itemUrl && !itemUrl.endsWith('/')) {
+                itemUrl = `${itemUrl}/`;
+            }
+            return {
+                "@type": "ListItem",
+                "position": index + 1,
+                "name": item.title,
+                "item": itemUrl ? `https://www.mutuciptautama.id${itemUrl}` : undefined
+            };
+        })
     };
 
     return (

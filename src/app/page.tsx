@@ -10,7 +10,7 @@ import RecentBlogs from "@/components/RecentBlogs";
 
 export const metadata: Metadata = {
   alternates: {
-    canonical: 'https://www.mutuciptautama.id',
+    canonical: 'https://www.mutuciptautama.id/',
   },
 };
 
