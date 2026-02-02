@@ -50,8 +50,8 @@ export function BlogCard({ post }: BlogCardProps) {
                         className="object-cover transition-transform duration-500 group-hover:scale-105"
                     />
                 ) : (
-                    <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-primary/5 to-transparent">
-                        <div className="absolute inset-0 bg-gradient-to-t from-white/80 to-transparent" />
+                    <div className="absolute inset-0 bg-linear-to-br from-primary/10 via-primary/5 to-transparent">
+                        <div className="absolute inset-0 bg-linear-to-t from-white/80 to-transparent" />
                     </div>
                 )}
 
@@ -69,7 +69,7 @@ export function BlogCard({ post }: BlogCardProps) {
             </div>
 
             {/* Card Content */}
-            <div className="p-6 flex flex-col flex-grow">
+            <div className="p-6 flex flex-col grow">
                 {/* Title */}
                 <Link href={`/blog/${slug}`}>
                     <h3 className="text-xl font-bold text-zinc-900 group-hover:text-primary transition-colors mb-3 line-clamp-2">
@@ -78,7 +78,7 @@ export function BlogCard({ post }: BlogCardProps) {
                 </Link>
 
                 {/* Excerpt */}
-                <p className="text-sm text-zinc-600 leading-relaxed line-clamp-3 mb-4 flex-grow">
+                <p className="text-sm text-zinc-600 leading-relaxed line-clamp-3 mb-4 grow">
                     {post.excerpt}
                 </p>
 

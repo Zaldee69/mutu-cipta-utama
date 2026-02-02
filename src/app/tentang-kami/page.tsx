@@ -67,7 +67,7 @@ export default function TentangKamiPage() {
     return (
         <main className="min-h-screen bg-white">
             {/* Hero Section */}
-            <section className="relative py-20 md:py-28 bg-gradient-to-br from-primary/5 via-white to-primary/5 overflow-hidden">
+            <section className="relative py-20 md:py-28 bg-linear-to-br from-primary/5 via-white to-primary/5 overflow-hidden">
                 <div className="absolute inset-0 bg-grid-zinc-100 [mask-image:linear-gradient(0deg,white,rgba(255,255,255,0.6))] -z-10" />
                 <div className="container">
                     <div className="max-w-4xl mx-auto text-center space-y-6">
@@ -145,7 +145,7 @@ export default function TentangKamiPage() {
             <section id="vision" className="py-20 bg-white scroll-mt-20">
                 <div className="container">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-                        <div className="p-8 rounded-2xl bg-gradient-to-br from-primary/5 to-primary/10 border border-primary/10">
+                        <div className="p-8 rounded-2xl bg-linear-to-br from-primary/5 to-primary/10 border border-primary/10">
                             <div className="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center mb-4">
                                 <Eye className="w-6 h-6 text-primary" />
                             </div>
@@ -154,7 +154,7 @@ export default function TentangKamiPage() {
                                 Menjadi konsultan lingkungan pilihan utama di Indonesia yang dikenal dengan pendekatan inovatif, solusi berbasis teknologi, dan komitmen terhadap keberlanjutan lingkungan.
                             </p>
                         </div>
-                        <div className="p-8 rounded-2xl bg-gradient-to-br from-primary/5 to-primary/10 border border-primary/10">
+                        <div className="p-8 rounded-2xl bg-linear-to-br from-primary/5 to-primary/10 border border-primary/10">
                             <div className="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center mb-4">
                                 <Target className="w-6 h-6 text-primary" />
                             </div>
@@ -237,7 +237,7 @@ export default function TentangKamiPage() {
             </section> */}
 
             {/* CTA Section */}
-            <section className="py-20 bg-gradient-to-br from-primary to-primary/90">
+            <section className="py-20 bg-linear-to-br from-primary to-primary/90">
                 <div className="container">
                     <div className="max-w-3xl mx-auto text-center text-white space-y-6">
                         <h2 className="text-3xl md:text-4xl font-bold">

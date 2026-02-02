@@ -20,9 +20,9 @@ export function BlogList({ posts }: BlogListProps) {
         : posts.filter(post => post.categories && post.categories.includes(selectedCategory));
 
     return (
-        <div className="min-h-screen bg-gradient-to-b from-zinc-50 to-white">
+        <div className="min-h-screen bg-lienar-to-b from-zinc-50 to-white">
             {/* Hero Section */}
-            <section className="relative bg-gradient-to-br from-primary/5 via-white to-primary/5 py-20 md:py-28 border-b">
+            <section className="relative bg-linear-to-br from-primary/5 via-white to-primary/5 py-20 md:py-28 border-b">
                 <div className="container mx-auto px-4 md:px-6">
                     <div className="max-w-3xl mx-auto text-center">
                         <div className="inline-flex items-center rounded-full border border-primary/20 bg-primary/5 px-4 py-1.5 text-sm text-primary backdrop-blur-sm mb-6">

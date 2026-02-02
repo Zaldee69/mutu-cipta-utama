@@ -2,6 +2,8 @@ import { MetadataRoute } from 'next'
 import { services } from '@/lib/services-data'
 import { client } from '@/sanity/lib/client'
 import { postsQuery } from '@/sanity/lib/queries'
+import { cities } from '@/lib/city-data'
+import { comparisons } from '@/lib/comparison-data'
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     const baseUrl = 'https://www.mutuciptautama.id'
@@ -34,12 +36,58 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         },
     ]
 
-    // Dynamic service pages
-    const servicePages = services.map((service) => ({
-        url: `${baseUrl}/layanan/${service.slug}/`,
+    // Dynamic service pages with priority based on keyword research tiers
+    const tier1Services = [
+        'amdal-ukl-upl',
+        'audit-lingkungan-hidup',
+        'pengelolaan-limbah-b3',
+        'advisor-hukum-lingkungan',
+        'pertek-emisi',
+        'pertek-air-limbah',
+        'program-csr-lingkungan'
+    ];
+
+    const tier2Services = [
+        'pertek-pengelolaan-limbah-b3',
+        'pertek-andalalin',
+        'pemetaan-peta-resolusi-tinggi',
+        'feasibility-study'
+    ];
+
+    const servicePages = services.map((service) => {
+        let priority = 0.6; // Tier 3 default
+        let changeFrequency: 'weekly' | 'monthly' = 'monthly';
+
+        if (tier1Services.includes(service.slug)) {
+            priority = 0.9; // High priority - Tier 1 keywords
+            changeFrequency = 'weekly';
+        } else if (tier2Services.includes(service.slug)) {
+            priority = 0.8; // Medium-high priority - Tier 2 keywords
+            changeFrequency = 'monthly';
+        }
+
+        return {
+            url: `${baseUrl}/layanan/${service.slug}/`,
+            lastModified: new Date(),
+            changeFrequency,
+            priority,
+        };
+    })
+
+    // Dynamic city pages for local SEO
+    const cityPages = cities.map((city) => ({
+        url: `${baseUrl}/lokasi/${city.slug}/`,
         lastModified: new Date(),
         changeFrequency: 'monthly' as const,
-        priority: 0.7,
+        priority: 0.8, // High priority for local SEO
+    }))
+
+    // Dynamic comparison pages
+    const comparisonPages = comparisons.map((comp) => ({
+        url: `${baseUrl}/perbandingan/${comp.slug}/`,
+        lastModified: new Date(),
+        changeFrequency: 'monthly' as const,
+        priority: 0.7, // High value for decision-stage keywords
     }))
 
     // Fetch blog posts from Sanity
@@ -53,5 +101,5 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         priority: 0.7,
     }))
 
-    return [...staticPages, ...servicePages, ...blogEntries]
+    return [...staticPages, ...servicePages, ...cityPages, ...comparisonPages, ...blogEntries]
 }

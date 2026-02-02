@@ -1,31 +1,28 @@
-import { BlogBreadcrumbProps } from "@/types/seo";
-
-interface StructuredDataProps {
-    breadcrumb: BlogBreadcrumbProps;
+interface BreadcrumbItem {
+    name: string;
+    url: string;
 }
 
-export function BreadcrumbSchema({ breadcrumb }: StructuredDataProps) {
-    const schema = {
+interface BreadcrumbSchemaProps {
+    items: BreadcrumbItem[];
+}
+
+export default function BreadcrumbSchema({ items }: BreadcrumbSchemaProps) {
+    const breadcrumbSchema = {
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
-        "itemListElement": breadcrumb.items.map((item, index) => {
-            let itemUrl = item.url;
-            if (itemUrl && !itemUrl.endsWith('/')) {
-                itemUrl = `${itemUrl}/`;
-            }
-            return {
-                "@type": "ListItem",
-                "position": index + 1,
-                "name": item.title,
-                "item": itemUrl ? `https://www.mutuciptautama.id${itemUrl}` : undefined
-            };
-        })
+        "itemListElement": items.map((item, index) => ({
+            "@type": "ListItem",
+            "position": index + 1,
+            "name": item.name,
+            "item": item.url
+        }))
     };
 
     return (
         <script
             type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
         />
     );
 }

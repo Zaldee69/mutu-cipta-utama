@@ -15,7 +15,7 @@ interface BlogDetailProps {
     post: SanityBlogPost;
 }
 
-import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
+import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 // Query for related posts based on tags or category
 const relatedPostsQuery = groq`*[_type == "post" && defined(slug.current) && slug.current != $currentSlug && (
@@ -58,13 +58,11 @@ export async function BlogDetail({ post }: BlogDetailProps) {
             */}
             <BlogJSONLD post={post} />
             <BreadcrumbSchema
-                breadcrumb={{
-                    items: [
-                        { title: "Home", url: "/" },
-                        { title: "Blog", url: "/blog" },
-                        { title: post.title, url: `/blog/${post.slug.current}` }
-                    ]
-                }}
+                items={[
+                    { name: "Beranda", url: "https://www.mutuciptautama.id/" },
+                    { name: "Blog", url: "https://www.mutuciptautama.id/blog/" },
+                    { name: post.title, url: `https://www.mutuciptautama.id/blog/${post.slug.current}/` }
+                ]}
             />
 
             {/* Breadcrumbs */}

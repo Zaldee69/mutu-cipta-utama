@@ -17,50 +17,57 @@ const groupIcons: Record<string, React.ElementType> = {
 
 function ServiceCard({ service }: { service: Service }) {
     return (
-        <div className="group flex flex-col rounded-xl bg-white border border-zinc-100 shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden">
-            {/* Card Header with Gradient - Similar to Portfolio */}
-            <div className="h-32 bg-gradient-to-br from-primary/10 via-primary/5 to-transparent relative overflow-hidden">
-                <div className="absolute inset-0 bg-gradient-to-t from-white/80 to-transparent" />
-                <div className="absolute top-4 right-4">
-                    <Badge className="bg-white/90 text-primary border-primary/20 backdrop-blur-sm">
-                        {service.group}
-                    </Badge>
-                </div>
-            </div>
-
-            {/* Card Content */}
-            <div className="p-6 flex flex-col flex-grow">
-                {/* Title */}
-                <h3 className="text-xl font-bold text-zinc-900 group-hover:text-primary transition-colors mb-3 line-clamp-2">
-                    {service.title}
-                </h3>
-
-                {/* Description */}
-                <p className="text-sm text-zinc-600 leading-relaxed line-clamp-3 mb-4">
-                    {service.shortDescription}
-                </p>
-
-                {/* Key Benefits */}
-                <div className="space-y-2 mb-6 flex-grow">
-                    {service.manfaat && service.manfaat.slice(0, 3).map((benefit, i) => (
-                        <div key={i} className="flex items-start gap-2 text-xs text-zinc-600">
-                            <div className="w-4 h-4 rounded-full bg-primary/10 flex items-center justify-center text-primary flex-shrink-0 mt-0.5">
-                                <Check className="w-2.5 h-2.5" />
-                            </div>
-                            <span className="line-clamp-1">{benefit.split(":")[0]}</span>
-                        </div>
-                    ))}
-                </div>
-
-                {/* Button */}
-                <Link href={`/layanan/${service.slug}`} className="mt-auto">
-                    <Button variant="outline" className="w-full justify-between group-hover:bg-primary group-hover:text-white group-hover:border-primary transition-all">
-                        <span>Detail Layanan</span>
-                        <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
-                    </Button>
-                </Link>
-            </div>
+      <div className="group flex flex-col rounded-xl bg-white border border-zinc-100 shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden">
+        {/* Card Header with Gradient - Similar to Portfolio */}
+        <div className="h-32 bg-linear-to-br from-primary/10 via-primary/5 to-transparent relative overflow-hidden">
+          <div className="absolute inset-0 bg-linear-to-t from-white/80 to-transparent" />
+          <div className="absolute top-4 right-4">
+            <Badge className="bg-white/90 text-primary border-primary/20 backdrop-blur-sm">
+              {service.group}
+            </Badge>
+          </div>
         </div>
+
+        {/* Card Content */}
+        <div className="p-6 flex flex-col grow">
+          {/* Title */}
+          <h3 className="text-xl font-bold text-zinc-900 group-hover:text-primary transition-colors mb-3 line-clamp-2">
+            {service.title}
+          </h3>
+
+          {/* Description */}
+          <p className="text-sm text-zinc-600 leading-relaxed line-clamp-3 mb-4">
+            {service.shortDescription}
+          </p>
+
+          {/* Key Benefits */}
+          <div className="space-y-2 mb-6 grow">
+            {service.manfaat &&
+              service.manfaat.slice(0, 3).map((benefit, i) => (
+                <div
+                  key={i}
+                  className="flex items-start gap-2 text-xs text-zinc-600"
+                >
+                  <div className="w-4 h-4 rounded-full bg-primary/10 flex items-center justify-center text-primary shrink-0 mt-0.5">
+                    <Check className="w-2.5 h-2.5" />
+                  </div>
+                  <span className="line-clamp-1">{benefit.split(":")[0]}</span>
+                </div>
+              ))}
+          </div>
+
+          {/* Button */}
+          <Link href={`/layanan/${service.slug}`} className="mt-auto">
+            <Button
+              variant="outline"
+              className="w-full justify-between group-hover:bg-primary group-hover:text-white group-hover:border-primary transition-all"
+            >
+              <span>Detail Layanan</span>
+              <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
+            </Button>
+          </Link>
+        </div>
+      </div>
     );
 }
 
