@@ -35,6 +35,7 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
     return {
         title: `${post.title} | Blog PT Mutu Cipta Utama`,
         description: post.excerpt,
+        keywords: post.tags?.join(', '),
         alternates: {
             canonical: `https://www.mutuciptautama.id/blog/${slug}`
         },
@@ -66,9 +67,19 @@ export async function generateMetadata({ params }: BlogPostPageProps): Promise<M
         robots: {
             index: true,
             follow: true,
-            "max-image-preview": "large",
-            "max-snippet": -1,
-            "max-video-preview": -1,
+            googleBot: {
+                index: true,
+                follow: true,
+                'max-video-preview': -1,
+                'max-image-preview': 'large',
+                'max-snippet': -1,
+            },
+        },
+        other: {
+            'article:published_time': post.publishedAt,
+            'article:author': post.author?.name || 'PT Mutu Cipta Utama',
+            'article:section': post.categories?.[0] || 'Lingkungan',
+            'article:tag': post.tags?.join(','),
         },
     };
 }

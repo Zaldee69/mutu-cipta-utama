@@ -8,6 +8,8 @@ import { urlFor } from "@/sanity/lib/image";
 import Image from "next/image";
 import "highlight.js/styles/github-dark.css";
 import { BlogJSONLD } from "@/components/BlogJSONLD";
+import { client } from "@/sanity/lib/client";
+import { groq } from "next-sanity";
 
 interface BlogDetailProps {
     post: SanityBlogPost;
@@ -15,7 +17,24 @@ interface BlogDetailProps {
 
 import { BreadcrumbSchema } from "@/components/BreadcrumbSchema";
 
-export function BlogDetail({ post }: BlogDetailProps) {
+// Query for related posts based on tags or category
+const relatedPostsQuery = groq`*[_type == "post" && defined(slug.current) && slug.current != $currentSlug && (
+  count((tags[] )[@ in $tags]) > 0 || 
+  count((categories[]->title)[@ in $categories]) > 0
+)] | order(publishedAt desc)[0...3] {
+  _id,
+  title,
+  slug,
+  mainImage,
+  publishedAt,
+  excerpt,
+  readingTime,
+  "author": author->{name, role, image},
+  "categories": categories[]->title,
+  "tags": tags
+}`;
+
+export async function BlogDetail({ post }: BlogDetailProps) {
     const formattedDate = new Date(post.publishedAt).toLocaleDateString('id-ID', {
         year: 'numeric',
         month: 'long',
@@ -23,6 +42,13 @@ export function BlogDetail({ post }: BlogDetailProps) {
     });
 
     const category = post.categories && post.categories.length > 0 ? post.categories[0] : "Umum";
+
+    // Fetch related posts
+    const relatedPosts: SanityBlogPost[] = await client.fetch(relatedPostsQuery, {
+        currentSlug: post.slug.current,
+        tags: post.tags || [],
+        categories: post.categories || []
+    });
 
     return (
         <div className="min-h-screen bg-white">
@@ -134,9 +160,23 @@ export function BlogDetail({ post }: BlogDetailProps) {
                 </div>
             </article>
 
-            {/* Related Posts is tricky without a separate fetch or passing it down. 
-                For now we omit it or would need to fetch it in page.tsx 
-            */}
+            {/* Related Posts Section - Improves Internal Linking for SEO */}
+            {relatedPosts.length > 0 && (
+                <section className="py-16 bg-zinc-50/50 border-t">
+                    <div className="container mx-auto px-4 md:px-6">
+                        <div className="max-w-6xl mx-auto">
+                            <h2 className="text-2xl md:text-3xl font-bold text-zinc-900 mb-8">
+                                Artikel Terkait
+                            </h2>
+                            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                                {relatedPosts.map((relatedPost) => (
+                                    <BlogCard key={relatedPost._id} post={relatedPost} />
+                                ))}
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            )}
         </div>
     );
 }
