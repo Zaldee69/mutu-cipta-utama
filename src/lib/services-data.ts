@@ -42,7 +42,7 @@ export const services: Service[] = [
             "Penyusunan UKL-UPL untuk kegiatan usaha tidak wajib AMDAL",
             "SPPL untuk usaha mikro dan kecil",
             "Kajian Dampak Lingkungan sesuai standar internasional IFC, JICA, ADB",
-            "K ajian rona lingkungan awal: kualitas udara, air, tanah, kebisingan, biota, dan sosial-ekonomi",
+            "Kajian rona lingkungan awal: kualitas udara, air, tanah, kebisingan, biota, dan sosial-ekonomi",
             "Analisis dampak: prakiraan dampak, evaluasi dampak penting, dan studi daya dukung lingkungan",
             "Konsultasi publik, keterlibatan pemangku kepentingan, dan FGD dengan masyarakat terdampak",
             "Pendampingan sidang Komisi Penilai AMDAL dan revisi dokumen",
