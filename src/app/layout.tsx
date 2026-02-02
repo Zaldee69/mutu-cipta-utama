@@ -76,9 +76,27 @@ export const metadata: Metadata = {
     google: "your-google-verification-code",
   },
   icons: {
-    icon: '/favicon.ico',
+    icon: [
+      { url: '/favicon.ico', sizes: '32x32', type: 'image/x-icon' },
+    ],
     shortcut: '/favicon.ico',
-    apple: '/mutu-cipta-utama-logo.png',
+    apple: [
+      { url: '/apple-icon.png', sizes: '180x180', type: 'image/png' }
+    ],
+    other: [
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '192x192',
+        url: '/icon-192.png',
+      },
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '512x512',
+        url: '/icon-512.png',
+      },
+    ],
   },
   other: {
     'abstract': 'PT Mutu Cipta Utama adalah konsultan lingkungan modern yang menyediakan layanan AMDAL, UKL-UPL, PERTEK, dan pengelolaan limbah B3 dengan pendekatan inovatif di seluruh Indonesia.',
