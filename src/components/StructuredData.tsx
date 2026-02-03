@@ -59,20 +59,6 @@ export default function StructuredData() {
                 "name": "Banten"
             }
         ],
-        "serviceType": [
-            "Konsultan Lingkungan",
-            "Penyusunan AMDAL",
-            "UKL-UPL",
-            "PERTEK Emisi",
-            "PERTEK Air Limbah",
-            "PERTEK Limbah B3",
-            "Pengelolaan Limbah B3",
-            "Audit Lingkungan",
-            "Program CSR Lingkungan",
-            "Konsultasi Hukum Lingkungan",
-            "Pemetaan Drone LiDAR",
-            "Design Engineering"
-        ],
         "knowsAbout": [
             "AMDAL (Analisis Mengenai Dampak Lingkungan)",
             "UKL-UPL (Upaya Pengelolaan Lingkungan)",
@@ -165,7 +151,7 @@ export default function StructuredData() {
                     "@id": "https://www.mutuciptautama.id/layanan/amdal-ukl-upl/",
                     "name": "AMDAL / UKL-UPL",
                     "description": "Jasa penyusunan AMDAL profesional dan UKL-UPL untuk dokumen persetujuan lingkungan. Konsultan AMDAL berpengalaman, proses SKKLH, konsultasi publik sesuai PP 22/2021.",
-                    "serviceType": "Environmental Impact Assessment",
+                    "additionalType": "https://en.wikipedia.org/wiki/Environmental_impact_assessment",
                     "provider": {
                         "@type": "Organization",
                         "@id": "https://www.mutuciptautama.id/#organization"
@@ -182,7 +168,7 @@ export default function StructuredData() {
                     "@id": "https://www.mutuciptautama.id/layanan/audit-lingkungan-hidup/",
                     "name": "Audit Lingkungan Hidup",
                     "description": "Audit lingkungan perusahaan wajib dan sukarela untuk kepatuhan regulasi KLHK, PROPER, ISO 14001. Auditor bersertifikat, evaluasi sistem manajemen lingkungan.",
-                    "serviceType": "Environmental Audit",
+                    "additionalType": "https://en.wikipedia.org/wiki/Environmental_audit",
                     "provider": {
                         "@type": "Organization",
                         "@id": "https://www.mutuciptautama.id/#organization"
@@ -199,7 +185,7 @@ export default function StructuredData() {
                     "@id": "https://www.mutuciptautama.id/layanan/pengelolaan-limbah-b3/",
                     "name": "Pengelolaan Limbah B3",
                     "description": "Layanan pengelolaan limbah B3 terintegrasi: TPS B3 legal, transporter bersertifikat, pengolahan PPLI. Manifest SIMPEL, kepatuhan PP 22/2021, solusi limbah berbahaya.",
-                    "serviceType": "Hazardous Waste Management",
+                    "additionalType": "https://en.wikipedia.org/wiki/Hazardous_waste",
                     "provider": {
                         "@type": "Organization",
                         "@id": "https://www.mutuciptautama.id/#organization"
@@ -216,7 +202,7 @@ export default function StructuredData() {
                     "@id": "https://www.mutuciptautama.id/layanan/pertek-emisi/",
                     "name": "PERTEK Emisi",
                     "description": "Penyusunan PERTEK emisi udara untuk pengendalian pencemaran dari cerobong, genset, boiler. Pengujian emisi, pemodelan dispersi, kepatuhan baku mutu untuk SLO.",
-                    "serviceType": "Technical Approval - Air Emission",
+                    "additionalType": "https://en.wikipedia.org/wiki/Air_pollution_control",
                     "provider": {
                         "@type": "Organization",
                         "@id": "https://www.mutuciptautama.id/#organization"
@@ -233,7 +219,7 @@ export default function StructuredData() {
                     "@id": "https://www.mutuciptautama.id/layanan/pertek-air-limbah/",
                     "name": "PERTEK Air Limbah",
                     "description": "PERTEK air limbah untuk IPAL industri/domestik. Pengujian efluen BOD COD TSS, evaluasi kinerja IPAL, izin pembuangan ke badan air sesuai Permen LHK 68/2016.",
-                    "serviceType": "Technical Approval - Wastewater",
+                    "additionalType": "https://en.wikipedia.org/wiki/Wastewater",
                     "provider": {
                         "@type": "Organization",
                         "@id": "https://www.mutuciptautama.id/#organization"
@@ -250,7 +236,7 @@ export default function StructuredData() {
                     "@id": "https://www.mutuciptautama.id/layanan/pertek-pengelolaan-limbah-b3/",
                     "name": "PERTEK Pengelolaan Limbah B3",
                     "description": "PERTEK pengelolaan limbah B3 untuk izin operasional TPS B3. Desain fasilitas, SOP pengelolaan, kepatuhan Permen LHK 6/2021, legalitas penyimpanan limbah berbahaya.",
-                    "serviceType": "Technical Approval - Hazardous Waste",
+                    "additionalType": "https://en.wikipedia.org/wiki/Hazardous_waste",
                     "provider": {
                         "@type": "Organization",
                         "@id": "https://www.mutuciptautama.id/#organization"
@@ -267,7 +253,7 @@ export default function StructuredData() {
                     "@id": "https://www.mutuciptautama.id/layanan/pertek-andalalin/",
                     "name": "PERTEK ANDALALIN",
                     "description": "Penyusunan PERTEK ANDALALIN untuk analisis dampak lalu lintas. Perhitungan V/C ratio, bangkitan perjalanan, desain sirkulasi parkir untuk IMB/PBG.",
-                    "serviceType": "Traffic Impact Analysis",
+                    "additionalType": "https://en.wikipedia.org/wiki/Traffic_impact_analysis",
                     "provider": {
                         "@type": "Organization",
                         "@id": "https://www.mutuciptautama.id/#organization"
@@ -284,7 +270,7 @@ export default function StructuredData() {
                     "@id": "https://www.mutuciptautama.id/layanan/advisor-hukum-lingkungan/",
                     "name": "Advisor Hukum Lingkungan",
                     "description": "Konsultasi hukum lingkungan untuk compliance, uji tuntas, penyelesaian sengketa. Legal advisor spesialis UU PPLH, audit kepatuhan regulasi KLHK.",
-                    "serviceType": "Environmental Legal Consulting",
+                    "additionalType": "https://en.wikipedia.org/wiki/Environmental_law",
                     "provider": {
                         "@type": "Organization",
                         "@id": "https://www.mutuciptautama.id/#organization"
@@ -301,7 +287,7 @@ export default function StructuredData() {
                     "@id": "https://www.mutuciptautama.id/layanan/program-csr-lingkungan/",
                     "name": "Program CSR Lingkungan",
                     "description": "Perencanaan dan implementasi program CSR lingkungan berkelanjutan. Konservasi biodiversitas, pemberdayaan masyarakat, PROPER Hijau/Emas, pelaporan GRI.",
-                    "serviceType": "Corporate Social Responsibility",
+                    "additionalType": "https://en.wikipedia.org/wiki/Corporate_social_responsibility",
                     "provider": {
                         "@type": "Organization",
                         "@id": "https://www.mutuciptautama.id/#organization"
@@ -318,7 +304,7 @@ export default function StructuredData() {
                     "@id": "https://www.mutuciptautama.id/layanan/pemetaan-peta-resolusi-tinggi/",
                     "name": "Pemetaan & Peta Resolusi Tinggi",
                     "description": "Jasa pemetaan drone LiDAR dan survey topografi. Peta resolusi tinggi, DEM/DSM, GIS, bathymetry. Akurasi sesuai standar BIG untuk AMDAL dan engineering.",
-                    "serviceType": "Geospatial Mapping & Survey",
+                    "additionalType": "https://en.wikipedia.org/wiki/Surveying",
                     "provider": {
                         "@type": "Organization",
                         "@id": "https://www.mutuciptautama.id/#organization"

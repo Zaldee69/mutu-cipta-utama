@@ -5,25 +5,25 @@ export default function robots(): MetadataRoute.Robots {
         rules: [
             {
                 userAgent: 'Googlebot',
-                allow: '/',
-                disallow: ['/studio/', '/admin/', '/api/', '/_next/'],
+                allow: ['/', '/_next/image/', '/_next/static/'],
+                disallow: ['/studio/', '/admin/', '/api/'],
                 crawlDelay: 0,
             },
             {
                 userAgent: 'Googlebot-Image',
-                allow: '/',
+                allow: ['/', '/_next/image/', '/_next/static/'],
                 disallow: ['/studio/', '/admin/'],
             },
             {
                 userAgent: 'Bingbot',
-                allow: '/',
-                disallow: ['/studio/', '/admin/', '/api/', '/_next/'],
+                allow: ['/', '/_next/image/', '/_next/static/'],
+                disallow: ['/studio/', '/admin/', '/api/'],
                 crawlDelay: 1,
             },
             {
                 userAgent: '*',
-                allow: '/',
-                disallow: ['/studio/', '/admin/', '/private/', '/api/', '/_next/'],
+                allow: ['/', '/_next/image/', '/_next/static/'],
+                disallow: ['/studio/', '/admin/', '/private/', '/api/'],
                 crawlDelay: 2,
             }
         ],
