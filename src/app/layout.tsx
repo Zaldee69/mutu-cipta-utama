@@ -77,6 +77,8 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
+      { url: '/icon.svg', type: 'image/svg+xml' },
+      { url: '/icon-48.png', sizes: '48x48', type: 'image/png' },
       { url: '/favicon.ico', sizes: 'any' },
       { url: '/icon-192.png', sizes: '192x192', type: 'image/png' },
       { url: '/icon-512.png', sizes: '512x512', type: 'image/png' },
@@ -101,10 +103,6 @@ export default function RootLayout({
       <head>
         <meta name="theme-color" content="#0066cc" />
         <link rel="manifest" href="/manifest.json" />
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="icon" href="/icon-192.png" type="image/png" sizes="192x192" />
-        <link rel="icon" href="/icon-512.png" type="image/png" sizes="512x512" />
-        <link rel="apple-touch-icon" href="/apple-icon.png" />
         <GoogleAnalytics />
       </head>
       <body
