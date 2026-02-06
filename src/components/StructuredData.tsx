@@ -10,7 +10,7 @@ export default function StructuredData() {
         "url": "https://www.mutuciptautama.id/",
         "logo": {
             "@type": "ImageObject",
-            "url": "https://www.mutuciptautama.id/logo-500x500.png",
+            "url": "https://www.mutuciptautama.id/mutu-cipta-utama-logo.png",
             "width": 500,
             "height": 500,
             "caption": "PT Mutu Cipta Utama - Konsultan Lingkungan"
