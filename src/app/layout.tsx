@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     template: "%s | PT Mutu Cipta Utama"
   },
   description: "Konsultan lingkungan bersertifikat untuk AMDAL, UKL-UPL, limbah B3 & audit. Proses cepat, hasil terpercaya. Konsultasi gratis!",
-  keywords: ["konsultan lingkungan", "AMDAL", "UKL-UPL", "PERTEK", "limbah B3", "audit lingkungan", "CSR", "konsultan lingkungan Indonesia", "jasa AMDAL", "perizinan lingkungan"],
+  keywords: ["konsultan lingkungan", "AMDAL", "UKL-UPL", "PERTEK", "limbah B3", "audit lingkungan", "CSR", "konsultan lingkungan Indonesia", "jasa AMDAL", "perizinan lingkungan", "konsultan AMDAL Jakarta", "jasa konsultan AMDAL", "konsultan perizinan lingkungan", "konsultan lingkungan hidup"],
   authors: [{ name: "PT Mutu Cipta Utama" }],
   creator: "PT Mutu Cipta Utama",
   publisher: "PT Mutu Cipta Utama",
@@ -72,9 +72,9 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
-  verification: {
-    google: "your-google-verification-code",
-  },
+  // verification: {
+  //   google: "your-google-verification-code", // TODO: Ganti dengan kode verifikasi GSC asli
+  // },
 
   other: {
     'abstract': 'PT Mutu Cipta Utama adalah konsultan lingkungan modern yang menyediakan layanan AMDAL, UKL-UPL, PERTEK, dan pengelolaan limbah B3 dengan pendekatan inovatif di seluruh Indonesia.',

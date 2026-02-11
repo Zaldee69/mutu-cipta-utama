@@ -3,9 +3,9 @@ import { Hero } from "@/components/Hero";
 import { Advantages } from "@/components/Advantages";
 import { CallToAction } from "@/components/CallToAction";
 import { Services } from "@/components/Services";
-import { Testimonials } from "@/components/Testimonials";
+// import { Testimonials } from "@/components/Testimonials";
 import { FinalCTA } from "@/components/FinalCTA";
-import { Clients } from "@/components/Clients";
+// import { Clients } from "@/components/Clients";
 import RecentBlogs from "@/components/RecentBlogs";
 
 export const metadata: Metadata = {
@@ -23,8 +23,8 @@ export default function Home() {
       <Services />
       <FinalCTA />
       <RecentBlogs />
-      <Testimonials />
-      <Clients />
+      {/* <Testimonials /> */}
+      {/* <Clients /> */}
     </main>
   );
 }

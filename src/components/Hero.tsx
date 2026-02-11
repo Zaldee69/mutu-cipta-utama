@@ -25,9 +25,9 @@ export function Hero() {
                         </div>
 
                         <h1 className="text-4xl font-bold tracking-tight text-zinc-900 md:text-5xl lg:text-6xl leading-tight">
-                            Mitra Strategis Bisnis{" "}
+                            Konsultan Lingkungan{" "}
                             <span className="text-primary">
-                                Berkelanjutan
+                                Berpengalaman & Terpercaya
                             </span>
                         </h1>
 

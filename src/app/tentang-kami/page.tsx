@@ -5,8 +5,22 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-    title: "Tentang Kami",
-    description: "Konsultan lingkungan modern berdiri 2025. Tim ahli bersertifikat untuk AMDAL, UKL-UPL, limbah B3 & audit. Solusi inovatif untuk bisnis Anda.",
+    title: "Tentang Kami | Konsultan Lingkungan Berpengalaman",
+    description: "PT Mutu Cipta Utama: Konsultan lingkungan terpercaya & modern. Tim ahli bersertifikat untuk AMDAL, UKL-UPL, limbah B3 & audit. Solusi inovatif untuk bisnis berkelanjutan.",
+    keywords: ["tentang PT Mutu Cipta Utama", "profil konsultan lingkungan", "tim ahli AMDAL", "konsultan LHK", "perusahaan lingkungan hidup", "sejarah Mutu Cipta Utama", "visi misi perusahaan lingkungan"],
+    openGraph: {
+        title: "Tentang Kami | PT Mutu Cipta Utama",
+        description: "Mengenal lebih dekat PT Mutu Cipta Utama, mitra strategis Anda dalam solusi lingkungan dan perizinan bisnis berkelanjutan.",
+        url: 'https://www.mutuciptautama.id/tentang-kami/',
+        type: 'website',
+        images: ['/mutu-cipta-utama-logo.png'],
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: "Tentang Kami | PT Mutu Cipta Utama",
+        description: "Profil PT Mutu Cipta Utama, konsultan lingkungan modern dan terpercaya di Indonesia.",
+        images: ['/mutu-cipta-utama-logo.png'],
+    },
     alternates: {
         canonical: 'https://www.mutuciptautama.id/tentang-kami/',
     },
@@ -44,22 +58,25 @@ const values = [
 
 const team = [
     {
-        name: "Dr. Ahmad Hidayat, S.T., M.T.",
-        role: "Direktur Utama & Lead Environmental Consultant",
-        image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=400&fit=crop",
-        credentials: "Ahli AMDAL Bersertifikat, Doktor Teknik Lingkungan"
+        name: "Tim Ahli AMDAL",
+        role: "KTPA & ATPA Bersertifikat",
+        // image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=400&fit=crop",
+        icon: Award,
+        credentials: "Sertifikasi Kompetensi Penyusun AMDAL (KTPA & ATPA) dari LSP terakreditasi BNSP & KLHK."
     },
     {
-        name: "Ir. Siti Rahmawati, M.Sc.",
-        role: "Senior Environmental Engineer",
-        image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop",
-        credentials: "Spesialis Pengelolaan Limbah B3, M.Sc. Environmental Engineering"
+        name: "Tim Engineering",
+        role: "Environmental Engineers",
+        // image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop",
+        icon: Building2,
+        credentials: "Ahli Teknik Lingkungan dengan spesialisasi IPAL, Emisi Udara, dan pengelolaan Limbah B3."
     },
     {
-        name: "Budi Santoso, S.T., M.Eng.",
-        role: "Technical Manager",
-        image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=400&fit=crop",
-        credentials: "Ahli K3 & Audit Lingkungan Bersertifikat"
+        name: "Tim Auditor",
+        role: "Auditor Lingkungan",
+        // image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=400&fit=crop",
+        icon: Shield,
+        credentials: "Auditor bersertifikat untuk audit kepatuhan, PROPER, dan sistem manajemen lingkungan."
     },
 ];
 
@@ -200,41 +217,40 @@ export default function TentangKamiPage() {
             </section>
 
             {/* Team */}
-            {/* <section id="team" className="py-20 bg-white scroll-mt-20">
+            {/* Team - Functional Representation */}
+            <section id="team" className="py-20 bg-white scroll-mt-20">
                 <div className="container">
                     <div className="text-center mb-12">
                         <h2 className="text-3xl md:text-4xl font-bold text-zinc-900 mb-4">
-                            Tim Ahli Kami
+                            Didukung Oleh Tenaga Ahli Bersertifikat
                         </h2>
                         <p className="text-lg text-zinc-600 max-w-2xl mx-auto">
-                            Profesional bersertifikat dengan keahlian mendalam di bidang konsultasi lingkungan
+                            Kualitas layanan kami dijamin oleh tim profesional dengan sertifikasi kompetensi yang relevan
                         </p>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-                        {team.map((member, index) => (
-                            <div key={index} className="group">
-                                <div className="relative aspect-square rounded-2xl overflow-hidden mb-4 bg-zinc-100">
-                                    <Image
-                                        src={member.image}
-                                        alt={member.name}
-                                        fill
-                                        className="object-cover group-hover:scale-105 transition-transform duration-300"
-                                    />
+                        {team.map((member, index) => {
+                            const Icon = member.icon;
+                            return (
+                                <div key={index} className="group p-8 rounded-2xl bg-zinc-50 border border-zinc-100 hover:border-primary/20 hover:shadow-lg transition-all text-center">
+                                    <div className="mx-auto w-24 h-24 rounded-full bg-white flex items-center justify-center mb-6 shadow-sm group-hover:scale-110 transition-transform duration-300">
+                                        <Icon className="w-10 h-10 text-primary" />
+                                    </div>
+                                    <h3 className="text-xl font-bold text-zinc-900 mb-1">
+                                        {member.name}
+                                    </h3>
+                                    <p className="text-sm font-medium text-primary mb-4">
+                                        {member.role}
+                                    </p>
+                                    <p className="text-sm text-zinc-600 leading-relaxed">
+                                        {member.credentials}
+                                    </p>
                                 </div>
-                                <h3 className="text-xl font-bold text-zinc-900 mb-1">
-                                    {member.name}
-                                </h3>
-                                <p className="text-sm font-medium text-primary mb-2">
-                                    {member.role}
-                                </p>
-                                <p className="text-sm text-zinc-600">
-                                    {member.credentials}
-                                </p>
-                            </div>
-                        ))}
+                            );
+                        })}
                     </div>
                 </div>
-            </section> */}
+            </section>
 
             {/* CTA Section */}
             <section className="py-20 bg-linear-to-br from-primary to-primary/90">

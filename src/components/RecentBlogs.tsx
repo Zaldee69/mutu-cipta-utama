@@ -40,7 +40,7 @@ export default async function RecentBlogs() {
                             Artikel Terbaru
                         </div>
                         <h2 className="text-3xl font-bold tracking-tight text-zinc-900 md:text-4xl lg:text-5xl mb-4">
-                            Wawasan & Informasi <span className="text-primary">Lingkungan</span>
+                            Artikel & Panduan <span className="text-primary">Lingkungan Hidup</span>
                         </h2>
                         <p className="text-lg text-zinc-500 leading-relaxed">
                             Simak update terbaru seputar regulasi, teknologi, dan panduan pengelolaan lingkungan hidup.

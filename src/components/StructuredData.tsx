@@ -22,14 +22,13 @@ export default function StructuredData() {
             "height": 630
         },
         "email": "info@mutuciptautama.id",
-        "telephone": "+62-21-XXXX-XXXX",
+        "telephone": "+62-878-6060-2997",
         "priceRange": "$$",
         "address": {
             "@type": "PostalAddress",
             "streetAddress": "Jakarta",
             "addressLocality": "Jakarta",
             "addressRegion": "DKI Jakarta",
-            "postalCode": "12345",
             "addressCountry": "ID"
         },
         "geo": {
@@ -80,11 +79,7 @@ export default function StructuredData() {
             "value": "50"
         },
         "openingHours": "Mo-Fr 08:00-17:00",
-        "sameAs": [
-            "https://www.facebook.com/mutuciptautama",
-            "https://www.instagram.com/mutuciptautama",
-            "https://www.linkedin.com/company/mutuciptautama"
-        ],
+        "sameAs": [],
         "hasOfferCatalog": {
             "@type": "OfferCatalog",
             "name": "Layanan Konsultan Lingkungan",
@@ -129,6 +124,58 @@ export default function StructuredData() {
                                 "@type": "Service",
                                 "name": "PERTEK Air Limbah",
                                 "url": "https://www.mutuciptautama.id/layanan/pertek-air-limbah/"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@type": "OfferCatalog",
+                    "name": "Limbah & CSR",
+                    "itemListElement": [
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "Pengelolaan Limbah B3",
+                                "url": "https://www.mutuciptautama.id/layanan/pengelolaan-limbah-b3/"
+                            }
+                        },
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "Program CSR Lingkungan",
+                                "url": "https://www.mutuciptautama.id/layanan/program-csr-lingkungan/"
+                            }
+                        },
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "Advisor Hukum Lingkungan",
+                                "url": "https://www.mutuciptautama.id/layanan/advisor-hukum-lingkungan/"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@type": "OfferCatalog",
+                    "name": "Engineering & Survey",
+                    "itemListElement": [
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "Pemetaan & Peta Resolusi Tinggi",
+                                "url": "https://www.mutuciptautama.id/layanan/pemetaan-peta-resolusi-tinggi/"
+                            }
+                        },
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "Feasibility Study",
+                                "url": "https://www.mutuciptautama.id/layanan/feasibility-study/"
                             }
                         }
                     ]

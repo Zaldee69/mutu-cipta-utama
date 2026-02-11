@@ -34,6 +34,57 @@ export const serviceIntroductions: Record<string, ServiceIntroduction> = {
         opening: "PERTEK air limbah adalah persetujuan teknis untuk pembuangan air limbah dari IPAL (Instalasi Pengolahan Air Limbah) ke badan air atau sistem drainase. PT Mutu Cipta Utama menyediakan jasa penyusunan PERTEK air limbah industri dan domestik meliputi pengujian kualitas efluen (BOD, COD, TSS, pH, ammonia, logam berat), audit kinerja IPAL, evaluasi sistem pengolahan, dan penyusunan dokumen teknis untuk persetujuan Dinas Lingkungan Hidup. PERTEK air limbah wajib dimiliki setiap fasilitas yang membuang air limbah untuk memastikan kepatuhan terhadap baku mutu air limbah sesuai Permen LHK 68/2016 atau baku mutu sektor-spesifik.",
         whyChooseUs: "Tim konsultan PERTEK air limbah kami berpengalaman dalam audit IPAL berbagai teknologi: activated sludge, extended aeration, UASB, MBR (Membrane Bioreactor), SBR (Sequencing Batch Reactor), dan sistem pengolahan lanjutan (ozonasi, RO). Kami melakukan evaluasi kinerja IPAL secara komprehensif meliputi perhitungan waktu retensi, efisiensi penyisihan, neraca massa, dan troubleshooting masalah operasional. Dokumen PERTEK air limbah kami dilengkapi dengan diagram alir, spesifikasi teknis, analisis dampak terhadap badan air penerima, dan rekomendasi optimasi sistem untuk memenuhi baku mutu pembuangan.",
         industries: "Layanan PERTEK air limbah kami melayani industri manufaktur (tekstil, pulp, pengolahan makanan, electroplating), perkebunan kelapa sawit, rumah sakit, hotel dan pariwisata, kawasan industri, mall dan commercial building, serta fasilitas domestik. Kami juga menyediakan konsultasi daur ulang air limbah (water reuse) untuk konservasi air dan penghematan biaya operasional."
+    },
+    // Missing Services Added Below
+    "pertek-pengelolaan-limbah-b3": {
+        opening: "Penyusunan dokumen Persetujuan Teknis (PERTEK) Pengelolaan Limbah B3 adalah langkah krusial bagi industri yang menghasilkan, mengumpulkan, memanfaatkan, mengolah, atau menimbun limbah B3. PT Mutu Cipta Utama membantu Anda menyusun dokumen teknis sesuai Permen LHK No. 6 Tahun 2021, mencakup desain teknis fasilitas penyimpanan, SOP tanggap darurat, dan sistem pelaporan neraca limbah.",
+        whyChooseUs: "Kami memiliki pengalaman mendalam dalam mendampingi klien mendapatkan Persetujuan Teknis Pengelolaan Limbah B3, baik untuk penyimpanan sementara maupun kegiatan pengolahan lanjutan. Tim kami memastikan setiap detail teknis, mulai dari tata letak TPS hingga sistem penanggulangan kedaruratan, memenuhi standar ketat KLHK.",
+        industries: "Layanan ini vital bagi industri manufaktur, pertambangan, rumah sakit, pembangkit listrik, dan fasilitas daur ulang yang memiliki aktivitas pengelolaan limbah B3 spesifik di lokasi operasional mereka."
+    },
+    "pertek-andalalin": {
+        opening: "Analisis Dampak Lalu Lintas (ANDALALIN) adalah kajian wajib bagi pengembang properti, kawasan industri, dan infrastruktur yang diperkirakan menimbulkan bangkitan lalu lintas. Kami menyusun dokumen ANDALALIN komprehensif untuk mendapatkan persetujuan Dinas Perhubungan, memastikan proyek Anda mematuhi regulasi manajemen rekayasa lalu lintas.",
+        whyChooseUs: "Dengan tim ahli transportasi bersertifikat, kami menyajikan kajian lalu lintas yang akurat, meliputi simulasi kinerja simpang, rekomendasi manajemen akses, dan desain geometrik jalan. Kami membantu Anda mengantisipasi potensi kemacetan dan memastikan kelancaran aksesibilitas proyek.",
+        industries: "Pusat perbelanjaan, hotel, apartemen, kawasan industri, rumah sakit, sekolah, dan pengembangan mixed-use yang berdampak pada jaringan jalan di sekitarnya."
+    },
+    "advisor-hukum-lingkungan": {
+        opening: "Kompleksitas regulasi lingkungan di Indonesia memerlukan pendampingan hukum yang tepat. Layanan Advisor Hukum Lingkungan kami memberikan opini hukum (legal opinion), pendampingan sengketa lingkungan, dan audit kepatuhan regulasi (legal audit) untuk memitigasi risiko hukum operasional perusahaan Anda.",
+        whyChooseUs: "Didukung oleh ahli hukum lingkungan, kami tidak hanya memberikan nasihat teoretis tetapi juga strategi taktis dalam menghadapi isu-isu kepatuhan, sengketa lahan, dan kewajiban pasca-tambang. Kami membantu Anda menavigasi perubahan regulasi UU Cipta Kerja dan peraturan turunannya.",
+        industries: "Pertambangan, kehutanan, perkebunan kelapa sawit, industri kimia, dan sektor berisiko tinggi yang menghadapi pengawasan ketat regulator lingkungan."
+    },
+    "program-csr-lingkungan": {
+        opening: "Program CSR (Corporate Social Responsibility) Lingkungan bukan sekadar donasi, melainkan strategi keberlanjutan. Kami merancang dan mengeksekusi program CSR berbasis pemberdayaan masyarakat dan konservasi alam, seperti reforestasi, pengelolaan sampah berbasis komunitas, dan air bersih, yang selaras dengan penilaian PROPER.",
+        whyChooseUs: "Kami membantu perusahaan merancang program CSR yang berdampak nyata (impactful) dan terukur (measurable). Pendekatan kami berbasis Social Return on Investment (SROI), memastikan setiap rupiah yang Anda investasikan memberikan nilai tambah bagi masyarakat dan citra positif perusahaan.",
+        industries: "Industri ekstraktif, FMCG, perbankan, dan BUMN yang diwajibkan melaksanakan program bina lingkungan dan tanggung jawab sosial."
+    },
+    "pemetaan-peta-resolusi-tinggi": {
+        opening: "Data geospasial akurat adalah fondasi perencanaan wilayah. Kami menyediakan jasa pemetaan digital menggunakan drone (UAV) dan citra satelit resolusi tinggi untuk menghasilkan peta topografi, penggunaan lahan, dan model elevasi digital (DEM) dengan akurasi survei.",
+        whyChooseUs: "Menggunakan teknologi LiDAR dan fotogrametri modern, tim surveyor kami menghasilkan peta detail untuk keperluan izin lokasi, perencanaan tambang, monitoring deforestasi, dan audit lahan perkebunan. Output peta kami kompatibel dengan format GIS standar industri.",
+        industries: "Perkebunan, pertambangan, perencanaan kota, konstruksi infrastruktur, dan kehutanan."
+    },
+    "feasibility-study": {
+        opening: "Studi Kelayakan (Feasibility Study) adalah analisis komprehensif aspek teknis, finansial, pasar, dan lingkungan sebelum Anda memulai investasi. Kami menyusun dokumen FS bankable yang memberikan gambaran jernih tentang profitabilitas dan risiko proyek Anda.",
+        whyChooseUs: "Analisis kami mengintegrasikan aspek lingkungan sebagai variabel kunci keberhasilan jangka panjang, bukan sekadar pelengkap. Kami membantu investor menilai kelayakan proyek tidak hanya dari sisi ROI, tetapi juga dari sisi keberlanjutan dan risiko sosial-lingkungan.",
+        industries: "Pengembangan properti, pabrik manufaktur baru, proyek energi terbarukan, dan ekspansi tambang."
+    },
+    "izin-pembuangan-air-limbah": {
+        opening: "Izin Pembuangan Air Limbah ke badan air permukaan (sungai/laut) memerlukan kajian teknis pembuangan air limbah (Kajian Teknis IPLC). Kami membantu perhitungan daya tampung beban pencemaran dan desain outfall yang memenuhi baku mutu lingkungan ketat.",
+        whyChooseUs: "Kami mendampingi proses perizinan dari penyusunan kajian teknis, modelling dispersi di badan air penerima, hingga asistensi verifikasi lapangan oleh pejabat Dinas Lingkungan Hidup. Kami memastikan efluen Anda aman dan izin terbit tepat waktu.",
+        industries: "Tekstil, pulp & paper, makanan & minuman, kawasan industri, dan hotel."
+    },
+    "izin-penyimpanan-sementara-limbah-b3": {
+        opening: "Penyimpanan Limbah B3 memerlukan TPS (Tempat Penyimpanan Sementara) yang berizin. Kami membantu pengurusan Rincian Teknis Penyimpanan Limbah B3 yang terintegrasi dalam Persetujuan Lingkungan, memastikan fasilitas TPS Anda memenuhi standar teknis keselamatan dan lingkungan.",
+        whyChooseUs: "Tim kami memastikan desain TPS, sistem spill containment, ventilasi, dan tata letak kemasan limbah B3 Anda sesuai dengan karakteristik limbah yang disimpan, meminimalkan risiko kecelakaan kerja dan sanksi administratif.",
+        industries: "Semua fasilitas industri dan komersial yang menghasilkan limbah B3."
+    },
+    "program-kepatuhan-lingkungan": {
+        opening: "Program Kepatuhan Lingkungan (Environmental Compliance Program) adalah layanan pendampingan berkelanjutan untuk memastikan perusahaan Anda selalu comply dengan regulasi yang dinamis. Dari pelaporan rutin semesteran (RKL-RPL) hingga persiapan PROPER, kami adalah departemen lingkungan eksternal Anda.",
+        whyChooseUs: "Kami menawarkan peace of mind. Dengan monitoring rutin dan sistem peringatan dini terhadap potensi pelanggaran, kami membantu Anda menghindari denda dan penghentian operasi. Tim kami proaktif mengupdate Anda tentang perubahan peraturan yang berdampak pada bisnis.",
+        industries: "Manufaktur multinasional, grup konglomerasi, dan fasilitas industri dengan risiko lingkungan menengah-tinggi."
+    },
+    "soil-investigation": {
+        opening: "Penyelidikan Tanah (Soil Investigation) atau Sondir/Boring adalah langkah awal penentuan daya dukung tanah untuk pondasi bangunan. Kami menyediakan jasa geoteknik lengkap dengan uji laboratorium mekanika tanah dan laporan rekomendasi pondasi oleh ahli geoteknik.",
+        whyChooseUs: "Data tanah yang akurat mencegah kegagalan struktur yang fatal. Kami menggunakan peralatan standar ASTM dan tim teknisi berpengalaman untuk memberikan data stratifikasi tanah yang presisi untuk keamanan konstruksi Anda.",
+        industries: "Konstruksi gedung bertingkat, pabrik, jembatan, bendungan, dan infrastruktur sipil."
     }
 };
 

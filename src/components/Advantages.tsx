@@ -43,7 +43,7 @@ export function Advantages() {
                         Kenapa Memilih Kami
                     </div>
                     <h2 className="text-3xl font-bold tracking-tight text-zinc-900 md:text-4xl lg:text-5xl leading-tight">
-                        Mitra Terpercaya untuk <span className="text-primary">Solusi Lingkungan</span> yang Berkelanjutan
+                        Keunggulan <span className="text-primary">Konsultan Lingkungan</span> PT Mutu Cipta Utama
                     </h2>
                     <p className="text-lg text-zinc-600 leading-relaxed">
                         PT Mutu Cipta Utama menggabungkan keahlian teknis, pemahaman regulasi mendalam, dan integritas untuk memberikan layanan konsultasi lingkungan terbaik bagi bisnis Anda.

@@ -1,30 +1,19 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Mail, Phone, MapPin, Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
+import { Mail, Phone, MapPin } from "lucide-react";
 import { services } from "@/lib/services-data";
 
 const footerLinks = {
     company: [
         { name: "Tentang Kami", href: "/tentang-kami" },
         { name: "Visi & Misi", href: "/tentang-kami#vision" },
-        { name: "Tim Ahli", href: "/tentang-kami#team" },
         { name: "Blog", href: "/blog" },
-        { name: "Karir", href: "#career" },
+        { name: "Portofolio", href: "/portofolio" },
     ],
     support: [
-        { name: "FAQ", href: "#faq" },
-        { name: "Kebijakan Privasi", href: "#privacy" },
-        { name: "Syarat & Ketentuan", href: "#terms" },
-        { name: "Kontak", href: "#contact" },
+        { name: "Konsultasi Gratis", href: "https://wa.link/l6mph1" },
     ],
 };
-
-const socialLinks = [
-    { name: "Facebook", icon: Facebook, href: "#" },
-    { name: "Instagram", icon: Instagram, href: "#" },
-    { name: "LinkedIn", icon: Linkedin, href: "#" },
-    { name: "Twitter", icon: Twitter, href: "#" },
-];
 
 export function Footer() {
     return (
@@ -80,7 +69,7 @@ export function Footer() {
                     <nav aria-label="Services links">
                         <h3 className="font-semibold text-white mb-4">Layanan</h3>
                         <ul className="flex flex-col gap-3">
-                            {services.slice(0, 6).map((service) => (
+                            {services.map((service) => (
                                 <li key={service.slug}>
                                     <Link href={`/layanan/${service.slug}`} className="text-sm text-zinc-400 hover:text-primary transition-colors">
                                         {service.title}
@@ -96,9 +85,9 @@ export function Footer() {
                         <ul className="flex flex-col gap-3">
                             {footerLinks.support.map((link) => (
                                 <li key={link.name}>
-                                    <Link href={link.href} className="text-sm text-zinc-400 hover:text-primary transition-colors">
+                                    <a href={link.href} target="_blank" rel="noopener noreferrer" className="text-sm text-zinc-400 hover:text-primary transition-colors">
                                         {link.name}
-                                    </Link>
+                                    </a>
                                 </li>
                             ))}
                         </ul>
@@ -113,20 +102,15 @@ export function Footer() {
                             © {new Date().getFullYear()} PT MUTU CIPTA UTAMA. All rights reserved.
                         </p>
 
-                        {/* Social Links */}
-                        <div className="flex items-center gap-4">
-                            {socialLinks.map((social) => (
-                                <a
-                                    key={social.name}
-                                    href={social.href}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="w-10 h-10 rounded-full bg-zinc-800 flex items-center justify-center hover:bg-primary transition-colors"
-                                    aria-label={social.name}
-                                >
-                                    <social.icon className="w-5 h-5" />
-                                </a>
-                            ))}
+                        {/* Contact Info */}
+                        <div className="flex items-center gap-4 text-sm text-zinc-400">
+                            <a href="mailto:info@mutuciptautama.id" className="hover:text-primary transition-colors">
+                                info@mutuciptautama.id
+                            </a>
+                            <span>|</span>
+                            <a href="tel:+6287860602997" className="hover:text-primary transition-colors">
+                                +62 878-6060-2997
+                            </a>
                         </div>
                     </div>
                 </div>
