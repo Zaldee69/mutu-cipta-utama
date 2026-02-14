@@ -790,6 +790,87 @@ export const services: Service[] = [
             "Laporan as-built: dokumentasi instalasi aktual (dokumentasi foto), survey final, dan sertifikat serah terima",
             "Sertifikat kepatuhan: bukti persentase RTH sesuai Perda untuk pengajuan ke otoritas atau persyaratan izin bangunan"
         ]
+    },
+    {
+        slug: "submit-dokumen-amdalnet-simpel",
+        title: "Solusi Submit Dokumen & Troubleshoot Amdalnet/SIMPEL Anti Error",
+        group: "Persetujuan Lingkungan",
+        category: "amdal",
+        shortDescription: "Hindari error upload dan penolakan dokumen! Jasa pendampingan profesional submit perizinan online ke Amdalnet & SIMPEL: registrasi akun, upload dokumen AMDAL/UKL-UPL/PERTEK tanpa trial-error, troubleshooting sistem, tracking status real-time, koordinasi helpdesk KLHK. Proses cepat, tanpa ribet!",
+        heroImage: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop",
+        description: "Layanan pendampingan profesional untuk submit dokumen perizinan lingkungan melalui sistem online pemerintah: Amdalnet (terintegrasi OSS-RBA) untuk dokumen AMDAL, UKL-UPL, PERTEK, dan SIMPEL (Sistem Informasi Pengelolaan Limbah B3) untuk manifest dan pelaporan limbah B3. Mencakup registrasi akun perusahaan, persiapan dokumen digital sesuai format sistem, upload dan submit dokumen, troubleshooting error teknis (format file, validasi data, koneksi sistem), tracking status verifikasi dan persetujuan, koordinasi dengan helpdesk KLHK/OSS, serta pendampingan revisi dokumen jika diperlukan. Mempercepat proses perizinan dengan menghindari kesalahan teknis dan administratif yang sering menyebabkan penolakan atau delay approval.",
+        manfaat: [
+            "Efisiensi Waktu: Menghindari trial-error upload dokumen dengan guidance expert yang memahami requirement sistem Amdalnet dan SIMPEL.",
+            "Mitigasi Error Teknis: Troubleshooting profesional untuk error umum: format file tidak sesuai, ukuran file melebihi limit, validasi NIB gagal, error koordinat lokasi.",
+            "Kelancaran Approval: Memastikan dokumen lengkap dan sesuai checklist sistem untuk mempercepat verifikasi dan approval dari KLHK/Dinas LH.",
+            "Tracking Real-time: Monitoring status dokumen (draft, submitted, under review, approved, rejected) dan notifikasi untuk follow-up yang tepat waktu.",
+            "Kepatuhan Administratif: Memastikan kepatuhan terhadap prosedur perizinan online OSS-RBA dan requirement dokumentasi sistem pemerintah.",
+            "Support Helpdesk: Koordinasi langsung dengan helpdesk KLHK/OSS untuk eskalasi kendala teknis atau klarifikasi requirement dokumen."
+        ],
+        tahapanProses: [
+            {
+                title: "Registrasi & Persiapan Akun",
+                description: "Pendampingan registrasi akun perusahaan di Amdalnet/OSS dan SIMPEL: verifikasi NIB, aktivasi akun, setting user role dan authorization, konfigurasi profil perusahaan."
+            },
+            {
+                title: "Persiapan Dokumen Digital",
+                description: "Review dan konversi dokumen ke format yang sesuai (PDF, koordinat GPS format yang benar, metadata file), quality check kelengkapan dokumen sesuai checklist sistem."
+            },
+            {
+                title: "Upload & Submit Dokumen",
+                description: "Proses upload dokumen step-by-step: pengisian form data teknis, attach file dokumen, input koordinat lokasi, validasi data input, dan submit ke sistem untuk verifikasi."
+            },
+            {
+                title: "Troubleshooting & Error Handling",
+                description: "Diagnosis dan resolusi error teknis: format file rejected, ukuran file exceed limit, error validasi NIB/koordinat, timeout koneksi, bug sistem, dengan koordinasi helpdesk KLHK jika diperlukan."
+            },
+            {
+                title: "Tracking & Monitoring Status",
+                description: "Pemantauan status dokumen secara berkala: draft, submitted, under verification, approved, atau rejected dengan notifikasi untuk action yang diperlukan."
+            },
+            {
+                title: "Revisi & Resubmit (Jika Diperlukan)",
+                description: "Pendampingan revisi dokumen jika ada feedback dari verifikator KLHK/Dinas LH: perbaikan dokumen sesuai catatan reviewer, re-upload, dan resubmit hingga approved."
+            },
+            {
+                title: "Download Persetujuan & Closure",
+                description: "Download surat persetujuan (SKKLH, Persetujuan Teknis, manifest SIMPEL) dalam format digital resmi untuk dokumentasi dan integrasi dengan sistem OSS."
+            }
+        ],
+        ruangLingkup: [
+            "Registrasi dan aktivasi akun Amdalnet untuk akses submit dokumen AMDAL/UKL-UPL",
+            "Submit dokumen AMDAL (KA-ANDAL, ANDAL, RKL-RPL) ke Amdalnet untuk review Komisi Penilai",
+            "Submit dokumen UKL-UPL dan SPPL ke sistem OSS-RBA untuk persetujuan lingkungan",
+            "Upload dokumen PERTEK (Emisi, Air Limbah, Limbah B3) ke Amdalnet untuk approval Dinas LH/KLHK",
+            "Registrasi akun SIMPEL untuk penghasil limbah B3, transporter, dan PPLI",
+            "Submit manifest elektronik limbah B3 di sistem SIMPEL untuk setiap pengangkutan",
+            "Pelaporan triwulanan limbah B3 melalui SIMPEL sesuai kewajiban PP 22/2021",
+            "Troubleshooting error teknis: format file PDF tidak sesuai, ukuran file melebihi 10MB, error validasi NIB/NPWP, koordinat GPS format salah, timeout submit",
+            "Tracking status verifikasi dokumen: monitoring dashboard, notifikasi perubahan status, reminder untuk action",
+            "Koordinasi dengan helpdesk KLHK/OSS untuk eskalasi masalah sistem atau klarifikasi requirement",
+            "Pendampingan revisi dokumen jika ditolak verifikator: analisis catatan reviewer, perbaikan dokumen, resubmit hingga approved",
+            "Download dan arsip persetujuan digital: SKKLH, Persetujuan UKL-UPL, Persetujuan PERTEK, manifest SIMPEL, laporan SIMPEL"
+        ],
+        syaratKetentuan: [
+            "Legalitas perusahaan: NIB (Nomor Induk Berusaha) aktif dari OSS, NPWP perusahaan yang valid",
+            "Akses akun OSS: username dan password OSS yang aktif untuk integrasi dengan Amdalnet",
+            "Dokumen perizinan siap digital: file PDF dokumen AMDAL/UKL-UPL/PERTEK yang sudah final dan lengkap",
+            "Data teknis proyek: koordinat GPS lokasi (format Decimal Degree atau DMS), data kapasitas, layout lokasi",
+            "Akses internet stabil: koneksi internet yang reliable untuk upload file besar (hingga 10-50 MB)",
+            "Email aktif dan phone number: untuk verifikasi akun dan notifikasi dari sistem KLHK/OSS",
+            "Untuk SIMPEL: data limbah B3 (jenis, kode limbah, volume, karakteristik) dan izin lingkungan yang berlaku"
+        ],
+        hasilKeluaran: [
+            "Akun Amdalnet dan SIMPEL yang aktif dan terverifikasi untuk perusahaan",
+            "Dokumen perizinan lingkungan (AMDAL, UKL-UPL, PERTEK) yang ter-submit ke sistem Amdalnet dengan nomor registrasi",
+            "Manifest elektronik limbah B3 yang ter-submit di SIMPEL dengan nomor manifest resmi",
+            "Tracking report status dokumen: timeline submit, under review, revision request, atau approved",
+            "Surat Persetujuan digital: SKKLH dari KLHK, Rekomendasi UKL-UPL, atau Persetujuan Teknis dari Dinas LH (jika sudah approved)",
+            "Laporan troubleshooting: dokumentasi error yang ditemukan, solusi yang diterapkan, dan kontak helpdesk untuk referensi",
+            "SOP submit dokumen: panduan internal untuk perusahaan agar bisa submit dokumen secara mandiri di masa mendatang",
+            "Arsip digital lengkap: backup semua dokumen yang di-upload dan persetujuan yang di-download untuk audit trail"
+        ],
+        blogTags: ["Amdalnet", "SIMPEL", "OSS", "Perizinan Digital", "AMDAL", "UKL-UPL", "Limbah B3"]
     }
 ];
 
