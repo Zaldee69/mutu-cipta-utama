@@ -7,6 +7,7 @@ import { Services } from "@/components/Services";
 import { FinalCTA } from "@/components/FinalCTA";
 // import { Clients } from "@/components/Clients";
 import RecentBlogs from "@/components/RecentBlogs";
+import { Clients } from "@/components/Clients";
 
 export const metadata: Metadata = {
   alternates: {
@@ -24,7 +25,7 @@ export default function Home() {
       <FinalCTA />
       <RecentBlogs />
       {/* <Testimonials /> */}
-      {/* <Clients /> */}
+      <Clients />
     </main>
   );
 }

@@ -9,6 +9,7 @@ import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 import { ServiceFAQ } from "@/components/ServiceFAQ";
 import { getFAQsForService, serviceHasFAQs } from "@/lib/service-faqs";
 import { getServiceHeadings } from "@/lib/service-headings";
+import { RelatedBlogs } from "@/components/RelatedBlogs";
 
 export async function generateStaticParams() {
     return services.map((service) => ({
@@ -146,17 +147,22 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
                     <ServiceContent service={service} headings={headings} />
                 </div>
 
-            {/* FAQ Section with Schema */}
-            {serviceHasFAQs(slug) && (
-                <ServiceFAQ
-                    serviceName={service.title}
-                    faqs={getFAQsForService(slug)}
-                />
-            )}
+                {/* FAQ Section with Schema */}
+                {serviceHasFAQs(slug) && (
+                    <ServiceFAQ
+                        serviceName={service.title}
+                        faqs={getFAQsForService(slug)}
+                    />
+                )}
 
-            {/* Related Services for Internal Linking */}
-            <RelatedServices currentSlug={service.slug} currentGroup={service.group} />
-        </main>
-    </>
+                {/* Related Blogs Section */}
+                {service.blogTags && service.blogTags.length > 0 && (
+                    <RelatedBlogs tags={service.blogTags} />
+                )}
+
+                {/* Related Services for Internal Linking */}
+                <RelatedServices currentSlug={service.slug} currentGroup={service.group} />
+            </main>
+        </>
     );
 }

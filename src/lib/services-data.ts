@@ -14,6 +14,7 @@ export interface Service {
     ruangLingkup: string[];
     syaratKetentuan?: string[];
     hasilKeluaran?: string[];
+    blogTags?: string[];
 }
 
 export const services: Service[] = [
@@ -61,7 +62,8 @@ export const services: Service[] = [
             "Rekomendasi program pengelolaan dan pemantauan lingkungan",
             "Laporan konsultasi publik dan strategi komunikasi risiko",
             "Integrasi dengan sistem OSS untuk penerbitan izin berusaha"
-        ]
+        ],
+        blogTags: ["AMDAL", "UKL-UPL", "Perizinan", "Regulasi"]
     },
     {
         slug: "audit-lingkungan-hidup",
@@ -109,7 +111,8 @@ export const services: Service[] = [
             "Rencana Tindakan Perbaikan dengan timeline, penanggung jawab, dan indikator kinerja untuk pemantauan",
             "Sertifikat penyelesaian audit dan peringkat kepatuhan (jika berlaku)",
             "Rekomendasi untuk penilaian PROPER dan peningkatan keberlanjutan"
-        ]
+        ],
+        blogTags: ["Audit", "Lingkungan", "PROPER", "Kepatuhan"]
     },
     {
         slug: "pengelolaan-limbah-b3",
@@ -155,7 +158,8 @@ export const services: Service[] = [
             "Laporan triwulanan SIMPEL untuk pelaporan kepatuhan ke KLHK",
             "Dokumentasi jejak audit limbah: foto, timbangan, dan rekaman rantai pengamanan",
             "Rekomendasi minimisasi limbah dan strategi pengurangan biaya"
-        ]
+        ],
+        blogTags: ["Limbah B3", "Pengelolaan Limbah", "B3", "Lingkungan"]
     },
     {
         slug: "pertek-emisi",
@@ -195,7 +199,8 @@ export const services: Service[] = [
             "Persetujuan Teknis Emisi dari Dinas Lingkungan Hidup atau KLHK (untuk skala nasional/strategis)",
             "Laporan pengujian emisi stack dengan CoA dari laboratorium terakreditasi KAN/ISO 17025",
             "Output pemodelan dispersi: kontur sebaran polutan, peta konsentrasi di permukaan tanah, penilaian dampak"
-        ]
+        ],
+        blogTags: ["Emisi", "Udara", "Pencemaran", "Lingkungan"]
     },
     {
         slug: "pertek-air-limbah",
@@ -239,7 +244,8 @@ export const services: Service[] = [
             "Laporan pengujian efluen dengan CoA dari laboratorium lingkungan terakreditasi KAN/ISO 17025",
             "Laporan kinerja IPAL: temuan pemecahan masalah, perhitungan efisiensi, rekomendasi perbaikan",
             "SOP: pemantauan efluen, teknik pengambilan sampel, operasi dan perawatan IPAL, tanggap darurat"
-        ]
+        ],
+        blogTags: ["Air Limbah", "IPAL", "Lingkungan", "Pencemaran"]
     },
     {
         slug: "pertek-pengelolaan-limbah-b3",
