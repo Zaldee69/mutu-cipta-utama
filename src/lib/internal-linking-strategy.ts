@@ -107,7 +107,7 @@ export const internalLinkingStrategy: ServiceLinkingStrategy = {
         contextualKeywords: [
             "audit lingkungan wajib",
             "auditor lingkungan bersertifikat",
-            "kepatuhan regulasi KLHK",
+            "kepatuhan regulasi KLH",
             "audit PROPER",
             "ISO 14001"
         ]

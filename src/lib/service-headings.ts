@@ -64,7 +64,7 @@ export const serviceHeadings: Record<string, ServiceHeadings> = {
   },
   "advisor-hukum-lingkungan": {
     h1: "Konsultasi Hukum Lingkungan",
-    h2Intro: "Advisor Hukum Lingkungan untuk Kepatuhan Regulasi KLHK",
+    h2Intro: "Advisor Hukum Lingkungan untuk Kepatuhan Regulasi KLH",
     h2Benefits: "Manfaat Legal Advisor untuk Mitigasi Risiko Hukum",
     h2Process: "Tahapan Audit Hukum dan Pendampingan Legal",
     h2Scope: "Ruang Lingkup Konsultasi Compliance dan Penyelesaian Sengketa",

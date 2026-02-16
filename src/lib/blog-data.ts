@@ -153,11 +153,11 @@ Pastikan semua temuan ditindaklanjuti dengan action plan yang jelas.
         readingTime: 5
     },
     {
-        slug: "perubahan-regulasi-klhk-2024",
-        title: "Perubahan Regulasi KLHK 2024 yang Perlu Anda Ketahui",
+        slug: "perubahan-regulasi-KLH-2024",
+        title: "Perubahan Regulasi KLH 2024 yang Perlu Anda Ketahui",
         excerpt: "Update terbaru regulasi dari Kementerian Lingkungan Hidup dan Kehutanan yang berdampak pada industri. Pastikan bisnis Anda tetap compliant.",
         content: `
-# Perubahan Regulasi KLHK 2024
+# Perubahan Regulasi KLH 2024
 
 Kementerian Lingkungan Hidup dan Kehutanan mengeluarkan beberapa regulasi baru di tahun 2024.
 
@@ -191,7 +191,7 @@ Perusahaan perlu menyesuaikan sistem manajemen lingkungan mereka dengan regulasi
         },
         publishedAt: "2024-01-20T11:00:00Z",
         category: "Berita Industri",
-        tags: ["Regulasi", "KLHK", "Update"],
+        tags: ["Regulasi", "KLH", "Update"],
         readingTime: 7
     },
     {

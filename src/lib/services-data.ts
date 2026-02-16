@@ -23,11 +23,11 @@ export const services: Service[] = [
         title: "AMDAL / UKL-UPL",
         group: "Persetujuan Lingkungan",
         category: "amdal",
-        shortDescription: "Jasa penyusunan dokumen AMDAL, UKL-UPL, ANDAL, RKL-RPL sebagai persyaratan persetujuan lingkungan dan izin berusaha sesuai regulasi KLHK untuk berbagai sektor industri.",
+        shortDescription: "Jasa penyusunan dokumen AMDAL, UKL-UPL, ANDAL, RKL-RPL sebagai persyaratan persetujuan lingkungan dan izin berusaha sesuai regulasi KLH untuk berbagai sektor industri.",
         heroImage: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=2070&auto=format&fit=crop",
         description: "Layanan konsultan AMDAL dan UKL-UPL profesional untuk penyusunan dokumen persetujuan lingkungan yang diwajibkan bagi kegiatan usaha berpotensi dampak penting. Mencakup ANDAL, RKL-RPL, KA-ANDAL, serta konsultasi publik sesuai UU 32/2009, PP 22/2021, dan Permen LHK 4/2021. Dokumen ini menjadi prasyarat penerbitan SKKLH, izin lingkungan, dan OSS untuk berbagai sektor: pertambangan, industri, properti, infrastruktur, energi, dan agribisnis.",
         manfaat: [
-            "Kepatuhan Regulasi: Memenuhi kewajiban hukum UU PPLH, PP 22/2021, dan regulasi KLHK untuk izin berusaha.",
+            "Kepatuhan Regulasi: Memenuhi kewajiban hukum UU PPLH, PP 22/2021, dan regulasi KLH untuk izin berusaha.",
             "Mitigasi Dampak: Identifikasi dampak penting dan strategi mitigasi lingkungan sejak fase perencanaan proyek.",
             "Penerimaan Masyarakat: Konsultasi publik yang efektif untuk mendapatkan dukungan dan keterlibatan masyarakat.",
             "Kelancaran Operasional: Mencegah sanksi administratif, pidana lingkungan, penghentian operasi, dan sengketa.",
@@ -58,7 +58,7 @@ export const services: Service[] = [
         ],
         hasilKeluaran: [
             "Dokumen AMDAL atau UKL-UPL yang telah direview dan memenuhi standar Komisi Penilai",
-            "SKKLH atau Persetujuan Lingkungan dari KLHK/Dinas Lingkungan Hidup",
+            "SKKLH atau Persetujuan Lingkungan dari KLH/Dinas Lingkungan Hidup",
             "Rekomendasi program pengelolaan dan pemantauan lingkungan",
             "Laporan konsultasi publik dan strategi komunikasi risiko",
             "Integrasi dengan sistem OSS untuk penerbitan izin berusaha"
@@ -70,14 +70,14 @@ export const services: Service[] = [
         title: "Audit Lingkungan Hidup",
         group: "Persetujuan Lingkungan",
         category: "amdal",
-        shortDescription: "Jasa audit lingkungan hidup wajib dan sukarela untuk menilai kepatuhan regulasi KLHK, efektivitas sistem manajemen lingkungan ISO 14001, dan persiapan penilaian PROPER.",
+        shortDescription: "Jasa audit lingkungan hidup wajib dan sukarela untuk menilai kepatuhan regulasi KLH, efektivitas sistem manajemen lingkungan ISO 14001, dan persiapan penilaian PROPER.",
         heroImage: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=2070&auto=format&fit=crop",
-        description: "Layanan audit lingkungan profesional untuk evaluasi kepatuhan terhadap peraturan lingkungan hidup, audit sistem manajemen ISO 14001, audit uji tuntas untuk merger dan akuisisi, audit PROPER untuk peringkat hijau/emas, dan analisis kesenjangan sesuai standar KLHK. Mencakup audit dokumen perizinan (AMDAL, UKL-UPL, PERTEK), audit operasional (limbah B3, air limbah, emisi udara), evaluasi IPAL dan TPS B3, serta rekomendasi perbaikan untuk meningkatkan kinerja lingkungan dan kepatuhan hukum.",
+        description: "Layanan audit lingkungan profesional untuk evaluasi kepatuhan terhadap peraturan lingkungan hidup, audit sistem manajemen ISO 14001, audit uji tuntas untuk merger dan akuisisi, audit PROPER untuk peringkat hijau/emas, dan analisis kesenjangan sesuai standar KLH. Mencakup audit dokumen perizinan (AMDAL, UKL-UPL, PERTEK), audit operasional (limbah B3, air limbah, emisi udara), evaluasi IPAL dan TPS B3, serta rekomendasi perbaikan untuk meningkatkan kinerja lingkungan dan kepatuhan hukum.",
         manfaat: [
             "Jaminan Kepatuhan: Verifikasi kepatuhan terhadap UU PPLH, peraturan daerah, dan izin lingkungan untuk menghindari sanksi.",
             "Mitigasi Risiko: Identifikasi ketidaksesuaian, kewajiban lingkungan, dan kesenjangan untuk manajemen risiko yang proaktif.",
             "Keunggulan Operasional: Menemukan inefisiensi dalam pengelolaan limbah, energi, dan sumber daya untuk pengurangan biaya.",
-            "Kesiapan PROPER: Persiapan penilaian PROPER KLHK untuk mencapai peringkat Hijau/Emas dan reputasi berkelanjutan.",
+            "Kesiapan PROPER: Persiapan penilaian PROPER KLH untuk mencapai peringkat Hijau/Emas dan reputasi berkelanjutan.",
             "Dukungan Uji Tuntas: Audit lingkungan untuk transaksi merger dan akuisisi serta pembiayaan hijau.",
             "Sertifikasi ISO 14001: Mendukung sertifikasi dan audit sistem manajemen lingkungan ISO 14001:2015."
         ],
@@ -106,7 +106,7 @@ export const services: Service[] = [
         ],
         hasilKeluaran: [
             "Laporan audit lingkungan hidup komprehensif dengan ringkasan eksekutif dan temuan terperinci",
-            "Daftar periksa audit kepatuhan berdasarkan regulasi KLHK dan standar ISO 14001",
+            "Daftar periksa audit kepatuhan berdasarkan regulasi KLH dan standar ISO 14001",
             "Laporan analisis kesenjangan: identifikasi ketidaksesuaian, observasi, dan peluang perbaikan",
             "Rencana Tindakan Perbaikan dengan timeline, penanggung jawab, dan indikator kinerja untuk pemantauan",
             "Sertifikat penyelesaian audit dan peringkat kepatuhan (jika berlaku)",
@@ -121,10 +121,10 @@ export const services: Service[] = [
         category: "sipa",
         shortDescription: "Jasa pengelolaan limbah B3 terintegrasi mulai dari identifikasi, klasifikasi, penyimpanan TPS B3, pengangkutan dengan transporter berizin, hingga pengolahan akhir di fasilitas PPLI atau incinerator sesuai PP 22/2021.",
         heroImage: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=2070&auto=format&fit=crop",
-        description: "Layanan konsultan dan pengelolaan limbah B3 secara komprehensif mencakup identifikasi, pelabelan, pengemasan, penyimpanan sementara di TPS B3, pengangkutan dengan transporter bersertifikat KLHK, hingga pengolahan akhir di fasilitas PPLI, incinerator, atau pusat daur ulang sesuai PP 22/2021, PP 101/2014, dan Permen LHK 6/2021. Melayani berbagai jenis limbah B3: oli bekas, lumpur IPAL, kemasan bekas B3, aki bekas, lampu TL/mercury, limbah medis, limbah elektronik, pelarut, lumpur logam berat, asbestos, dan limbah konstruksi B3. Dilengkapi dengan sistem manifest elektronik SIMPEL, pelaporan triwulanan, dan dokumentasi kepatuhan untuk audit PROPER.",
+        description: "Layanan konsultan dan pengelolaan limbah B3 secara komprehensif mencakup identifikasi, pelabelan, pengemasan, penyimpanan sementara di TPS B3, pengangkutan dengan transporter bersertifikat KLH, hingga pengolahan akhir di fasilitas PPLI, incinerator, atau pusat daur ulang sesuai PP 22/2021, PP 101/2014, dan Permen LHK 6/2021. Melayani berbagai jenis limbah B3: oli bekas, lumpur IPAL, kemasan bekas B3, aki bekas, lampu TL/mercury, limbah medis, limbah elektronik, pelarut, lumpur logam berat, asbestos, dan limbah konstruksi B3. Dilengkapi dengan sistem manifest elektronik SIMPEL, pelaporan triwulanan, dan dokumentasi kepatuhan untuk audit PROPER.",
         manfaat: [
             "Keamanan K3LH: Mencegah kecelakaan kerja, paparan toksis, bahaya kebakaran, dan dampak kesehatan akibat kontak dengan limbah B3.",
-            "Kepatuhan Hukum: Pengelolaan oleh transporter dan PPLI berizin resmi KLHK untuk menghindari sanksi pidana UU 32/2009.",
+            "Kepatuhan Hukum: Pengelolaan oleh transporter dan PPLI berizin resmi KLH untuk menghindari sanksi pidana UU 32/2009.",
             "Perlindungan Lingkungan: Mencegah pencemaran tanah, pencemaran air tanah, dan kerusakan ekosistem akibat pembuangan tidak tepat.",
             "Optimasi Biaya: Solusi pengolahan efisien sesuai karakteristik limbah (pemulihan, daur ulang, pembuangan) dengan harga kompetitif.",
             "Kepatuhan PROPER: Memenuhi kriteria ketaatan PROPER dan mendukung kategori melampaui kepatuhan untuk peringkat hijau/emas.",
@@ -138,10 +138,10 @@ export const services: Service[] = [
         ruangLingkup: [
             "Karakterisasi dan klasifikasi limbah B3 sesuai PP 101/2014 (kode limbah seri A dan B)",
             "Desain dan konsultasi TPS B3: area berpagar, sistem pemadam kebakaran, ventilasi, rencana tanggap darurat",
-            "Koordinasi dengan transporter bersertifikat dan PPLI/incinerator berizin KLHK untuk pembuangan",
+            "Koordinasi dengan transporter bersertifikat dan PPLI/incinerator berizin KLH untuk pembuangan",
             "Penanganan berbagai jenis: oli bekas, lumpur berminyak, limbah elektronik, limbah medis, asbestos, aki bekas, limbah pelarut, lumpur logam berat",
             "Minimisasi limbah dan program 3R: pengurangan limbah, penggunaan kembali, daur ulang untuk ekonomi sirkular",
-            "Manifest elektronik dan pelaporan SIMPEL: penerbitan manifest elektronik dan pelaporan triwulanan ke KLHK",
+            "Manifest elektronik dan pelaporan SIMPEL: penerbitan manifest elektronik dan pelaporan triwulanan ke KLH",
             "Pelatihan petugas: pelatihan Penanggung Jawab Operasional Limbah B3 dan operator TPS B3",
             "Tanggap darurat bahan berbahaya: konsultasi tanggap darurat tumpahan B3 dan prosedur penanganan tumpahan"
         ],
@@ -155,7 +155,7 @@ export const services: Service[] = [
         hasilKeluaran: [
             "Manifest limbah B3 (elektronik dan hardcopy) untuk setiap batch pengangkutan",
             "Sertifikat pengolahan/pembuangan dari PPLI atau incinerator sebagai bukti pengelolaan final",
-            "Laporan triwulanan SIMPEL untuk pelaporan kepatuhan ke KLHK",
+            "Laporan triwulanan SIMPEL untuk pelaporan kepatuhan ke KLH",
             "Dokumentasi jejak audit limbah: foto, timbangan, dan rekaman rantai pengamanan",
             "Rekomendasi minimisasi limbah dan strategi pengurangan biaya"
         ],
@@ -196,7 +196,7 @@ export const services: Service[] = [
         ],
         hasilKeluaran: [
             "Dokumen PERTEK Emisi lengkap: laporan teknis, data emisi, evaluasi sistem pengendalian udara, pernyataan kepatuhan",
-            "Persetujuan Teknis Emisi dari Dinas Lingkungan Hidup atau KLHK (untuk skala nasional/strategis)",
+            "Persetujuan Teknis Emisi dari Dinas Lingkungan Hidup atau KLH (untuk skala nasional/strategis)",
             "Laporan pengujian emisi stack dengan CoA dari laboratorium terakreditasi KAN/ISO 17025",
             "Output pemodelan dispersi: kontur sebaran polutan, peta konsentrasi di permukaan tanah, penilaian dampak"
         ],
@@ -240,7 +240,7 @@ export const services: Service[] = [
         ],
         hasilKeluaran: [
             "Dokumen PERTEK Air Limbah: laporan teknis, desain IPAL, data efluen, evaluasi kepatuhan, dampak  badan air penerima",
-            "Persetujuan Teknis Pembuangan Air Limbah dari Dinas Lingkungan Hidup atau KLHK (sesuai kewenangan)",
+            "Persetujuan Teknis Pembuangan Air Limbah dari Dinas Lingkungan Hidup atau KLH (sesuai kewenangan)",
             "Laporan pengujian efluen dengan CoA dari laboratorium lingkungan terakreditasi KAN/ISO 17025",
             "Laporan kinerja IPAL: temuan pemecahan masalah, perhitungan efisiensi, rekomendasi perbaikan",
             "SOP: pemantauan efluen, teknik pengambilan sampel, operasi dan perawatan IPAL, tanggap darurat"
@@ -254,7 +254,7 @@ export const services: Service[] = [
         category: "sipa",
         shortDescription: "Jasa penyusunan PERTEK Pengelolaan Limbah B3 untuk izin operasional TPS B3: desain fasilitas penyimpanan, area berpagar, sistem pemadam kebakaran, rambu keselamatan, SOP pengelolaan, sesuai Permen LHK untuk legalitas penyimpanan limbah berbahaya.",
         heroImage: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=2070&auto=format&fit=crop",
-        description: "Layanan penyusunan PERTEK Pengelolaan Limbah B3 untuk legalitas operasional TPS B3 sesuai PP 22/2021 dan Permen LHK 6/2021. Mencakup desain teknis fasilitas TPS B3 (area berpagar, penampung tumpahan, sistem pemadam kebakaran, ventilasi, rambu keselamatan), penyusunan SOP pengelolaan dan tanggap darurat, penilaian kompatibilitas limbah, dan pengajuan ke KLHK/Dinas Lingkungan Hidup untuk persetujuan. Dokumen ini wajib untuk perusahaan yang menyimpan limbah B3 sebelum diserahkan ke transporter/PPLI, mendukung kepatuhan PROPER dan audit lingkungan.",
+        description: "Layanan penyusunan PERTEK Pengelolaan Limbah B3 untuk legalitas operasional TPS B3 sesuai PP 22/2021 dan Permen LHK 6/2021. Mencakup desain teknis fasilitas TPS B3 (area berpagar, penampung tumpahan, sistem pemadam kebakaran, ventilasi, rambu keselamatan), penyusunan SOP pengelolaan dan tanggap darurat, penilaian kompatibilitas limbah, dan pengajuan ke KLH/Dinas Lingkungan Hidup untuk persetujuan. Dokumen ini wajib untuk perusahaan yang menyimpan limbah B3 sebelum diserahkan ke transporter/PPLI, mendukung kepatuhan PROPER dan audit lingkungan.",
         manfaat: [
             "Izin Penyimpanan Resmi: Legalitas untuk menyimpan limbah B3 di TPS perusahaan sesuai PP 22/2021 dan menghindari sanksi penyimpanan ilegal.",
             "Kepatuhan Keselamatan: Memastikan fasilitas TPS B3 memenuhi standar keselamatan K3 (penampung tumpahan, perlindungan kebakaran, peralatan darurat, APD).",
@@ -281,11 +281,11 @@ export const services: Service[] = [
             },
             {
                 title: "Verifikasi Lapangan",
-                description: "Pendampingan saat site inspection dan verifikasi lapangan oleh petugas DLH/KLHK untuk compliance check dan approval."
+                description: "Pendampingan saat site inspection dan verifikasi lapangan oleh petugas DLH/KLH untuk compliance check dan approval."
             },
             {
                 title: "Penerbitan PERTEK",
-                description: "Submission dokumen dan follow-up proses administrasi untuk penerbitan PERTEK Pengelolaan Limbah B3 dari KLHK atau Dinas Lingkungan Hidup."
+                description: "Submission dokumen dan follow-up proses administrasi untuk penerbitan PERTEK Pengelolaan Limbah B3 dari KLH atau Dinas Lingkungan Hidup."
             }
         ],
         ruangLingkup: [
@@ -299,7 +299,7 @@ export const services: Service[] = [
             "Sistem drainase dan penampungan: lantai kedap air, pompa sumur, tangki penampungan untuk penampungan tumpahan",
             "Sistem ventilasi dan pembuangan: ventilasi mekanis untuk uap beracun/mudah terbakar (jika diperlukan)",
             "Rencana pelatihan: pelatihan Penanggung Jawab Operasional Limbah B3 dan operator TPS sesuai Permen LHK No. 6/2021",
-            "Proses pengajuan dan persetujuan: pendampingan pengajuan PERTEK ke KLHK atau Dinas Lingkungan Hidup dan verifikasi lokasi"
+            "Proses pengajuan dan persetujuan: pendampingan pengajuan PERTEK ke KLH atau Dinas Lingkungan Hidup dan verifikasi lokasi"
         ]
     },
     {
@@ -386,7 +386,7 @@ export const services: Service[] = [
             },
             {
                 title: "Pendampingan dan Representasi",
-                description: "Representasi hukum dalam mediasi dengan pemangku kepentingan, pendampingan pengawasan KLHK/Pemda, atau dukungan litigasi untuk sengketa lingkungan."
+                description: "Representasi hukum dalam mediasi dengan pemangku kepentingan, pendampingan pengawasan KLH/Pemda, atau dukungan litigasi untuk sengketa lingkungan."
             },
             {
                 title: "Pembaruan Regulasi dan Pelatihan",
@@ -406,7 +406,7 @@ export const services: Service[] = [
             "Analisis kebijakan dan regulasi: penilaian dampak terhadap undang-undang omnibus, regulasi baru, advokasi kebijakan, dan perencanaan regulasi strategis",
             "Tinjauan kontrak: klausul lingkungan dalam kontrak, jaminan pelaksanaan, asuransi lingkungan, ketentuan ganti rugi",
             "Tata kelola lingkungan perusahaan: kerangka hukum CSR, strategi kepatuhan PROPER, pelaporan keberlanjutan (POJK, standar GRI)",
-            "Pembelaan pidana dan administratif: pendampingan investigasi PPNS KLHK, banding sanksi administratif, atau pembelaan pidana untuk pelanggaran lingkungan",
+            "Pembelaan pidana dan administratif: pendampingan investigasi PPNS KLH, banding sanksi administratif, atau pembelaan pidana untuk pelanggaran lingkungan",
             "Pelatihan dan pengembangan kapasitas: pelatihan internal UU PPLH, workshop kepatuhan regulasi, program kesadaran hukum untuk manajemen"
         ]
     },
@@ -421,7 +421,7 @@ export const services: Service[] = [
         manfaat: [
             "Reputasi Perusahaan: Meningkatkan citra sebagai entitas peduli lingkungan dan juara keberlanjutan.",
             "Hubungan Masyarakat: Mempererat hubungan harmonis (izin sosial untuk beroperasi) dengan masyarakat sekitar dan mengurangi konflik sosial.",
-            "Melampaui Kepatuhan PROPER: Mendukung penilaian PROPER Hijau/Emas dari KLHK melalui program pengembangan masyarakat dan konservasi lingkungan.",
+            "Melampaui Kepatuhan PROPER: Mendukung penilaian PROPER Hijau/Emas dari KLH melalui program pengembangan masyarakat dan konservasi lingkungan.",
             "Keberlanjutan: Meningkatkan profil keberlanjutan dan akses ke pembiayaan hijau atau investasi bertanggung jawab.",
             "Dampak Jangka Panjang: Memberikan manfaat jangka panjang bagi ekosistem (konservasi keanekaragaman hayati) dan kesejahteraan sosial (peningkatan penghidupan).",
             "Kepatuhan dan Pelaporan: Memenuhi kewajiban CSR UU 40/2007, POJK 51/2017, dan persyaratan pengungkapan keberlanjutan."
@@ -570,7 +570,7 @@ export const services: Service[] = [
     {
         slug: "feasibility-study",
         title: "Feasibility Study",
-        group: "Persetujuan Lingkungan",
+        group: "Engineering & Survey",
         category: "amdal",
         shortDescription: "Jasa studi kelayakan komprehensif: kajian kelayakan teknis, finansial (NPV, IRR, periode pengembalian), analisis pasar, dampak lingkungan dan sosial, kepatuhan hukum, penilaian risiko untuk keputusan investasi dan pembiayaan bank.",
         heroImage: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=2070&auto=format&fit=crop",
@@ -796,16 +796,16 @@ export const services: Service[] = [
         title: "Solusi Submit Dokumen & Troubleshoot Amdalnet/SIMPEL Anti Error",
         group: "Persetujuan Lingkungan",
         category: "amdal",
-        shortDescription: "Hindari error upload dan penolakan dokumen! Jasa pendampingan profesional submit perizinan online ke Amdalnet & SIMPEL: registrasi akun, upload dokumen AMDAL/UKL-UPL/PERTEK tanpa trial-error, troubleshooting sistem, tracking status real-time, koordinasi helpdesk KLHK. Proses cepat, tanpa ribet!",
+        shortDescription: "Hindari error upload dan penolakan dokumen! Jasa pendampingan profesional submit perizinan online ke Amdalnet & SIMPEL: registrasi akun, upload dokumen AMDAL/UKL-UPL/PERTEK tanpa trial-error, troubleshooting sistem, tracking status real-time, koordinasi helpdesk KLH. Proses cepat, tanpa ribet!",
         heroImage: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop",
-        description: "Layanan pendampingan profesional untuk submit dokumen perizinan lingkungan melalui sistem online pemerintah: Amdalnet (terintegrasi OSS-RBA) untuk dokumen AMDAL, UKL-UPL, PERTEK, dan SIMPEL (Sistem Informasi Pengelolaan Limbah B3) untuk manifest dan pelaporan limbah B3. Mencakup registrasi akun perusahaan, persiapan dokumen digital sesuai format sistem, upload dan submit dokumen, troubleshooting error teknis (format file, validasi data, koneksi sistem), tracking status verifikasi dan persetujuan, koordinasi dengan helpdesk KLHK/OSS, serta pendampingan revisi dokumen jika diperlukan. Mempercepat proses perizinan dengan menghindari kesalahan teknis dan administratif yang sering menyebabkan penolakan atau delay approval.",
+        description: "Layanan pendampingan profesional untuk submit dokumen perizinan lingkungan melalui sistem online pemerintah: Amdalnet (terintegrasi OSS-RBA) untuk dokumen AMDAL, UKL-UPL, PERTEK, dan SIMPEL (Sistem Informasi Pengelolaan Limbah B3) untuk manifest dan pelaporan limbah B3. Mencakup registrasi akun perusahaan, persiapan dokumen digital sesuai format sistem, upload dan submit dokumen, troubleshooting error teknis (format file, validasi data, koneksi sistem), tracking status verifikasi dan persetujuan, koordinasi dengan helpdesk KLH/OSS, serta pendampingan revisi dokumen jika diperlukan. Mempercepat proses perizinan dengan menghindari kesalahan teknis dan administratif yang sering menyebabkan penolakan atau delay approval.",
         manfaat: [
             "Efisiensi Waktu: Menghindari trial-error upload dokumen dengan guidance expert yang memahami requirement sistem Amdalnet dan SIMPEL.",
             "Mitigasi Error Teknis: Troubleshooting profesional untuk error umum: format file tidak sesuai, ukuran file melebihi limit, validasi NIB gagal, error koordinat lokasi.",
-            "Kelancaran Approval: Memastikan dokumen lengkap dan sesuai checklist sistem untuk mempercepat verifikasi dan approval dari KLHK/Dinas LH.",
+            "Kelancaran Approval: Memastikan dokumen lengkap dan sesuai checklist sistem untuk mempercepat verifikasi dan approval dari KLH/Dinas LH.",
             "Tracking Real-time: Monitoring status dokumen (draft, submitted, under review, approved, rejected) dan notifikasi untuk follow-up yang tepat waktu.",
             "Kepatuhan Administratif: Memastikan kepatuhan terhadap prosedur perizinan online OSS-RBA dan requirement dokumentasi sistem pemerintah.",
-            "Support Helpdesk: Koordinasi langsung dengan helpdesk KLHK/OSS untuk eskalasi kendala teknis atau klarifikasi requirement dokumen."
+            "Support Helpdesk: Koordinasi langsung dengan helpdesk KLH/OSS untuk eskalasi kendala teknis atau klarifikasi requirement dokumen."
         ],
         tahapanProses: [
             {
@@ -822,7 +822,7 @@ export const services: Service[] = [
             },
             {
                 title: "Troubleshooting & Error Handling",
-                description: "Diagnosis dan resolusi error teknis: format file rejected, ukuran file exceed limit, error validasi NIB/koordinat, timeout koneksi, bug sistem, dengan koordinasi helpdesk KLHK jika diperlukan."
+                description: "Diagnosis dan resolusi error teknis: format file rejected, ukuran file exceed limit, error validasi NIB/koordinat, timeout koneksi, bug sistem, dengan koordinasi helpdesk KLH jika diperlukan."
             },
             {
                 title: "Tracking & Monitoring Status",
@@ -830,7 +830,7 @@ export const services: Service[] = [
             },
             {
                 title: "Revisi & Resubmit (Jika Diperlukan)",
-                description: "Pendampingan revisi dokumen jika ada feedback dari verifikator KLHK/Dinas LH: perbaikan dokumen sesuai catatan reviewer, re-upload, dan resubmit hingga approved."
+                description: "Pendampingan revisi dokumen jika ada feedback dari verifikator KLH/Dinas LH: perbaikan dokumen sesuai catatan reviewer, re-upload, dan resubmit hingga approved."
             },
             {
                 title: "Download Persetujuan & Closure",
@@ -841,13 +841,13 @@ export const services: Service[] = [
             "Registrasi dan aktivasi akun Amdalnet untuk akses submit dokumen AMDAL/UKL-UPL",
             "Submit dokumen AMDAL (KA-ANDAL, ANDAL, RKL-RPL) ke Amdalnet untuk review Komisi Penilai",
             "Submit dokumen UKL-UPL dan SPPL ke sistem OSS-RBA untuk persetujuan lingkungan",
-            "Upload dokumen PERTEK (Emisi, Air Limbah, Limbah B3) ke Amdalnet untuk approval Dinas LH/KLHK",
+            "Upload dokumen PERTEK (Emisi, Air Limbah, Limbah B3) ke Amdalnet untuk approval Dinas LH/KLH",
             "Registrasi akun SIMPEL untuk penghasil limbah B3, transporter, dan PPLI",
             "Submit manifest elektronik limbah B3 di sistem SIMPEL untuk setiap pengangkutan",
             "Pelaporan triwulanan limbah B3 melalui SIMPEL sesuai kewajiban PP 22/2021",
             "Troubleshooting error teknis: format file PDF tidak sesuai, ukuran file melebihi 10MB, error validasi NIB/NPWP, koordinat GPS format salah, timeout submit",
             "Tracking status verifikasi dokumen: monitoring dashboard, notifikasi perubahan status, reminder untuk action",
-            "Koordinasi dengan helpdesk KLHK/OSS untuk eskalasi masalah sistem atau klarifikasi requirement",
+            "Koordinasi dengan helpdesk KLH/OSS untuk eskalasi masalah sistem atau klarifikasi requirement",
             "Pendampingan revisi dokumen jika ditolak verifikator: analisis catatan reviewer, perbaikan dokumen, resubmit hingga approved",
             "Download dan arsip persetujuan digital: SKKLH, Persetujuan UKL-UPL, Persetujuan PERTEK, manifest SIMPEL, laporan SIMPEL"
         ],
@@ -857,7 +857,7 @@ export const services: Service[] = [
             "Dokumen perizinan siap digital: file PDF dokumen AMDAL/UKL-UPL/PERTEK yang sudah final dan lengkap",
             "Data teknis proyek: koordinat GPS lokasi (format Decimal Degree atau DMS), data kapasitas, layout lokasi",
             "Akses internet stabil: koneksi internet yang reliable untuk upload file besar (hingga 10-50 MB)",
-            "Email aktif dan phone number: untuk verifikasi akun dan notifikasi dari sistem KLHK/OSS",
+            "Email aktif dan phone number: untuk verifikasi akun dan notifikasi dari sistem KLH/OSS",
             "Untuk SIMPEL: data limbah B3 (jenis, kode limbah, volume, karakteristik) dan izin lingkungan yang berlaku"
         ],
         hasilKeluaran: [
@@ -865,12 +865,90 @@ export const services: Service[] = [
             "Dokumen perizinan lingkungan (AMDAL, UKL-UPL, PERTEK) yang ter-submit ke sistem Amdalnet dengan nomor registrasi",
             "Manifest elektronik limbah B3 yang ter-submit di SIMPEL dengan nomor manifest resmi",
             "Tracking report status dokumen: timeline submit, under review, revision request, atau approved",
-            "Surat Persetujuan digital: SKKLH dari KLHK, Rekomendasi UKL-UPL, atau Persetujuan Teknis dari Dinas LH (jika sudah approved)",
+            "Surat Persetujuan digital: SKKLH dari KLH, Rekomendasi UKL-UPL, atau Persetujuan Teknis dari Dinas LH (jika sudah approved)",
             "Laporan troubleshooting: dokumentasi error yang ditemukan, solusi yang diterapkan, dan kontak helpdesk untuk referensi",
             "SOP submit dokumen: panduan internal untuk perusahaan agar bisa submit dokumen secara mandiri di masa mendatang",
             "Arsip digital lengkap: backup semua dokumen yang di-upload dan persetujuan yang di-download untuk audit trail"
         ],
         blogTags: ["Amdalnet", "SIMPEL", "OSS", "Perizinan Digital", "AMDAL", "UKL-UPL", "Limbah B3"]
+    },
+    {
+        slug: "pendampingan-responsif-perizinan",
+        title: "Pendampingan Responsif Perizinan KLH",
+        group: "Persetujuan Lingkungan",
+        category: "amdal",
+        shortDescription: "Jasa pendampingan profesional untuk memastikan kualitas, kelengkapan, dan responsiveness dokumen perizinan: quality assurance dokumen, koordinasi revisi cepat, follow-up melalui jalur resmi (helpdesk/sistem), untuk mempercepat approval tanpa delay.",
+        heroImage: "https://images.unsplash.com/photo-1552581234-26160f608093?q=80&w=2070&auto=format&fit=crop",
+        description: "Layanan pendampingan profesional untuk memastikan dokumen perizinan lingkungan memenuhi standar kualitas dan kelengkapan yang dipersyaratkan KLH/Dinas Lingkungan Hidup, serta membantu perusahaan responsif terhadap permintaan revisi. Mencakup quality assurance dokumen sebelum submit, koordinasi resmi melalui helpdesk dan sistem online (Amdalnet, OSS, SIMPEL), pendampingan interpretasi feedback verifikator, koordinasi revisi dokumen dengan cepat dan tepat, pendampingan sidang Komisi Penilai AMDAL, dan monitoring status melalui jalur administratif resmi. Fokus pada compliance, kualitas dokumen, dan responsiveness klien untuk menghindari delay perizinan akibat dokumen tidak lengkap, tidak sesuai standar, atau lambat merespons permintaan revisi. Semua proses dilakukan melalui jalur resmi dan transparan sesuai regulasi anti-korupsi.",
+        manfaat: [
+            "Kualitas Dokumen Terjamin: Quality assurance menyeluruh untuk memastikan dokumen memenuhi checklist dan standar KLH sebelum submit.",
+            "Mitigasi Penolakan: Menghindari penolakan atau permintaan revisi berulang akibat dokumen tidak lengkap atau tidak sesuai requirement.",
+            "Responsiveness Tinggi: Membantu klien merespons permintaan revisi atau klarifikasi dengan cepat dan tepat untuk mempercepat finalisasi.",
+            "Transparansi Proses: Monitoring status melalui jalur resmi (helpdesk, sistem online) dengan update berkala kepada klien.",
+            "Compliance dan Etika: Semua proses dilakukan melalui jalur administratif resmi sesuai regulasi dan etika profesional.",
+            "Efisiensi Waktu: Mempercepat proses approval dengan memastikan dokumen berkualitas dan responsif terhadap feedback verifikator."
+        ],
+        tahapanProses: [
+            {
+                title: "Quality Assurance Awal",
+                description: "Review menyeluruh dokumen perizinan sebelum submit: kelengkapan, kesesuaian dengan checklist KLH, validasi data teknis, format dokumen, untuk memastikan standar kualitas terpenuhi."
+            },
+            {
+                title: "Koordinasi Submit Dokumen",
+                description: "Pendampingan submit dokumen melalui sistem resmi (Amdalnet/OSS/SIMPEL), memastikan data terisi dengan benar, file terupload dengan sukses, dan notifikasi submit diterima."
+            },
+            {
+                title: "Monitoring Status Resmi",
+                description: "Monitoring status review dokumen melalui sistem online dan koordinasi dengan helpdesk resmi KLH/Dinas LH untuk update progress dan estimasi timeline approval."
+            },
+            {
+                title: "Interpretasi Feedback Verifikator",
+                description: "Analisis dan interpretasi feedback atau catatan revisi dari verifikator, klarifikasi requirement melalui jalur resmi (helpdesk, email resmi), dan penyusunan action plan perbaikan."
+            },
+            {
+                title: "Koordinasi Revisi Cepat",
+                description: "Koordinasi dengan tim penyusun dokumen untuk perbaikan sesuai feedback, quality check dokumen revisi, dan resubmit dengan responsif untuk mempercepat finalisasi."
+            },
+            {
+                title: "Pendampingan Sidang Teknis",
+                description: "Pendampingan pada sidang Komisi Penilai AMDAL atau presentasi teknis: persiapan materi teknis, antisipasi pertanyaan, dan dokumentasi hasil sidang untuk follow-up."
+            },
+            {
+                title: "Finalisasi dan Dokumentasi",
+                description: "Koordinasi download surat persetujuan resmi (SKKLH, Persetujuan Teknis), verifikasi integrasi dengan OSS, dan handover dokumentasi lengkap kepada klien."
+            }
+        ],
+        ruangLingkup: [
+            "Quality assurance dokumen perizinan sebelum submit: checklist kelengkapan, validasi data teknis, review kesesuaian dengan regulasi KLH",
+            "Pendampingan submit dokumen AMDAL/UKL-UPL/PERTEK melalui sistem resmi (Amdalnet, OSS-RBA, SIMPEL)",
+            "Monitoring status review melalui dashboard online dan koordinasi dengan helpdesk resmi KLH/Dinas Lingkungan Hidup",
+            "Interpretasi dan klarifikasi feedback verifikator: analisis catatan revisi, klarifikasi requirement melalui jalur resmi (email, helpdesk, sistem tiket)",
+            "Koordinasi revisi dokumen: quality check perbaikan, memastikan responsive terhadap permintaan verifikator, resubmit hingga approved",
+            "Pendampingan sidang Komisi Penilai AMDAL: persiapan presentasi teknis, antisipasi pertanyaan, dokumentasi keputusan sidang",
+            "Advisory compliance: interpretasi regulasi, rekomendasi perbaikan dokumen untuk memenuhi standar KLH, strategi memenuhi requirement",
+            "Troubleshooting administratif: penyelesaian kendala teknis sistem (error upload, validasi data), koordinasi dengan helpdesk untuk resolusi",
+            "Transparansi dan reporting: update berkala kepada klien tentang status dokumen, timeline approval, action yang diperlukan untuk follow-up",
+            "Dokumentasi proses: arsip semua komunikasi resmi, tracking timeline, catatan revisi, sebagai audit trail yang transparan"
+        ],
+        syaratKetentuan: [
+            "Dokumen perizinan lingkungan yang sudah siap atau dalam proses review: AMDAL, UKL-UPL, PERTEK",
+            "Legalitas perusahaan lengkap: NIB, NPWP, akta pendirian, izin lokasi untuk validasi compliance",
+            "Akses akun Amdalnet/OSS/SIMPEL untuk monitoring status dokumen dan koordinasi submit",
+            "Surat kuasa resmi jika diperlukan untuk representasi perusahaan dalam komunikasi dengan KLH/Dinas LH",
+            "Kontak person internal klien yang responsif untuk koordinasi revisi atau klarifikasi dokumen dalam timeline ketat",
+            "Komitmen untuk responsif terhadap permintaan revisi atau klarifikasi dari verifikator dengan timeline yang ditetapkan"
+        ],
+        hasilKeluaran: [
+            "Laporan quality assurance: hasil review dokumen, checklist compliance, rekomendasi perbaikan sebelum submit",
+            "Timeline tracking report: monitoring timeline review, milestone approval, estimasi penerbitan surat persetujuan",
+            "Catatan revisi terstruktur: dokumentasi feedback verifikator, action plan perbaikan, status implementasi revisi",
+            "Laporan komunikasi resmi: dokumentasi semua komunikasi dengan KLH/Dinas LH melalui jalur resmi (email, helpdesk, sistem tiket)",
+            "Notulensi sidang: dokumentasi hasil sidang Komisi Penilai AMDAL atau meeting teknis (keputusan, action item, timeline)",
+            "Surat persetujuan resmi: SKKLH, Persetujuan UKL-UPL, Persetujuan Teknis setelah approved dan diproses oleh KLH/Dinas LH",
+            "Advisory recommendation: rekomendasi improvement proses perizinan untuk efisiensi di periode berikutnya",
+            "SOP internal: panduan quality assurance dan responsiveness untuk perizinan mandiri klien di masa depan"
+        ],
+        blogTags: ["KLH", "Pendampingan", "Quality Assurance", "Perizinan", "AMDAL", "UKL-UPL", "PERTEK", "Compliance"]
     }
 ];
 

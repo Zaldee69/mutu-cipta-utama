@@ -62,7 +62,7 @@ const team = [
         role: "KTPA & ATPA Bersertifikat",
         // image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=400&fit=crop",
         icon: Award,
-        credentials: "Sertifikasi Kompetensi Penyusun AMDAL (KTPA & ATPA) dari LSP terakreditasi BNSP & KLHK."
+        credentials: "Sertifikasi Kompetensi Penyusun AMDAL (KTPA & ATPA) dari LSP terakreditasi BNSP & KLH."
     },
     {
         name: "Tim Engineering",

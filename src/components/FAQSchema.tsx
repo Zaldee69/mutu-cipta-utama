@@ -40,7 +40,7 @@ export default function FAQSchema() {
                 "name": "Bagaimana cara pengelolaan limbah B3 yang benar?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Pengelolaan limbah B3 harus dilakukan oleh pihak yang berizin, meliputi: (1) Penyimpanan sementara di tempat khusus, (2) Pengangkutan oleh transporter berizin, (3) Pengolahan/pemusnahan di fasilitas yang memiliki izin dari KLHK. PT Mutu Cipta Utama dapat membantu proses pengelolaan limbah B3 sesuai regulasi."
+                    "text": "Pengelolaan limbah B3 harus dilakukan oleh pihak yang berizin, meliputi: (1) Penyimpanan sementara di tempat khusus, (2) Pengangkutan oleh transporter berizin, (3) Pengolahan/pemusnahan di fasilitas yang memiliki izin dari KLH. PT Mutu Cipta Utama dapat membantu proses pengelolaan limbah B3 sesuai regulasi."
                 }
             },
             {

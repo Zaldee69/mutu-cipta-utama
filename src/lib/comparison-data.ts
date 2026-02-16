@@ -73,7 +73,7 @@ export const comparisons: ComparisonItem[] = [
                 "Biaya lebih tinggi (Rp 200 juta - 2 miliar)",
                 "Waktu lebih lama (4-8 bulan)",
                 "Proses lebih kompleks",
-                "Butuh konsultan bersertifikat KLHK",
+                "Butuh konsultan bersertifikat KLH",
                 "Harus melalui Komisi Penilai",
                 "Konsultasi publik wajib"
             ],
@@ -147,7 +147,7 @@ export const comparisons: ComparisonItem[] = [
             },
             {
                 aspect: "Tenaga Ahli",
-                service1Value: "Harus bersertifikat KLHK",
+                service1Value: "Harus bersertifikat KLH",
                 service2Value: "Tidak wajib sertifikat (recommended)"
             },
             {
@@ -210,9 +210,9 @@ export const comparisons: ComparisonItem[] = [
         service1: {
             name: "Audit Lingkungan Wajib",
             slug: "audit-lingkungan-hidup",
-            definition: "Audit lingkungan yang diperintahkan oleh KLHK/Pemda untuk penegakan hukum atau compliance requirement",
+            definition: "Audit lingkungan yang diperintahkan oleh KLH/Pemda untuk penegakan hukum atau compliance requirement",
             whenNeeded: [
-                "Perintah KLHK dalam rangka penegakan hukum",
+                "Perintah KLH dalam rangka penegakan hukum",
                 "Kegiatan berisiko tinggi terhadap lingkungan",
                 "Kegiatan dengan potensi dampak serius",
                 "Prasyarat perpanjangan izin lingkungan",
@@ -230,15 +230,15 @@ export const comparisons: ComparisonItem[] = [
             disadvantages: [
                 "Bersifat paksaan, bukan inisiatif sendiri",
                 "Biaya ditanggung perusahaan yang diaudit",
-                "Hasil audit dilaporkan ke KLHK",
+                "Hasil audit dilaporkan ke KLH",
                 "Temuan menjadi bagian dari record perusahaan",
                 "Timeline ketat dari otoritas",
                 "Risiko sanksi jika ditemukan pelanggaran berat"
             ],
             cost: "Rp 50 juta - Rp 300 juta (tergantung scope dan fasilitas)",
-            timeline: "2-4 bulan (termasuk penyusunan laporan ke KLHK)",
+            timeline: "2-4 bulan (termasuk penyusunan laporan ke KLH)",
             suitableFor: [
-                "Perusahaan dengan perintah audit KLHK",
+                "Perusahaan dengan perintah audit KLH",
                 "Industri berisiko tinggi yang diinspeksi",
                 "Perusahaan perpanjangan izin",
                 "Penyelesaian kasus lingkungan"
@@ -285,7 +285,7 @@ export const comparisons: ComparisonItem[] = [
         keyDifferences: [
             {
                 aspect: "Inisiatif",
-                service1Value: "Perintah KLHK/Pemda (mandatory)",
+                service1Value: "Perintah KLH/Pemda (mandatory)",
                 service2Value: "Inisiatif perusahaan sendiri (voluntary)"
             },
             {
@@ -295,7 +295,7 @@ export const comparisons: ComparisonItem[] = [
             },
             {
                 aspect: "Pelaporan",
-                service1Value: "Wajib dilaporkan ke KLHK/Pemda",
+                service1Value: "Wajib dilaporkan ke KLH/Pemda",
                 service2Value: "Internal perusahaan (confidential)"
             },
             {
@@ -315,15 +315,15 @@ export const comparisons: ComparisonItem[] = [
             },
             {
                 aspect: "Auditor",
-                service1Value: "Harus bersertifikat dan disetujui KLHK",
+                service1Value: "Harus bersertifikat dan disetujui KLH",
                 service2Value: "Internal atau eksternal bersertifikat"
             }
         ],
         decisionGuide: [
             {
-                scenario: "Perusahaan menerima surat perintah audit dari KLHK",
+                scenario: "Perusahaan menerima surat perintah audit dari KLH",
                 recommendation: "Audit Wajib (Mandatory)",
-                explanation: "Tidak ada pilihan, harus dilaksanakan sesuai timeline yang diberikan. Segera tunjuk auditor bersertifikat dan koordinasi dengan KLHK."
+                explanation: "Tidak ada pilihan, harus dilaksanakan sesuai timeline yang diberikan. Segera tunjuk auditor bersertifikat dan koordinasi dengan KLH."
             },
             {
                 scenario: "Perusahaan sedang dalam proses akuisisi",
@@ -345,7 +345,7 @@ export const comparisons: ComparisonItem[] = [
             "perbedaan audit wajib dan sukarela",
             "audit lingkungan wajib vs sukarela",
             "kapan perlu audit lingkungan",
-            "audit lingkungan KLHK",
+            "audit lingkungan KLH",
             "audit lingkungan untuk PROPER"
         ]
     }

@@ -49,13 +49,13 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     // Enhanced keyword-rich descriptions based on research
     const descriptionMap: Record<string, string> = {
         "amdal-ukl-upl": "Jasa penyusunan AMDAL profesional & UKL-UPL terpercaya. Konsultan AMDAL berpengalaman untuk dokumen lingkungan lengkap, SKKLH, dan persetujuan Komisi Penilai. Proses cepat, hasil berkualitas.",
-        "audit-lingkungan-hidup": "Layanan audit lingkungan wajib & sukarela untuk kepatuhan regulasi KLHK. Auditor lingkungan bersertifikat, audit PROPER, ISO 14001, evaluasi sistem manajemen lingkungan perusahaan.",
-        "pengelolaan-limbah-b3": "Jasa pengelolaan limbah B3 terintegrasi: TPS B3 legal, transporter bersertifikat KLHK, pengolahan PPLI. Manifest elektronik SIMPEL, kepatuhan PP 22/2021, solusi limbah berbahaya terpercaya.",
+        "audit-lingkungan-hidup": "Layanan audit lingkungan wajib & sukarela untuk kepatuhan regulasi KLH. Auditor lingkungan bersertifikat, audit PROPER, ISO 14001, evaluasi sistem manajemen lingkungan perusahaan.",
+        "pengelolaan-limbah-b3": "Jasa pengelolaan limbah B3 terintegrasi: TPS B3 legal, transporter bersertifikat KLH, pengolahan PPLI. Manifest elektronik SIMPEL, kepatuhan PP 22/2021, solusi limbah berbahaya terpercaya.",
         "pertek-emisi": "Penyusunan PERTEK emisi untuk SLO & kepatuhan baku mutu. Pengujian emisi cerobong, pemodelan dispersi AERMOD, evaluasi sistem pengendalian udara sesuai Permen LHK 13/2021.",
         "pertek-air-limbah": "PERTEK air limbah industri & domestik untuk izin pembuangan. Audit kinerja IPAL, pengujian efluen BOD COD TSS, kepatuhan baku mutu Permen LHK 68/2016, persetujuan Dinas Lingkungan Hidup.",
         "pertek-pengelolaan-limbah-b3": "PERTEK pengelolaan limbah B3 untuk legalitas TPS B3. Desain fasilitas penyimpanan, SOP pengelolaan, kepatuhan PP 22/2021 & Permen LHK 6/2021. Izin operasional limbah berbahaya.",
         "pertek-andalalin": "Penyusunan PERTEK ANDALALIN untuk IMB/PBG. Analisis dampak lalu lintas, perhitungan V/C ratio, bangkitan perjalanan, desain sirkulasi parkir sesuai regulasi Dinas Perhubungan.",
-        "advisor-hukum-lingkungan": "Konsultasi hukum lingkungan profesional untuk compliance, uji tuntas, penyelesaian sengketa. Legal advisor spesialis UU PPLH, PP 22/2021, audit kepatuhan regulasi KLHK.",
+        "advisor-hukum-lingkungan": "Konsultasi hukum lingkungan profesional untuk compliance, uji tuntas, penyelesaian sengketa. Legal advisor spesialis UU PPLH, PP 22/2021, audit kepatuhan regulasi KLH.",
         "program-csr-lingkungan": "Desain & implementasi program CSR lingkungan berkelanjutan. Konservasi biodiversitas, pemberdayaan masyarakat, PROPER Hijau/Emas, pelaporan keberlanjutan GRI Standards.",
         "event-sosialisasi-lingkungan": "Penyelenggaraan event lingkungan profesional: sosialisasi AMDAL, konsultasi publik, FGD stakeholder, workshop HSE, kampanye kesadaran lingkungan dengan dokumentasi lengkap.",
         "pemetaan-peta-resolusi-tinggi": "Jasa pemetaan drone LiDAR & survey topografi. Peta resolusi tinggi, DEM/DSM, orthophoto, analisis GIS, bathymetry. Akurasi tinggi sesuai standar BIG untuk AMDAL & engineering.",

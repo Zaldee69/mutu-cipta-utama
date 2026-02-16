@@ -6,7 +6,7 @@ export default function StructuredData() {
         "name": "PT Mutu Cipta Utama",
         "alternateName": "Mutu Cipta Utama",
         "legalName": "PT Mutu Cipta Utama",
-        "description": "Konsultan lingkungan hidup profesional berpengalaman menyediakan layanan AMDAL, UKL-UPL, PERTEK, pengelolaan limbah B3, audit lingkungan, CSR, dan engineering untuk kepatuhan regulasi KLHK di seluruh Indonesia",
+        "description": "Konsultan lingkungan hidup profesional berpengalaman menyediakan layanan AMDAL, UKL-UPL, PERTEK, pengelolaan limbah B3, audit lingkungan, CSR, dan engineering untuk kepatuhan regulasi KLH di seluruh Indonesia",
         "url": "https://www.mutuciptautama.id/",
         "logo": {
             "@type": "ImageObject",
@@ -70,7 +70,7 @@ export default function StructuredData() {
             "PERTEK (Persetujuan Teknis)",
             "Environmental Audit",
             "ISO 14001",
-            "PROPER KLHK"
+            "PROPER KLH"
         ],
         "slogan": "Mitra Strategis Bisnis Berkelanjutan",
         "foundingDate": "2025",
@@ -188,7 +188,7 @@ export default function StructuredData() {
         "@context": "https://schema.org",
         "@type": "ItemList",
         "name": "Layanan Konsultan Lingkungan PT Mutu Cipta Utama",
-        "description": "Layanan lengkap konsultasi lingkungan untuk kepatuhan regulasi KLHK",
+        "description": "Layanan lengkap konsultasi lingkungan untuk kepatuhan regulasi KLH",
         "itemListElement": [
             {
                 "@type": "ListItem",
@@ -214,7 +214,7 @@ export default function StructuredData() {
                     "@type": "Service",
                     "@id": "https://www.mutuciptautama.id/layanan/audit-lingkungan-hidup/",
                     "name": "Audit Lingkungan Hidup",
-                    "description": "Audit lingkungan perusahaan wajib dan sukarela untuk kepatuhan regulasi KLHK, PROPER, ISO 14001. Auditor bersertifikat, evaluasi sistem manajemen lingkungan.",
+                    "description": "Audit lingkungan perusahaan wajib dan sukarela untuk kepatuhan regulasi KLH, PROPER, ISO 14001. Auditor bersertifikat, evaluasi sistem manajemen lingkungan.",
                     "additionalType": "https://en.wikipedia.org/wiki/Environmental_audit",
                     "provider": {
                         "@type": "Organization",
@@ -316,7 +316,7 @@ export default function StructuredData() {
                     "@type": "Service",
                     "@id": "https://www.mutuciptautama.id/layanan/advisor-hukum-lingkungan/",
                     "name": "Advisor Hukum Lingkungan",
-                    "description": "Konsultasi hukum lingkungan untuk compliance, uji tuntas, penyelesaian sengketa. Legal advisor spesialis UU PPLH, audit kepatuhan regulasi KLHK.",
+                    "description": "Konsultasi hukum lingkungan untuk compliance, uji tuntas, penyelesaian sengketa. Legal advisor spesialis UU PPLH, audit kepatuhan regulasi KLH.",
                     "additionalType": "https://en.wikipedia.org/wiki/Environmental_law",
                     "provider": {
                         "@type": "Organization",

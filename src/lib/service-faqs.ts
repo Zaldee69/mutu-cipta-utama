@@ -33,7 +33,7 @@ export const serviceFAQs: ServiceFAQData = {
         },
         {
             question: "Apakah konsultan AMDAL harus bersertifikat?",
-            answer: "Ya, penyusun AMDAL harus memiliki sertifikat kompetensi penyusun AMDAL dari KLHK sesuai Permen LHK No. 7/2021. Tim konsultan AMDAL berpengalaman kami terdiri dari tenaga ahli bersertifikat di bidang lingkungan, teknik, sosial ekonomi, dan kesehatan masyarakat untuk memastikan kualitas dokumen yang diakui Komisi Penilai AMDAL."
+            answer: "Ya, penyusun AMDAL harus memiliki sertifikat kompetensi penyusun AMDAL dari KLH sesuai Permen LHK No. 7/2021. Tim konsultan AMDAL berpengalaman kami terdiri dari tenaga ahli bersertifikat di bidang lingkungan, teknik, sosial ekonomi, dan kesehatan masyarakat untuk memastikan kualitas dokumen yang diakui Komisi Penilai AMDAL."
         },
         {
             question: "Apa yang dimaksud dengan SKKLH dalam proses AMDAL?",
@@ -41,13 +41,13 @@ export const serviceFAQs: ServiceFAQData = {
         },
         {
             question: "Berapa lama masa berlaku dokumen AMDAL?",
-            answer: "Dokumen AMDAL berlaku selama umur proyek atau kegiatan yang tercantum dalam dokumen. Namun, jika terjadi perubahan signifikan pada rencana kegiatan, lokasi, atau teknologi yang digunakan, maka dokumen AMDAL perlu diperbaharui atau dilakukan addendum sesuai regulasi KLHK."
+            answer: "Dokumen AMDAL berlaku selama umur proyek atau kegiatan yang tercantum dalam dokumen. Namun, jika terjadi perubahan signifikan pada rencana kegiatan, lokasi, atau teknologi yang digunakan, maka dokumen AMDAL perlu diperbaharui atau dilakukan addendum sesuai regulasi KLH."
         }
     ],
     "audit-lingkungan-hidup": [
         {
             question: "Apa itu audit lingkungan dan mengapa diperlukan?",
-            answer: "Audit lingkungan adalah evaluasi sistematis untuk menilai kepatuhan perusahaan terhadap peraturan lingkungan hidup, efektivitas sistem manajemen lingkungan, dan kinerja lingkungan. Audit lingkungan diperlukan untuk memastikan kepatuhan regulasi KLHK, menghindari sanksi, mempersiapkan PROPER, dan meningkatkan kinerja lingkungan perusahaan."
+            answer: "Audit lingkungan adalah evaluasi sistematis untuk menilai kepatuhan perusahaan terhadap peraturan lingkungan hidup, efektivitas sistem manajemen lingkungan, dan kinerja lingkungan. Audit lingkungan diperlukan untuk memastikan kepatuhan regulasi KLH, menghindari sanksi, mempersiapkan PROPER, dan meningkatkan kinerja lingkungan perusahaan."
         },
         {
             question: "Kapan audit lingkungan wajib dilakukan?",
@@ -59,15 +59,15 @@ export const serviceFAQs: ServiceFAQData = {
         },
         {
             question: "Apa perbedaan audit lingkungan wajib dan sukarela?",
-            answer: "Audit lingkungan wajib dilakukan atas perintah KLHK/Pemda untuk memenuhi kewajiban regulasi atau penegakan hukum. Audit lingkungan sukarela dilakukan atas inisiatif perusahaan untuk evaluasi internal, persiapan sertifikasi ISO 14001, due diligence M&A, atau persiapan PROPER. Keduanya menggunakan metodologi serupa namun audit sukarela lebih fleksibel sesuai kebutuhan perusahaan."
+            answer: "Audit lingkungan wajib dilakukan atas perintah KLH/Pemda untuk memenuhi kewajiban regulasi atau penegakan hukum. Audit lingkungan sukarela dilakukan atas inisiatif perusahaan untuk evaluasi internal, persiapan sertifikasi ISO 14001, due diligence M&A, atau persiapan PROPER. Keduanya menggunakan metodologi serupa namun audit sukarela lebih fleksibel sesuai kebutuhan perusahaan."
         },
         {
             question: "Apakah auditor lingkungan harus bersertifikat?",
-            answer: "Ya, auditor lingkungan harus memiliki sertifikat kompetensi auditor lingkungan hidup dari KLHK atau BNSP sesuai Permen LHK No. 3/2013. Tim auditor lingkungan bersertifikat kami memiliki kompetensi di bidang audit compliance, ISO 14001, PROPER, dan audit uji tuntas untuk memastikan hasil audit yang kredibel dan diakui otoritas."
+            answer: "Ya, auditor lingkungan harus memiliki sertifikat kompetensi auditor lingkungan hidup dari KLH atau BNSP sesuai Permen LHK No. 3/2013. Tim auditor lingkungan bersertifikat kami memiliki kompetensi di bidang audit compliance, ISO 14001, PROPER, dan audit uji tuntas untuk memastikan hasil audit yang kredibel dan diakui otoritas."
         },
         {
-            question: "Apa hubungan audit lingkungan dengan PROPER KLHK?",
-            answer: "Audit lingkungan merupakan salah satu kriteria penilaian PROPER untuk kategori melampaui kepatuhan (Hijau dan Emas). Perusahaan yang melakukan audit lingkungan sukarela secara berkala, menindaklanjuti temuan audit, dan melaporkan hasilnya kepada KLHK dapat memperoleh poin tambahan dalam penilaian PROPER untuk mencapai peringkat Hijau atau Emas."
+            question: "Apa hubungan audit lingkungan dengan PROPER KLH?",
+            answer: "Audit lingkungan merupakan salah satu kriteria penilaian PROPER untuk kategori melampaui kepatuhan (Hijau dan Emas). Perusahaan yang melakukan audit lingkungan sukarela secara berkala, menindaklanjuti temuan audit, dan melaporkan hasilnya kepada KLH dapat memperoleh poin tambahan dalam penilaian PROPER untuk mencapai peringkat Hijau atau Emas."
         },
         {
             question: "Apa saja yang diaudit dalam audit kepatuhan lingkungan?",
@@ -85,19 +85,19 @@ export const serviceFAQs: ServiceFAQData = {
         },
         {
             question: "Bagaimana cara pengelolaan limbah B3 yang benar?",
-            answer: "Pengelolaan limbah B3 yang benar meliputi: (1) identifikasi dan klasifikasi limbah B3, (2) penyimpanan sementara di TPS B3 yang memenuhi standar, (3) pelabelan dan pengemasan sesuai UN Package, (4) pengangkutan oleh transporter bersertifikat KLHK, (5) pengolahan/pemusnahan di PPLI berizin, dan (6) pelaporan manifest elektronik SIMPEL ke KLHK. Semua tahapan harus dilakukan oleh pihak berizin sesuai PP 22/2021."
+            answer: "Pengelolaan limbah B3 yang benar meliputi: (1) identifikasi dan klasifikasi limbah B3, (2) penyimpanan sementara di TPS B3 yang memenuhi standar, (3) pelabelan dan pengemasan sesuai UN Package, (4) pengangkutan oleh transporter bersertifikat KLH, (5) pengolahan/pemusnahan di PPLI berizin, dan (6) pelaporan manifest elektronik SIMPEL ke KLH. Semua tahapan harus dilakukan oleh pihak berizin sesuai PP 22/2021."
         },
         {
             question: "Apa itu TPS limbah B3 dan persyaratannya?",
-            answer: "TPS (Tempat Penyimpanan Sementara) limbah B3 adalah fasilitas penyimpanan limbah B3 di lokasi penghasil sebelum diserahkan ke transporter/PPLI. Persyaratan TPS B3 meliputi: area berpagar dengan akses terbatas, lantai kedap air, sistem penampungan sekunder, atap/tertutup, ventilasi, sistem pemadam kebakaran, rambu peringatan, dan PERTEK dari KLHK/Dinas Lingkungan Hidup."
+            answer: "TPS (Tempat Penyimpanan Sementara) limbah B3 adalah fasilitas penyimpanan limbah B3 di lokasi penghasil sebelum diserahkan ke transporter/PPLI. Persyaratan TPS B3 meliputi: area berpagar dengan akses terbatas, lantai kedap air, sistem penampungan sekunder, atap/tertutup, ventilasi, sistem pemadam kebakaran, rambu peringatan, dan PERTEK dari KLH/Dinas Lingkungan Hidup."
         },
         {
             question: "Apa itu transporter limbah B3 dan bagaimana memilih yang terpercaya?",
-            answer: "Transporter limbah B3 adalah perusahaan jasa pengangkutan limbah B3 yang memiliki izin dari KLHK. Untuk memilih transporter limbah B3 bersertifikat yang terpercaya, pastikan: (1) memiliki izin operasional dari KLHK yang masih berlaku, (2) kendaraan dilengkapi label dan simbol B3, (3) memiliki asuransi pengangkutan, (4) terdaftar di sistem SIMPEL, dan (5) menyediakan manifest elektronik dan sertifikat pembuangan dari PPLI."
+            answer: "Transporter limbah B3 adalah perusahaan jasa pengangkutan limbah B3 yang memiliki izin dari KLH. Untuk memilih transporter limbah B3 bersertifikat yang terpercaya, pastikan: (1) memiliki izin operasional dari KLH yang masih berlaku, (2) kendaraan dilengkapi label dan simbol B3, (3) memiliki asuransi pengangkutan, (4) terdaftar di sistem SIMPEL, dan (5) menyediakan manifest elektronik dan sertifikat pembuangan dari PPLI."
         },
         {
             question: "Apa itu SIMPEL dan bagaimana cara pelaporannya?",
-            answer: "SIMPEL (Sistem Informasi Pengelolaan Limbah B3) adalah platform online KLHK untuk pelaporan manifest elektronik limbah B3. Penghasil limbah B3 wajib melaporkan setiap pengangkutan limbah B3 melalui SIMPEL dengan data: jenis limbah, kode limbah, jumlah, transporter, dan tujuan pengolahan. Pelaporan dilakukan secara real-time saat penyerahan limbah dan laporan triwulanan disampaikan ke KLHK."
+            answer: "SIMPEL (Sistem Informasi Pengelolaan Limbah B3) adalah platform online KLH untuk pelaporan manifest elektronik limbah B3. Penghasil limbah B3 wajib melaporkan setiap pengangkutan limbah B3 melalui SIMPEL dengan data: jenis limbah, kode limbah, jumlah, transporter, dan tujuan pengolahan. Pelaporan dilakukan secara real-time saat penyerahan limbah dan laporan triwulanan disampaikan ke KLH."
         },
         {
             question: "Berapa lama limbah B3 boleh disimpan di TPS?",
@@ -115,7 +115,7 @@ export const serviceFAQs: ServiceFAQData = {
     "pertek-emisi": [
         {
             question: "Apa itu PERTEK emisi dan siapa yang wajib memiliki?",
-            answer: "PERTEK (Persetujuan Teknis) emisi adalah izin teknis dari KLHK/Dinas Lingkungan Hidup untuk pengendalian pencemaran udara dari sumber tidak bergerak seperti cerobong, genset, boiler, furnace, dan incinerator. PERTEK emisi wajib dimiliki oleh semua usaha yang menghasilkan emisi udara sesuai PP 22/2021 dan Permen LHK 13/2021 sebagai persyaratan SLO (Sertifikat Laik Operasi)."
+            answer: "PERTEK (Persetujuan Teknis) emisi adalah izin teknis dari KLH/Dinas Lingkungan Hidup untuk pengendalian pencemaran udara dari sumber tidak bergerak seperti cerobong, genset, boiler, furnace, dan incinerator. PERTEK emisi wajib dimiliki oleh semua usaha yang menghasilkan emisi udara sesuai PP 22/2021 dan Permen LHK 13/2021 sebagai persyaratan SLO (Sertifikat Laik Operasi)."
         },
         {
             question: "Apa saja parameter yang diuji dalam PERTEK emisi udara?",
@@ -188,11 +188,11 @@ export const serviceFAQs: ServiceFAQData = {
         },
         {
             question: "Berapa lama proses pengurusan PERTEK limbah B3?",
-            answer: "Proses penyusunan dan persetujuan PERTEK limbah B3 umumnya 2-3 bulan meliputi: (1) Survey dan desain TPS B3 (2-3 minggu), (2) Penyusunan dokumen teknis dan SOP (2 minggu), (3) Perhitungan kapasitas dan neraca massa (1 minggu), (4) Pengajuan ke Dinas Lingkungan Hidup/KLHK (1-2 bulan untuk review dan persetujuan). Waktu dapat dipercepat dengan kelengkapan dokumen dan konsultasi yang baik dengan otoritas."
+            answer: "Proses penyusunan dan persetujuan PERTEK limbah B3 umumnya 2-3 bulan meliputi: (1) Survey dan desain TPS B3 (2-3 minggu), (2) Penyusunan dokumen teknis dan SOP (2 minggu), (3) Perhitungan kapasitas dan neraca massa (1 minggu), (4) Pengajuan ke Dinas Lingkungan Hidup/KLH (1-2 bulan untuk review dan persetujuan). Waktu dapat dipercepat dengan kelengkapan dokumen dan konsultasi yang baik dengan otoritas."
         },
         {
             question: "Apa yang dimaksud dengan manifest limbah B3 elektronik?",
-            answer: "Manifest elektronik adalah dokumen digital yang mencatat pergerakan limbah B3 dari penghasil ke transporter hingga PPLI melalui sistem SIMPEL (Sistem Informasi Pengelolaan Limbah B3) KLHK. Manifest berisi: jenis limbah, kode limbah B3, jumlah, karakteristik, tanggal penyerahan, pihak yang menerima, dan tujuan pengolahan. Setiap perpindahan custody harus tercatat untuk traceability dan compliance."
+            answer: "Manifest elektronik adalah dokumen digital yang mencatat pergerakan limbah B3 dari penghasil ke transporter hingga PPLI melalui sistem SIMPEL (Sistem Informasi Pengelolaan Limbah B3) KLH. Manifest berisi: jenis limbah, kode limbah B3, jumlah, karakteristik, tanggal penyerahan, pihak yang menerima, dan tujuan pengolahan. Setiap perpindahan custody harus tercatat untuk traceability dan compliance."
         },
         {
             question: "Apakah PERTEK limbah B3 berbeda dengan izin lingkungan?",
@@ -200,7 +200,7 @@ export const serviceFAQs: ServiceFAQData = {
         },
         {
             question: "Apa sanksi jika TPS B3 beroperasi tanpa PERTEK?",
-            answer: "Sanksi operasional TPS B3 tanpa PERTEK meliputi: (1) Teguran tertulis dari KLHK/Pemda, (2) Paksaan pemerintah untuk menghentikan operasi TPS, (3) Denda administratif hingga ratusan juta rupiah, (4) Pencabutan izin usaha, (5) Sanksi pidana penjara 1-3 tahun dan denda Rp 1-3 miliar sesuai UU PPLH, (6) Kewajiban remediasi jika terjadi pencemaran. Pastikan TPS B3 Anda legal dengan PERTEK yang sah."
+            answer: "Sanksi operasional TPS B3 tanpa PERTEK meliputi: (1) Teguran tertulis dari KLH/Pemda, (2) Paksaan pemerintah untuk menghentikan operasi TPS, (3) Denda administratif hingga ratusan juta rupiah, (4) Pencabutan izin usaha, (5) Sanksi pidana penjara 1-3 tahun dan denda Rp 1-3 miliar sesuai UU PPLH, (6) Kewajiban remediasi jika terjadi pencemaran. Pastikan TPS B3 Anda legal dengan PERTEK yang sah."
         }
     ],
     "pertek-andalalin": [
@@ -236,11 +236,11 @@ export const serviceFAQs: ServiceFAQData = {
     "advisor-hukum-lingkungan": [
         {
             question: "Apa peran legal advisor lingkungan untuk perusahaan?",
-            answer: "Legal advisor lingkungan membantu perusahaan dalam: (1) Audit kepatuhan regulasi KLHK dan Pemda, (2) Review kontrak dengan vendor lingkungan (PPLI, transporter, konsultan), (3) Pendampingan dalam proses penegakan hukum atau sengketa, (4) Advokasi perizinan dan persetujuan lingkungan, (5) Due diligence lingkungan untuk M&A, (6) Penyusunan kebijakan internal environmental compliance, (7) Pelatihan awareness hukum lingkungan untuk manajemen."
+            answer: "Legal advisor lingkungan membantu perusahaan dalam: (1) Audit kepatuhan regulasi KLH dan Pemda, (2) Review kontrak dengan vendor lingkungan (PPLI, transporter, konsultan), (3) Pendampingan dalam proses penegakan hukum atau sengketa, (4) Advokasi perizinan dan persetujuan lingkungan, (5) Due diligence lingkungan untuk M&A, (6) Penyusunan kebijakan internal environmental compliance, (7) Pelatihan awareness hukum lingkungan untuk manajemen."
         },
         {
             question: "Kapan perusahaan membutuhkan konsultasi hukum lingkungan?",
-            answer: "Perusahaan memerlukan legal advisor lingkungan saat: (1) Menghadapi teguran atau sanksi dari KLHK/Pemda, (2) Proses merger atau akuisisi (due diligence lingkungan), (3) Sengketa dengan masyarakat atau LSM, (4) Pengurusan perizinan yang kompleks atau bermasalah, (5) Perubahan regulasi yang berdampak signifikan, (6) Kasus pencemaran atau insiden lingkungan, (7) Audit legal compliance untuk investor atau lembaga keuangan."
+            answer: "Perusahaan memerlukan legal advisor lingkungan saat: (1) Menghadapi teguran atau sanksi dari KLH/Pemda, (2) Proses merger atau akuisisi (due diligence lingkungan), (3) Sengketa dengan masyarakat atau LSM, (4) Pengurusan perizinan yang kompleks atau bermasalah, (5) Perubahan regulasi yang berdampak signifikan, (6) Kasus pencemaran atau insiden lingkungan, (7) Audit legal compliance untuk investor atau lembaga keuangan."
         },
         {
             question: "Apa yang dimaksud dengan environmental due diligence?",
@@ -252,7 +252,7 @@ export const serviceFAQs: ServiceFAQData = {
         },
         {
             question: "Bagaimana proses penyelesaian sengketa lingkungan di Indonesia?",
-            answer: "Penyelesaian sengketa lingkungan dapat melalui: (1) MEDIASI: fasilitasi oleh KLHK/Pemda atau mediator independen (win-win solution), (2) ARBITRASE: penyelesaian oleh arbiter yang ditunjuk para pihak (binding decision), (3) PENGADILAN NEGERI: gugatan perdata untuk ganti rugi (class action dimungkinkan), (4) PENGADILAN TATA USAHA NEGARA: gugatan terhadap keputusan pejabat/izin, (5) PENGADILAN PIDANA: penuntutan atas tindak pidana lingkungan. Mediasi adalah opsi tercepat dan paling cost-effective."
+            answer: "Penyelesaian sengketa lingkungan dapat melalui: (1) MEDIASI: fasilitasi oleh KLH/Pemda atau mediator independen (win-win solution), (2) ARBITRASE: penyelesaian oleh arbiter yang ditunjuk para pihak (binding decision), (3) PENGADILAN NEGERI: gugatan perdata untuk ganti rugi (class action dimungkinkan), (4) PENGADILAN TATA USAHA NEGARA: gugatan terhadap keputusan pejabat/izin, (5) PENGADILAN PIDANA: penuntutan atas tindak pidana lingkungan. Mediasi adalah opsi tercepat dan paling cost-effective."
         },
         {
             question: "Apa itu strict liability dalam hukum lingkungan?",
@@ -262,7 +262,7 @@ export const serviceFAQs: ServiceFAQData = {
     "program-csr-lingkungan": [
         {
             question: "Apa itu program CSR lingkungan dan mengapa penting untuk PROPER?",
-            answer: "Program CSR (Corporate Social Responsibility) lingkungan adalah kegiatan sukarela perusahaan untuk melampaui kepatuhan (beyond compliance) dalam pengelolaan lingkungan dan pemberdayaan masyarakat. CSR lingkungan penting untuk PROPER karena menjadi salah satu kriteria penilaian peringkat Hijau dan Emas. Program CSR yang terstruktur dan berdampak nyata dapat menambah poin signifikan dalam penilaian PROPER KLHK."
+            answer: "Program CSR (Corporate Social Responsibility) lingkungan adalah kegiatan sukarela perusahaan untuk melampaui kepatuhan (beyond compliance) dalam pengelolaan lingkungan dan pemberdayaan masyarakat. CSR lingkungan penting untuk PROPER karena menjadi salah satu kriteria penilaian peringkat Hijau dan Emas. Program CSR yang terstruktur dan berdampak nyata dapat menambah poin signifikan dalam penilaian PROPER KLH."
         },
         {
             question: "Apa saja contoh program CSR lingkungan yang efektif?",
