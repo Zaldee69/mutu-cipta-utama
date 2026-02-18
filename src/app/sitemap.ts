@@ -15,12 +15,31 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
             lastModified: new Date('2025-01-15'), // Website launch date
             changeFrequency: 'weekly' as const,
             priority: 1,
+            images: [
+                {
+                    url: `${baseUrl}/mutu-cipta-utama-logo.png`,
+                    title: 'PT Mutu Cipta Utama - Konsultan Lingkungan Terpercaya',
+                    caption: 'Konsultan lingkungan profesional untuk AMDAL, UKL-UPL, PERTEK, dan pengelolaan limbah B3',
+                },
+                {
+                    url: `${baseUrl}/hero.jpeg`,
+                    title: 'PT Mutu Cipta Utama - Environmental Consulting',
+                    caption: 'Layanan konsultan lingkungan hidup terpercaya di Indonesia',
+                },
+            ],
         },
         {
             url: `${baseUrl}/tentang-kami/`,
             lastModified: new Date('2025-01-15'),
             changeFrequency: 'monthly' as const,
             priority: 0.8,
+            images: [
+                {
+                    url: `${baseUrl}/mutu-cipta-utama-logo.png`,
+                    title: 'Tentang PT Mutu Cipta Utama',
+                    caption: 'Profil perusahaan konsultan lingkungan PT Mutu Cipta Utama',
+                },
+            ],
         },
         {
             url: `${baseUrl}/blog/`,
@@ -71,6 +90,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
             lastModified: new Date(),
             changeFrequency,
             priority,
+            images: [
+                {
+                    url: service.heroImage,
+                    title: service.title,
+                    caption: service.shortDescription,
+                },
+            ],
         };
     })
 
@@ -99,6 +125,15 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         lastModified: new Date(post._updatedAt || post.publishedAt),
         changeFrequency: 'monthly' as const,
         priority: 0.7,
+        ...(post.mainImage?.asset?.url && {
+            images: [
+                {
+                    url: post.mainImage.asset.url,
+                    title: post.title,
+                    caption: post.excerpt || post.title,
+                },
+            ],
+        }),
     }))
 
     return [...staticPages, ...servicePages, ...cityPages, ...comparisonPages, ...blogEntries]

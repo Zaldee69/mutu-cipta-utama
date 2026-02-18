@@ -72,10 +72,6 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
-  // verification: {
-  //   google: "your-google-verification-code", // TODO: Ganti dengan kode verifikasi GSC asli
-  // },
-
   other: {
     'abstract': 'PT Mutu Cipta Utama adalah konsultan lingkungan modern yang menyediakan layanan AMDAL, UKL-UPL, PERTEK, dan pengelolaan limbah B3 dengan pendekatan inovatif di seluruh Indonesia.',
   }
