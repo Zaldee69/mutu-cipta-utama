@@ -57,7 +57,9 @@ export function BlogJSONLD({ post }: BlogJSONLDProps) {
             "@type": "Person",
             "name": post.author.name,
             "jobTitle": post.author.role || "Environmental Consultant",
-            "url": "https://www.mutuciptautama.id/tentang-kami/"
+            "url": "slug" in post.author && post.author.slug?.current
+                ? `https://www.mutuciptautama.id/author/${post.author.slug.current}/`
+                : "https://www.mutuciptautama.id/tentang-kami/"
         },
         "publisher": {
             "@type": "Organization",

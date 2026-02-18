@@ -79,7 +79,11 @@ export default function StructuredData() {
             "value": "50"
         },
         "openingHours": "Mo-Fr 08:00-17:00",
-        "sameAs": [],
+        "sameAs": [
+            "https://www.linkedin.com/company/mutu-cipta-utama",
+            "https://www.instagram.com/mutuciptautama",
+            "https://www.facebook.com/mutuciptautama"
+        ],
         "hasOfferCatalog": {
             "@type": "OfferCatalog",
             "name": "Layanan Konsultan Lingkungan",

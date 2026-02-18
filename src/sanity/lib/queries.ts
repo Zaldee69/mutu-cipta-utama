@@ -9,7 +9,7 @@ export const postsQuery = groq`*[_type == "post" && defined(slug.current)] | ord
   publishedAt,
   excerpt,
   readingTime,
-  "author": author->{name, role, image},
+  "author": author->{name, role, image, slug},
   "categories": categories[]->title,
   "tags": tags
 }`;

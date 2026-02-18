@@ -16,6 +16,7 @@ export interface SanityBlogPost {
         name: string;
         role: string;
         image?: any;
+        slug: { current: string };
     };
     publishedAt: string;
     categories: string[];

@@ -29,7 +29,7 @@ const relatedPostsQuery = groq`*[_type == "post" && defined(slug.current) && slu
   publishedAt,
   excerpt,
   readingTime,
-  "author": author->{name, role, image},
+  "author": author->{name, role, image, slug},
   "categories": categories[]->title,
   "tags": tags
 }`;
