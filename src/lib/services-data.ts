@@ -949,6 +949,69 @@ export const services: Service[] = [
             "SOP internal: panduan quality assurance dan responsiveness untuk perizinan mandiri klien di masa depan"
         ],
         blogTags: ["KLH", "Pendampingan", "Quality Assurance", "Perizinan", "AMDAL", "UKL-UPL", "PERTEK", "Compliance"]
+    },
+    {
+        slug: "jasa-survey-pemetaan-topografi",
+        title: "Jasa Survey & Pemetaan Topografi",
+        group: "Engineering & Survey",
+        category: "amdal",
+        shortDescription: "Pemetaan topografi, pengukuran lahan, BM, volume galian-timbunan.",
+        heroImage: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=2070&auto=format&fit=crop",
+        description: "Layanan Jasa Survey & Pemetaan Topografi mencakup pemetaan topografi, pengukuran lahan, pemasangan Bench Mark (BM), serta perhitungan volume galian dan timbunan (cut and fill) untuk mendukung perencanaan dan pelaksanaan proyek konstruksi, infrastruktur, maupun pertambangan.",
+        tahapanProses: [
+            "Persiapan dan perencanaan survey",
+            "Pengukuran lapangan dengan instrumen presisi",
+            "Pengolahan data dan pembuatan peta topografi"
+        ],
+        ruangLingkup: [
+            "Pemetaan topografi",
+            "Pengukuran batas lahan",
+            "Pemasangan Bench Mark (BM)",
+            "Perhitungan volume galian dan timbunan (cut/fill)"
+        ],
+        blogTags: ["Topografi", "Survey", "Pemetaan", "Engineering"]
+    },
+    {
+        slug: "jasa-survey-lidar-drone",
+        title: "Jasa Survey LiDAR & Drone",
+        group: "Engineering & Survey",
+        category: "amdal",
+        shortDescription: "Pengukuran LiDAR, foto udara drone, pemodelan 3D, monitoring progres proyek.",
+        heroImage: "https://images.unsplash.com/photo-1473968512647-3e447244af8f?q=80&w=2070&auto=format&fit=crop",
+        description: "Layanan Jasa Survey LiDAR & Drone menyediakan solusi pemetaan udara presisi tinggi. Meliputi pengukuran dengan teknologi LiDAR, pengambilan foto udara menggunakan drone, pembuatan pemodelan 3D, hingga monitoring progres proyek secara berkala untuk keperluan inspeksi dan pelaporan.",
+        tahapanProses: [
+            "Perencanaan jalur terbang dan pemasangan GCP",
+            "Akuisisi data udara dengan drone dan sensor LiDAR",
+            "Pemrosesan data menjadi model 3D, DEM, dan peta orthophoto"
+        ],
+        ruangLingkup: [
+            "Pengukuran dengan sensor LiDAR",
+            "Pemotretan udara dengan drone (UAV)",
+            "Pembuatan Digital Elevation Model (DEM) dan 3D Modeling",
+            "Monitoring dan pelaporan progres proyek"
+        ],
+        blogTags: ["LiDAR", "Drone", "Survey Udara", "Engineering"]
+    },
+    {
+        slug: "jasa-citra-satelit-analisis-spasial",
+        title: "Jasa Citra Satelit & Analisis Spasial",
+        group: "Engineering & Survey",
+        category: "amdal",
+        shortDescription: "Pengadaan citra satelit, analisis tutupan lahan, pemantauan perubahan lahan.",
+        heroImage: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=2070&auto=format&fit=crop",
+        description: "Layanan Jasa Citra Satelit & Analisis Spasial menyediakan pengadaan citra satelit resolusi tinggi hingga menengah, analisis tutupan lahan (land cover), serta pemantauan perubahan lahan dari waktu ke waktu (time-series) untuk kebutuhan perencanaan tata ruang, lingkungan, maupun kehutanan.",
+        tahapanProses: [
+            "Pengadaan data citra satelit sesuai kebutuhan proyek",
+            "Koreksi geometrik dan radiometrik citra",
+            "Interpretasi citra dan analisis spasial tutupan lahan"
+        ],
+        ruangLingkup: [
+            "Pengadaan citra satelit resolusi menengah hingga sangat tinggi",
+            "Analisis klasifikasi tutupan lahan (land cover)",
+            "Pemantauan perubahan fungsi lahan (land use change)",
+            "Analisis spasial GIS untuk kajian lingkungan dan tata ruang"
+        ],
+        blogTags: ["Citra Satelit", "GIS", "Analisis Spasial", "Pemetaan"]
     }
 ];
 
