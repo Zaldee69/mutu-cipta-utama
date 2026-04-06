@@ -86,5 +86,8 @@
   "trustedDependencies": [
     "sharp",
     "unrs-resolver"
-  ]
+  ],
+  "optionalDependencies": {
+    "@next/swc-darwin-arm64": "^16.2.2"
+  }
 }

@@ -36,6 +36,7 @@ const navLinks = [
     { name: "Tentang Kami", href: "/tentang-kami" },
     { name: "Portofolio", href: "/portofolio" },
     { name: "Blog", href: "/blog" },
+    { name: "Seminar AMDALNET", href: "/seminar-amdalnet" },
 ];
 
 export function Navbar() {
