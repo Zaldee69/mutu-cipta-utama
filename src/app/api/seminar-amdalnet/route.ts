@@ -44,12 +44,10 @@ export async function POST(request: NextRequest) {
         }
 
         const data = parsed.data;
-
         const webhookUrl = process.env.GOOGLE_SHEETS_WEBHOOK_URL;
 
         if (!webhookUrl) {
-            console.error("GOOGLE_SHEETS_WEBHOOK_URL is not set");
-            // Return success anyway in dev — log data to console
+            console.warn("⚠️ GOOGLE_SHEETS_WEBHOOK_URL tidak diset — mode dev");
             console.log("📋 [DEV] Seminar Registration Data:", data);
             return NextResponse.json({
                 success: true,
@@ -57,40 +55,46 @@ export async function POST(request: NextRequest) {
             });
         }
 
-        const sheetResponse = await fetch(webhookUrl, {
-            method: "POST",
-            headers: { "Content-Type": "text/plain" }, // GAS requires text/plain to avoid CORS preflight
+        // Kirim via GET + query params — lebih reliable dari server (tidak kena redirect GAS)
+        const params = new URLSearchParams({
+            timestamp: new Date().toLocaleString("id-ID", { timeZone: "Asia/Jakarta" }),
+            namaLengkap: data.namaLengkap,
+            institusi: data.institusi,
+            jabatan: data.jabatan,
+            email: data.email,
+            noHp: data.noHp,
+            jenisKelamin: data.jenisKelamin,
+            asalKota: data.asalKota,
+            pengalaman: data.pengalaman,
+            motivasi: data.motivasi,
+            sumberInfo: data.sumberInfo,
+            status: "Belum Bayar",
+        });
+
+        const getUrl = `${webhookUrl}?${params.toString()}`;
+        console.log("📤 Mengirim ke GAS via GET...");
+
+        const sheetResponse = await fetch(getUrl, {
+            method: "GET",
             redirect: "follow",
-            body: JSON.stringify({
-                timestamp: new Date().toLocaleString("id-ID", {
-                    timeZone: "Asia/Jakarta",
-                }),
-                namaLengkap: data.namaLengkap,
-                institusi: data.institusi,
-                jabatan: data.jabatan,
-                email: data.email,
-                noHp: data.noHp,
-                jenisKelamin: data.jenisKelamin,
-                asalKota: data.asalKota,
-                pengalaman: data.pengalaman,
-                motivasi: data.motivasi,
-                sumberInfo: data.sumberInfo,
-                status: "Belum Bayar",
-            }),
         });
 
         const responseText = await sheetResponse.text();
-        console.log("📊 Google Apps Script response:", sheetResponse.status, responseText);
+        console.log("📊 GAS response:", sheetResponse.status, responseText.slice(0, 200));
 
-        // GAS returns HTML on error, JSON on success
-        if (responseText.includes("\"success\":true") === false && responseText.includes("<!DOCTYPE") === true) {
-            throw new Error(`Google Apps Script error: ${sheetResponse.status}`);
+        // Anggap sukses jika status 200 dan berisi JSON success, atau status 200 tanpa HTML error
+        const isHtmlError = responseText.includes("<!DOCTYPE") || responseText.includes("<html");
+        const isJsonSuccess = responseText.includes('"success":true');
+
+        if (sheetResponse.ok && (isJsonSuccess || !isHtmlError)) {
+            return NextResponse.json({
+                success: true,
+                message: "Registrasi berhasil! Silakan lakukan pembayaran.",
+            });
         }
 
-        return NextResponse.json({
-            success: true,
-            message: "Registrasi berhasil! Silakan lakukan pembayaran.",
-        });
+        throw new Error(`GAS gagal merespons: ${sheetResponse.status}`);
+
     } catch (error) {
         console.error("Seminar registration error:", error);
         return NextResponse.json(
